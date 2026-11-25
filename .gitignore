@@ -11,7 +11,7 @@ results/*.pt
 results/*.parquet
 results/*.log
 results/rerun_logs/
-# the same exclusions as `make dist` (dmfin-code.zip)
+# the same exclusions as `make dist` (ITCDM.zip)
 *.pkl
 *.pt
 *.parquet

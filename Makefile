@@ -76,11 +76,11 @@ theory:
 
 all: data data-d9 test lab0 lab1 lab2 lab3 lab4 lab5 lab6 lab7 lab8 lab9 lab10 math further theory
 
-dist:                 ## zip archive of the code to be shared with the guide: no environment, data, caches or logs
-	cd .. && rm -f dmfin-code.zip && zip -rqX dmfin-code.zip code \
+dist:                 ## zip archive of the code (the repository without .git), for the УМО package or a GitHub release: no environment, data, caches or logs
+	cd .. && rm -f ITCDM.zip && zip -rqX ITCDM.zip code \
 	  -x 'code/.git/*' 'code/.venv/*' 'code/data/*' '*/__pycache__/*' '*/.pytest_cache/*' \
 	  'code/results/*_cache/*' '*.pkl' '*.pt' '*.parquet' '*.log' \
 	  'code/results/lab7_stream.json'
-	@echo "../dmfin-code.zip"
+	@echo "../ITCDM.zip"
 
 .PHONY: venv gpu-check bench-devices data data-d9 check-data manifest test all dist lab0 lab1 lab2 lab3 lab4 lab5 lab6 lab7 lab8 lab9 lab10 math further theory

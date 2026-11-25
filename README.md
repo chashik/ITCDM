@@ -20,7 +20,7 @@ make data-d9   # download and assemble the data set D9 of Lab 10 (see "Data of L
 make test      # 139 unit tests, offline, synthetic data (about a minute)
 make lab0      # ... lab10, math, further, theory: one experiment; figures -> ../paper/figures, tables and numbers -> ../paper/generated
 make all       # data, data-d9, test and every experiment in order
-make dist      # ../dmfin-code.zip: the code with results, without environment, data and caches
+make dist      # ../ITCDM.zip: the code with results, without environment, data and caches (for the УМО package or a release)
 ```
 
 ## Licence
