@@ -1,0 +1,17 @@
+ticker,sector,industry
+OMC,Communication Services,BusSv
+BKNG,Consumer Discretionary,Trans
+NKE,Consumer Discretionary,Clths
+KMB,Consumer Staples,Paper
+MO,Consumer Staples,Smoke
+MDT,Health Care,MedEq
+TMO,Health Care,LabEq
+UNH,Health Care,Insur
+GD,Industrials,Ships
+LMT,Industrials,Guns
+MMM,Industrials,MedEq
+ECL,Materials,Hshld
+IP,Materials,Paper
+NEM,Materials,Gold
+NUE,Materials,Steel
+SHW,Materials,Rtail

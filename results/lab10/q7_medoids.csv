@@ -1,0 +1,4 @@
+regime,PAM medoid,PAM size,medoid: inflation,medoid: change over 3 months,medoid: real policy rate,k-means size,centre: inflation,centre: change over 3 months,centre: real policy rate,k-means centre: nearest country-month,k-means centre: its distance (s.d.)
+1,BY 2024-12,99,5.15,-0.88,4.35,151,5.62,0.4,2.36,BY 2024-08,0.18
+2,RU 2021-07,86,6.5,1.0,-0.81,39,9.32,-4.36,-2.34,PL 2023-07,0.41
+3,PL 2022-09,47,17.2,1.7,-10.51,42,16.26,2.9,-10.79,PL 2022-07,0.28

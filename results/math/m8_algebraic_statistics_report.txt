@@ -1,0 +1,16 @@
+rows                    1.100000e+01
+cols                    6.000000e+00
+stocks                  1.100000e+02
+chisq                   1.847214e+02
+dof                     5.000000e+01
+p_asymptotic            2.487590e-17
+p_exact_mc              0.000000e+00
+mc_kept                 1.950000e+05
+acceptance              2.945200e+01
+small_expected_share    1.000000e+02
+zero_cells              3.600000e+01
+null_tables             1.000000e+03
+null_reject5_asym       5.300000e+00
+null_reject1_asym       1.400000e+00
+fibre_2x2_size          3.000000e+00
+fibre_2x2_connected     1.000000e+00

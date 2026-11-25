@@ -1,0 +1,189 @@
+BY long panel 2013-01 .. 2025-12 complete rows 156
+PL long panel 2013-01 .. 2025-12 complete rows 156
+RU long panel 2013-01 .. 2025-12 complete rows 156
+LT long panel 2013-01 .. 2025-12 complete rows 156
+done short 2021-2025 1
+done short 2021-2025 3
+done long 2013-2025 1
+done long 2013-2025 3
+          panel  horizon country                model  forecasts  RMSE, p.p.  RMSE relative to random walk  DM p vs random walk
+short 2021-2025        1      BY          random walk         35       1.142                         1.000                  NaN
+short 2021-2025        1      BY        AR (own lags)         35       1.139                         0.997                0.943
+short 2021-2025        1      BY                ridge         35       1.125                         0.985                0.480
+short 2021-2025        1      BY                lasso         35       1.153                         1.010                0.665
+short 2021-2025        1      BY        random forest         35       1.141                         0.999                0.982
+short 2021-2025        1      BY    gradient boosting         35       1.315                         1.151                0.041
+short 2021-2025        1      BY k nearest neighbours         35       1.361                         1.192                0.133
+short 2021-2025        1      BY         pooled ridge         35       1.192                         1.044                0.394
+short 2021-2025        1      BY pooled random forest         35       1.449                         1.269                0.149
+short 2021-2025        1      LT          random walk         35       1.036                         1.000                  NaN
+short 2021-2025        1      LT        AR (own lags)         35       0.727                         0.702                0.050
+short 2021-2025        1      LT                ridge         35       0.558                         0.538                0.019
+short 2021-2025        1      LT                lasso         35       0.630                         0.609                0.042
+short 2021-2025        1      LT        random forest         35       0.910                         0.879                0.263
+short 2021-2025        1      LT    gradient boosting         35       0.814                         0.786                0.128
+short 2021-2025        1      LT k nearest neighbours         35       0.766                         0.739                0.060
+short 2021-2025        1      LT         pooled ridge         35       0.800                         0.772                0.007
+short 2021-2025        1      LT pooled random forest         35       0.782                         0.755                0.092
+short 2021-2025        1      PL          random walk         35       1.007                         1.000                  NaN
+short 2021-2025        1      PL        AR (own lags)         35       1.045                         1.038                0.575
+short 2021-2025        1      PL                ridge         35       1.009                         1.002                0.982
+short 2021-2025        1      PL                lasso         35       1.033                         1.026                0.735
+short 2021-2025        1      PL        random forest         35       1.074                         1.066                0.585
+short 2021-2025        1      PL    gradient boosting         35       1.076                         1.068                0.562
+short 2021-2025        1      PL k nearest neighbours         35       0.942                         0.935                0.445
+short 2021-2025        1      PL         pooled ridge         35       0.795                         0.789                0.034
+short 2021-2025        1      PL pooled random forest         35       0.896                         0.890                0.331
+short 2021-2025        1      RU          random walk         35       1.388                         1.000                  NaN
+short 2021-2025        1      RU        AR (own lags)         35       1.329                         0.958                0.009
+short 2021-2025        1      RU                ridge         35       1.400                         1.009                0.834
+short 2021-2025        1      RU                lasso         35       1.582                         1.140                0.139
+short 2021-2025        1      RU        random forest         35       1.565                         1.128                0.069
+short 2021-2025        1      RU    gradient boosting         35       2.177                         1.569                0.022
+short 2021-2025        1      RU k nearest neighbours         35       1.345                         0.969                0.126
+short 2021-2025        1      RU         pooled ridge         35       1.375                         0.991                0.651
+short 2021-2025        1      RU pooled random forest         35       1.391                         1.002                0.955
+short 2021-2025        3      BY          random walk         33       2.346                         1.000                  NaN
+short 2021-2025        3      BY        AR (own lags)         33       2.672                         1.139                0.324
+short 2021-2025        3      BY                ridge         33       2.912                         1.241                0.165
+short 2021-2025        3      BY                lasso         33       3.335                         1.421                0.187
+short 2021-2025        3      BY        random forest         33       2.957                         1.260                0.034
+short 2021-2025        3      BY    gradient boosting         33       3.473                         1.480                0.023
+short 2021-2025        3      BY k nearest neighbours         33       3.392                         1.446                0.227
+short 2021-2025        3      BY         pooled ridge         33       2.988                         1.274                0.298
+short 2021-2025        3      BY pooled random forest         33       3.009                         1.283                0.159
+short 2021-2025        3      LT          random walk         33       2.820                         1.000                  NaN
+short 2021-2025        3      LT        AR (own lags)         33       2.333                         0.827                0.428
+short 2021-2025        3      LT                ridge         33       1.838                         0.652                0.300
+short 2021-2025        3      LT                lasso         33       1.894                         0.672                0.337
+short 2021-2025        3      LT        random forest         33       2.959                         1.049                0.766
+short 2021-2025        3      LT    gradient boosting         33       2.821                         1.000                0.998
+short 2021-2025        3      LT k nearest neighbours         33       2.646                         0.938                0.716
+short 2021-2025        3      LT         pooled ridge         33       3.065                         1.087                0.612
+short 2021-2025        3      LT pooled random forest         33       2.353                         0.834                0.382
+short 2021-2025        3      PL          random walk         33       2.362                         1.000                  NaN
+short 2021-2025        3      PL        AR (own lags)         33       2.708                         1.147                0.055
+short 2021-2025        3      PL                ridge         33       1.950                         0.826                0.355
+short 2021-2025        3      PL                lasso         33       2.997                         1.269                0.113
+short 2021-2025        3      PL        random forest         33       3.049                         1.291                0.200
+short 2021-2025        3      PL    gradient boosting         33       2.841                         1.203                0.272
+short 2021-2025        3      PL k nearest neighbours         33       2.983                         1.263                0.165
+short 2021-2025        3      PL         pooled ridge         33       1.285                         0.544                0.095
+short 2021-2025        3      PL pooled random forest         33       1.788                         0.757                0.183
+short 2021-2025        3      RU          random walk         33       2.580                         1.000                  NaN
+short 2021-2025        3      RU        AR (own lags)         33       2.574                         0.998                0.968
+short 2021-2025        3      RU                ridge         33       3.624                         1.404                0.378
+short 2021-2025        3      RU                lasso         33       2.813                         1.090                0.488
+short 2021-2025        3      RU        random forest         33       3.475                         1.347                0.084
+short 2021-2025        3      RU    gradient boosting         33       3.673                         1.424                0.094
+short 2021-2025        3      RU k nearest neighbours         33       2.597                         1.007                0.926
+short 2021-2025        3      RU         pooled ridge         33       2.985                         1.157                0.133
+short 2021-2025        3      RU pooled random forest         33       2.737                         1.061                0.551
+ long 2013-2025        1      BY          random walk         35       1.142                         1.000                  NaN
+ long 2013-2025        1      BY        AR (own lags)         35       1.053                         0.922                0.028
+ long 2013-2025        1      BY                ridge         35       1.040                         0.910                0.031
+ long 2013-2025        1      BY                lasso         35       1.117                         0.978                0.203
+ long 2013-2025        1      BY        random forest         35       1.072                         0.938                0.073
+ long 2013-2025        1      BY    gradient boosting         35       1.107                         0.969                0.398
+ long 2013-2025        1      BY k nearest neighbours         35       1.286                         1.125                0.313
+ long 2013-2025        1      BY         pooled ridge         35       1.042                         0.912                0.029
+ long 2013-2025        1      BY pooled random forest         35       1.021                         0.893                0.168
+ long 2013-2025        1      LT          random walk         35       1.036                         1.000                  NaN
+ long 2013-2025        1      LT        AR (own lags)         35       0.633                         0.611                0.016
+ long 2013-2025        1      LT                ridge         35       0.654                         0.631                0.056
+ long 2013-2025        1      LT                lasso         35       0.616                         0.594                0.041
+ long 2013-2025        1      LT        random forest         35       0.775                         0.748                0.057
+ long 2013-2025        1      LT    gradient boosting         35       0.662                         0.639                0.021
+ long 2013-2025        1      LT k nearest neighbours         35       0.697                         0.673                0.057
+ long 2013-2025        1      LT         pooled ridge         35       0.689                         0.665                0.004
+ long 2013-2025        1      LT pooled random forest         35       0.794                         0.767                0.035
+ long 2013-2025        1      PL          random walk         35       1.057                         1.000                  NaN
+ long 2013-2025        1      PL        AR (own lags)         35       1.005                         0.951                0.641
+ long 2013-2025        1      PL                ridge         35       1.004                         0.950                0.506
+ long 2013-2025        1      PL                lasso         35       0.995                         0.942                0.432
+ long 2013-2025        1      PL        random forest         35       1.013                         0.959                0.501
+ long 2013-2025        1      PL    gradient boosting         35       1.079                         1.021                0.839
+ long 2013-2025        1      PL k nearest neighbours         35       0.918                         0.868                0.171
+ long 2013-2025        1      PL         pooled ridge         35       0.890                         0.842                0.064
+ long 2013-2025        1      PL pooled random forest         35       0.923                         0.873                0.139
+ long 2013-2025        1      RU          random walk         35       1.392                         1.000                  NaN
+ long 2013-2025        1      RU        AR (own lags)         35       1.320                         0.948                0.483
+ long 2013-2025        1      RU                ridge         35       1.270                         0.913                0.047
+ long 2013-2025        1      RU                lasso         35       1.323                         0.951                0.003
+ long 2013-2025        1      RU        random forest         35       1.374                         0.988                0.881
+ long 2013-2025        1      RU    gradient boosting         35       1.517                         1.090                0.433
+ long 2013-2025        1      RU k nearest neighbours         35       1.307                         0.939                0.079
+ long 2013-2025        1      RU         pooled ridge         35       1.321                         0.949                0.174
+ long 2013-2025        1      RU pooled random forest         35       1.392                         1.001                0.990
+ long 2013-2025        3      BY          random walk         33       2.346                         1.000                  NaN
+ long 2013-2025        3      BY        AR (own lags)         33       2.046                         0.872                0.158
+ long 2013-2025        3      BY                ridge         33       2.073                         0.884                0.170
+ long 2013-2025        3      BY                lasso         33       2.251                         0.959                0.286
+ long 2013-2025        3      BY        random forest         33       2.629                         1.120                0.322
+ long 2013-2025        3      BY    gradient boosting         33       2.336                         0.996                0.853
+ long 2013-2025        3      BY k nearest neighbours         33       3.136                         1.337                0.292
+ long 2013-2025        3      BY         pooled ridge         33       2.144                         0.914                0.208
+ long 2013-2025        3      BY pooled random forest         33       1.966                         0.838                0.257
+ long 2013-2025        3      LT          random walk         33       2.820                         1.000                  NaN
+ long 2013-2025        3      LT        AR (own lags)         33       1.724                         0.611                0.181
+ long 2013-2025        3      LT                ridge         33       2.147                         0.761                0.439
+ long 2013-2025        3      LT                lasso         33       2.578                         0.914                0.596
+ long 2013-2025        3      LT        random forest         33       2.613                         0.926                0.597
+ long 2013-2025        3      LT    gradient boosting         33       2.437                         0.864                0.365
+ long 2013-2025        3      LT k nearest neighbours         33       2.187                         0.775                0.391
+ long 2013-2025        3      LT         pooled ridge         33       2.047                         0.726                0.128
+ long 2013-2025        3      LT pooled random forest         33       2.228                         0.790                0.280
+ long 2013-2025        3      PL          random walk         33       2.506                         1.000                  NaN
+ long 2013-2025        3      PL        AR (own lags)         33       2.639                         1.053                0.708
+ long 2013-2025        3      PL                ridge         33       2.275                         0.908                0.516
+ long 2013-2025        3      PL                lasso         33       2.331                         0.930                0.642
+ long 2013-2025        3      PL        random forest         33       2.700                         1.077                0.218
+ long 2013-2025        3      PL    gradient boosting         33       2.707                         1.080                0.310
+ long 2013-2025        3      PL k nearest neighbours         33       2.244                         0.896                0.544
+ long 2013-2025        3      PL         pooled ridge         33       1.891                         0.755                0.109
+ long 2013-2025        3      PL pooled random forest         33       1.793                         0.716                0.112
+ long 2013-2025        3      RU          random walk         33       2.587                         1.000                  NaN
+ long 2013-2025        3      RU        AR (own lags)         33       2.401                         0.928                0.002
+ long 2013-2025        3      RU                ridge         33       2.353                         0.909                0.096
+ long 2013-2025        3      RU                lasso         33       2.446                         0.945                0.166
+ long 2013-2025        3      RU        random forest         33       2.966                         1.146                0.292
+ long 2013-2025        3      RU    gradient boosting         33       2.991                         1.156                0.396
+ long 2013-2025        3      RU k nearest neighbours         33       3.053                         1.180                0.339
+ long 2013-2025        3      RU         pooled ridge         33       2.633                         1.018                0.801
+ long 2013-2025        3      RU pooled random forest         33       2.982                         1.152                0.212
+country     feature  months  correlation  MI, nats (k-NN)  MI of a linear relation, nats  cyclic-shift p
+     BY           y      54       -0.316            0.149                          0.053           0.674
+     BY      y_lag1      54       -0.406            0.204                          0.090           0.372
+     BY     cpi_mom      54        0.219            0.000                          0.025           1.000
+     BY     food_3m      54        0.160            0.071                          0.013           0.395
+     BY   petrol_3m      54        0.090            0.049                          0.004           0.628
+     BY      fx_yoy      54        0.195            0.120                          0.019           0.442
+     BY      policy      54       -0.570            0.240                          0.196           0.047
+     BY    mortgage      54       -0.149            0.078                          0.011           0.907
+     BY real_policy      54        0.204            0.093                          0.021           0.977
+     PL           y      54       -0.193            0.194                          0.019           0.884
+     PL      y_lag1      54       -0.294            0.182                          0.045           0.884
+     PL     cpi_mom      54        0.265            0.047                          0.036           0.605
+     PL     food_3m      54        0.396            0.252                          0.085           0.395
+     PL   petrol_3m      54        0.343            0.215                          0.062           0.000
+     PL      fx_yoy      54        0.404            0.101                          0.089           0.884
+     PL      policy      54       -0.568            0.321                          0.195           0.512
+     PL    mortgage      54       -0.483            0.242                          0.133           0.767
+     PL real_policy      54       -0.057            0.293                          0.002           0.837
+     RU           y      54       -0.470            0.357                          0.125           0.023
+     RU      y_lag1      54       -0.519            0.492                          0.157           0.000
+     RU     cpi_mom      54        0.063            0.247                          0.002           0.000
+     RU     food_3m      54        0.219            0.121                          0.025           0.581
+     RU      fx_yoy      54        0.334            0.344                          0.059           0.023
+     RU      policy      54       -0.089            0.240                          0.004           0.581
+     RU    mortgage      54        0.297            0.218                          0.046           0.093
+     RU real_policy      54        0.194            0.519                          0.019           0.093
+     LT           y      46       -0.196            0.354                          0.020           0.429
+     LT      y_lag1      46       -0.317            0.409                          0.053           0.314
+     LT     cpi_mom      46        0.386            0.183                          0.081           0.229
+     LT     food_3m      46        0.291            0.046                          0.044           0.971
+     LT   petrol_3m      46        0.481            0.051                          0.131           0.657
+     LT      fx_yoy      46        0.173            0.151                          0.015           0.857
+     LT      policy      46       -0.412            0.320                          0.093           0.686
+     LT    mortgage      46       -0.596            0.331                          0.219           0.714
+     LT real_policy      46        0.094            0.395                          0.004           0.314

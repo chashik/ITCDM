@@ -1,0 +1,7 @@
+Pair,same month,who leads,correlation at that lag
+Belarus -- Poland,0.57,"Belarus, 6 months",0.90
+Belarus -- Russia,0.79,same month,0.79
+Belarus -- Lithuania,0.77,"Belarus, 3 months",0.90
+Poland -- Russia,0.42,"Russia, 6 months",0.62
+Poland -- Lithuania,0.94,"Lithuania, 2 months",0.97
+Russia -- Lithuania,0.58,"Russia, 3 months",0.69

@@ -1,0 +1,5 @@
+Task,Model,"Positives, %","Accuracy, %",ROC AUC,Brier,Brier (climatology)
+Direction (up/down),Logistic regression,61.5,61.6,0.505,0.237,0.240
+Direction (up/down),"LSTM, 5-seed ensemble",61.5,58.5,0.484,0.243,0.240
+High-volatility regime,Logistic regression,15.4,87.3,0.864,0.092,0.131
+High-volatility regime,"LSTM, 5-seed ensemble",15.4,88.7,0.863,0.086,0.131

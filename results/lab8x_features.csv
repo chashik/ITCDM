@@ -1,0 +1,9 @@
+Feature set,Features,Search RMSE,Train,Valid.,Test
+All 50 features,50,--,0.5233,0.5917,0.6612
+"Groups vol + vix (best fixed group subset, Lab 7)",6,--,0.4004,0.4667,0.4209
+"GA, search on 2003--2018",6,0.4080,0.3937,0.4461,0.4283
+"Random subsets, same evaluations, search on 2003--2018",2,0.4154,0.3997,0.4573,0.4144
+"Forward stepwise, search on 2003--2018",6,0.4080,0.3937,0.4461,0.4283
+"GA, search on 2003--2014 (nested)",4,0.3930,0.3930,0.4593,0.4137
+"Random subsets, same evaluations, search on 2003--2014 (nested)",2,0.3997,0.3997,0.4573,0.4144
+"Forward stepwise, search on 2003--2014 (nested)",4,0.3930,0.3930,0.4593,0.4137

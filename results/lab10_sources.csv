@@ -1,0 +1,10 @@
+Indicator,Belarus,Poland,Russia,Lithuania
+wheat flour,Belstat (61); FAO FPMA (61),GUS annual $\times$ HICP (61),FAO FPMA (61),Eurostat HICP (61)
+milk,Belstat (61),GUS annual $\times$ HICP (61),FAO FPMA (59),Eurostat HICP (61)
+sugar,Belstat (61),GUS annual $\times$ HICP (61),EEC (Rosstat) (6),Eurostat HICP (61)
+petrol,Belstat (61),GUS annual $\times$ HICP (61); EC Oil Bulletin (61),EEC (Rosstat) (6),EC Oil Bulletin (61)
+"inflation, y/y",Belstat (61); IMF CPI (60),IMF CPI (60); Eurostat HICP (61); OECD CPI (61),EEC (Rosstat) (61); Bank of Russia (61),Eurostat HICP (61)
+policy rate,NBRB API (61); IMF MFS (60),NBP (61); BIS (61); IMF MFS (60),Bank of Russia (61); Bank of Russia (monthly table) (61),ECB (61)
+mortgage rate,NBRB xlsx (60); NBRB bulletin (60),NBP MIR (61); ECB MIR (61),Bank of Russia (61),ECB MIR (61)
+government bond yield,NBRB bulletin (44),Eurostat (61); IMF MFS (60),Bank of Russia (61),Eurostat (61)
+government bond return,--,--,Moscow Exchange (61),Eurostat (61)

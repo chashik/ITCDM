@@ -1,0 +1,9 @@
+figure rates_compare
+figure bond_value
+figure gaps
+figure savings
+figure leadlag
+figure predictability
+figure passthrough
+figure crosscountry
+figure forecast_paths

@@ -1,0 +1,14 @@
+{
+ "win": 20,
+ "thr": 1.5487749576568604,
+ "ae_epochs": 100,
+ "n_flag": 48,
+ "share_flag": 2.5572722429408627,
+ "err_train_med": 0.35027438402175903,
+ "err_val_med": 0.34676405787467957,
+ "err_test_med": 0.45012980699539185,
+ "n_episodes": 2,
+ "n_base": 15,
+ "base_caught": 10,
+ "ae_explained": 39.58333333333333
+}

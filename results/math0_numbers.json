@@ -1,0 +1,19 @@
+{
+ "features": 29,
+ "train": 18000,
+ "mlp_hidden": 8,
+ "mlp_equivalent": 10321920,
+ "mlp_symmetry_maxdiff": 8.881784197001252e-16,
+ "mlp_weight_reldist": 1.4345456057835824,
+ "mlp_auc_seed0": 0.78515340333952,
+ "mlp_auc_seed1": 0.7845030318149881,
+ "mlp_pred_corr": 0.9405059017199753,
+ "lr_coef_maxdiff": 2.2063628861701545e-06,
+ "shap_features": 6,
+ "shap_coalitions": 64,
+ "shap_linear_vs_formula": 2.636779683484747e-16,
+ "shap_linear_efficiency": 2.7755575615628914e-17,
+ "shap_gb_efficiency": 0.0,
+ "shap_gb_vs_treeexplainer": 1.0270970740577923e-09,
+ "shap_gb_top": "pay\\_1"
+}

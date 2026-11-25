@@ -1,0 +1,9 @@
+PREFIX dm: <http://example.org/gsu-dm#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?lab ?metric ?model ?value WHERE {
+  ?r dm:inLab ?l ; dm:metric ?metric ; dm:value ?value ; dm:ofModel/rdfs:label ?model .
+  ?l rdfs:label ?lab .
+  { SELECT ?l ?metric (MIN(?v) AS ?best) WHERE { ?x dm:inLab ?l ; dm:metric ?metric ; dm:value ?v .
+      FILTER (CONTAINS(?metric, "RMSE")) } GROUP BY ?l ?metric }
+  FILTER (?value = ?best)
+} ORDER BY ?lab

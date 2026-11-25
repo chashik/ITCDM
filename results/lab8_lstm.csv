@@ -1,0 +1,4 @@
+Configuration,Cell,Hidden,Layers,Lookback,Dropout,LR,Inputs,Valid. RMSE,Test RMSE (single),Test RMSE (ens.)
+Lab 6 default LSTM,LSTM,32,1,60,0.0,0.0010,8,0.454,0.409,0.406
+Random search best,GRU,128,2,10,0.0,0.0003,6,0.446,0.410,0.409
+GA best,LSTM,128,1,10,0.0,0.0010,6,0.439,0.408,0.407

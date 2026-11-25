@@ -1,0 +1,6 @@
+PREFIX dm: <http://example.org/gsu-dm#>
+SELECT DISTINCT ?ticker WHERE {
+  ?n dm:ticker "NVDA" .
+  ?n dm:coMovesWith/dm:coMovesWith? ?m .
+  ?m dm:ticker ?ticker . FILTER (?m != ?n)
+} ORDER BY ?ticker

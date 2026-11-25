@@ -1,0 +1,9 @@
+series,provider,start
+Nominal broad US dollar index (from 2006),FRED,2006-01-02
+Volatility of VIX,Yahoo Finance,2007-01-03
+Euro Stoxx 50,Yahoo Finance,2007-03-30
+US high-yield bond ETF,Yahoo Finance,2007-04-11
+Oil volatility index,FRED,2007-05-10
+VIX 3-month,FRED,2007-12-04
+Gold volatility index,FRED,2008-06-03
+VIX 9-day,Yahoo Finance,2011-01-03

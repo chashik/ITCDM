@@ -1,0 +1,15 @@
+size_plain_rho0        4.800000e+00
+size_cyclic_rho0       4.200000e+00
+size_plain_rho09       4.880000e+01
+size_cyclic_rho09      1.090000e+01
+mi_features            3.500000e+01
+mi_sig_plain           2.700000e+01
+mi_sig_cyclic          6.000000e+00
+att_equiv_err          5.329071e-15
+att_pe_equiv_err       1.265323e+01
+pe_rotation_err        3.399323e-15
+season_proj_err        3.330669e-15
+season_share_h1        6.007499e+01
+season_share_h2        1.571701e+01
+season_top_harmonic    1.000000e+00
+season_months          6.000000e+01

@@ -1,0 +1,28 @@
+country,cause,effect,smallest p,at lag,BH-adjusted p (all tests),"BH-adjusted p, lag choice corrected"
+BY,petrol (m/m),inflation (m/m),0.452,1,0.531,1.0
+BY,food (m/m),inflation (m/m),0.906,2,0.906,1.0
+BY,USD rate (m/m),inflation (m/m),0.377,1,0.463,1.0
+BY,policy rate (change),mortgage rate (change),0.046,1,0.102,0.307
+BY,inflation (m/m),policy rate (change),0.695,1,0.722,1.0
+BY,policy rate (change),inflation (m/m),0.313,1,0.402,1.0
+BY,policy rate (change),USD rate (m/m),0.0,1,0.001,0.004
+PL,petrol (m/m),inflation (m/m),0.133,2,0.239,0.716
+PL,food (m/m),inflation (m/m),0.016,2,0.055,0.166
+PL,USD rate (m/m),inflation (m/m),0.27,1,0.383,1.0
+PL,policy rate (change),mortgage rate (change),0.0,2,0.0,0.001
+PL,inflation (m/m),policy rate (change),0.112,1,0.216,0.647
+PL,policy rate (change),inflation (m/m),0.006,1,0.034,0.101
+PL,policy rate (change),USD rate (m/m),0.015,2,0.055,0.166
+RU,food (m/m),inflation (m/m),0.197,3,0.333,1.0
+RU,USD rate (m/m),inflation (m/m),0.527,1,0.593,1.0
+RU,policy rate (change),mortgage rate (change),0.037,3,0.09,0.27
+RU,inflation (m/m),policy rate (change),0.004,1,0.028,0.083
+RU,policy rate (change),inflation (m/m),0.234,1,0.351,1.0
+RU,policy rate (change),USD rate (m/m),0.003,1,0.027,0.082
+LT,petrol (m/m),inflation (m/m),0.065,3,0.135,0.405
+LT,food (m/m),inflation (m/m),0.024,2,0.071,0.212
+LT,USD rate (m/m),inflation (m/m),0.222,1,0.351,1.0
+LT,policy rate (change),mortgage rate (change),0.009,1,0.04,0.121
+LT,inflation (m/m),policy rate (change),0.028,2,0.076,0.228
+LT,policy rate (change),inflation (m/m),0.296,2,0.4,1.0
+LT,policy rate (change),USD rate (m/m),0.642,1,0.693,1.0

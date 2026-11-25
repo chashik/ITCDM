@@ -1,0 +1,5 @@
+Leaf,months,P(cut),P(hold),P(raise)
+USD rate y/y $\le$ -9.9,27,0.56,0.44,0.00
+USD rate y/y $>$ -9.9 and inflation $\le$ 4.6 and USD rate y/y $\le$ 15.9,49,0.45,0.53,0.02
+USD rate y/y $>$ -9.9 and inflation $\le$ 4.6 and USD rate y/y $>$ 15.9,7,0.00,0.71,0.29
+USD rate y/y $>$ -9.9 and inflation $>$ 4.6,136,0.04,0.54,0.42

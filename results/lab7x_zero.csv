@@ -1,0 +1,5 @@
+Agent,"6 groups, relative","6 groups, absolute","11 groups, relative","11 groups, absolute"
+Q-learning,0.4286,0.4258,0.4679,0.4738
+SARSA,0.4284,0.4269,0.4773,0.4865
+LinUCB (contextual bandit),0.4447,0.4355,0.4524,0.4827
+Deep Q-network,0.4406,0.4406,0.4657,0.4466

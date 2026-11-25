@@ -1,0 +1,3061 @@
+@prefix dm: <http://example.org/gsu-dm#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+dm:cik a owl:DatatypeProperty ;
+    rdfs:domain dm:Company ;
+    rdfs:range xsd:integer .
+
+dm:coMovesWith a owl:ObjectProperty,
+        owl:SymmetricProperty ;
+    rdfs:domain dm:Company ;
+    rdfs:range dm:Company .
+
+<http://example.org/gsu-dm#company/AAPL> a dm:Company ;
+    rdfs:label "Apple Inc." ;
+    dm:cik 320193 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/ADBE>,
+        <http://example.org/gsu-dm#company/AMZN>,
+        <http://example.org/gsu-dm#company/COST>,
+        <http://example.org/gsu-dm#company/CSCO>,
+        <http://example.org/gsu-dm#company/GOOGL>,
+        <http://example.org/gsu-dm#company/INTC>,
+        <http://example.org/gsu-dm#company/META>,
+        <http://example.org/gsu-dm#company/MSFT>,
+        <http://example.org/gsu-dm#company/NVDA>,
+        <http://example.org/gsu-dm#company/QCOM>,
+        <http://example.org/gsu-dm#company/TMO>,
+        <http://example.org/gsu-dm#company/TXN> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/3571> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F9> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Hardw> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C2> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Information_Technology> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/Nasdaq> ;
+    dm:ticker "AAPL" .
+
+<http://example.org/gsu-dm#company/ABT> a dm:Company ;
+    rdfs:label "ABBOTT LABORATORIES" ;
+    dm:cik 1800 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/AMGN>,
+        <http://example.org/gsu-dm#company/BLK>,
+        <http://example.org/gsu-dm#company/JNJ>,
+        <http://example.org/gsu-dm#company/LLY>,
+        <http://example.org/gsu-dm#company/MDT>,
+        <http://example.org/gsu-dm#company/MRK>,
+        <http://example.org/gsu-dm#company/MSFT>,
+        <http://example.org/gsu-dm#company/PFE>,
+        <http://example.org/gsu-dm#company/TMO>,
+        <http://example.org/gsu-dm#company/UNH> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/2834> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F5> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Drugs> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C2> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Health_Care> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "ABT" .
+
+<http://example.org/gsu-dm#company/AEP> a dm:Company ;
+    rdfs:label "AMERICAN ELECTRIC POWER CO INC" ;
+    dm:cik 4904 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/D>,
+        <http://example.org/gsu-dm#company/DUK>,
+        <http://example.org/gsu-dm#company/ED>,
+        <http://example.org/gsu-dm#company/EXC>,
+        <http://example.org/gsu-dm#company/NEE>,
+        <http://example.org/gsu-dm#company/PEG>,
+        <http://example.org/gsu-dm#company/SO>,
+        <http://example.org/gsu-dm#company/XEL> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/4911> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F6> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Util> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C1> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Utilities> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/Nasdaq> ;
+    dm:ticker "AEP" .
+
+<http://example.org/gsu-dm#company/AMT> a dm:Company ;
+    rdfs:label "AMERICAN TOWER CORP /MA/" ;
+    dm:cik 1053507 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/CCI>,
+        <http://example.org/gsu-dm#company/DLR>,
+        <http://example.org/gsu-dm#company/EQIX>,
+        <http://example.org/gsu-dm#company/PLD>,
+        <http://example.org/gsu-dm#company/PSA>,
+        <http://example.org/gsu-dm#company/XEL> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/6798> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F1> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Fin> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C1> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Real_Estate> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "AMT" .
+
+<http://example.org/gsu-dm#company/APD> a dm:Company ;
+    rdfs:label "Air Products & Chemicals, Inc." ;
+    dm:cik 2969 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/BLK>,
+        <http://example.org/gsu-dm#company/ECL>,
+        <http://example.org/gsu-dm#company/HON>,
+        <http://example.org/gsu-dm#company/IP>,
+        <http://example.org/gsu-dm#company/LIN> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/2810> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F2> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Chems> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C2> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Materials> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "APD" .
+
+<http://example.org/gsu-dm#company/AXP> a dm:Company ;
+    rdfs:label "AMERICAN EXPRESS CO" ;
+    dm:cik 4962 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/BAC>,
+        <http://example.org/gsu-dm#company/BKNG>,
+        <http://example.org/gsu-dm#company/C>,
+        <http://example.org/gsu-dm#company/DIS>,
+        <http://example.org/gsu-dm#company/ECL>,
+        <http://example.org/gsu-dm#company/F>,
+        <http://example.org/gsu-dm#company/GD>,
+        <http://example.org/gsu-dm#company/GM>,
+        <http://example.org/gsu-dm#company/HON>,
+        <http://example.org/gsu-dm#company/JPM>,
+        <http://example.org/gsu-dm#company/MDT>,
+        <http://example.org/gsu-dm#company/MLM>,
+        <http://example.org/gsu-dm#company/MS>,
+        <http://example.org/gsu-dm#company/OMC>,
+        <http://example.org/gsu-dm#company/PNC>,
+        <http://example.org/gsu-dm#company/RTX>,
+        <http://example.org/gsu-dm#company/SBUX>,
+        <http://example.org/gsu-dm#company/SPG>,
+        <http://example.org/gsu-dm#company/TJX>,
+        <http://example.org/gsu-dm#company/VMC>,
+        <http://example.org/gsu-dm#company/VTR> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/6199> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F11> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Banks> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C3> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Financials> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "AXP" .
+
+<http://example.org/gsu-dm#company/CL> a dm:Company ;
+    rdfs:label "COLGATE PALMOLIVE CO" ;
+    dm:cik 21665 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/GIS>,
+        <http://example.org/gsu-dm#company/KMB>,
+        <http://example.org/gsu-dm#company/KO>,
+        <http://example.org/gsu-dm#company/MDLZ>,
+        <http://example.org/gsu-dm#company/PEP>,
+        <http://example.org/gsu-dm#company/PG>,
+        <http://example.org/gsu-dm#company/WMT> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/2844> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F8> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Hshld> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C1> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Consumer_Staples> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "CL" .
+
+<http://example.org/gsu-dm#company/COP> a dm:Company ;
+    rdfs:label "CONOCOPHILLIPS" ;
+    dm:cik 1163165 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/CVX>,
+        <http://example.org/gsu-dm#company/EOG>,
+        <http://example.org/gsu-dm#company/HAL>,
+        <http://example.org/gsu-dm#company/OXY>,
+        <http://example.org/gsu-dm#company/PSX>,
+        <http://example.org/gsu-dm#company/SLB>,
+        <http://example.org/gsu-dm#company/XOM> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/2911> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F4> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Oil> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C4> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Energy> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "COP" .
+
+dm:frequency a owl:DatatypeProperty ;
+    rdfs:domain dm:Series .
+
+dm:inComovementCluster a owl:ObjectProperty ;
+    rdfs:range dm:ComovementCluster ;
+    rdfs:subPropertyOf dm:memberOf .
+
+dm:inFFIndustry a owl:ObjectProperty ;
+    rdfs:domain dm:Company ;
+    rdfs:range dm:FFIndustry .
+
+dm:inLab a owl:ObjectProperty ;
+    rdfs:domain dm:Result ;
+    rdfs:range dm:LabAssignment .
+
+dm:inRiskCluster a owl:ObjectProperty ;
+    rdfs:range dm:RiskCluster ;
+    rdfs:subPropertyOf dm:memberOf .
+
+dm:inSector a owl:ObjectProperty ;
+    rdfs:domain dm:Company ;
+    rdfs:range dm:Sector .
+
+dm:listedOn a owl:ObjectProperty ;
+    rdfs:domain dm:Company ;
+    rdfs:range dm:Exchange .
+
+dm:metric a owl:DatatypeProperty ;
+    rdfs:domain dm:Result .
+
+dm:ofModel a owl:ObjectProperty ;
+    rdfs:domain dm:Result ;
+    rdfs:range dm:Model .
+
+dm:providedBy a owl:ObjectProperty ;
+    rdfs:domain dm:Series ;
+    rdfs:range dm:DataProvider .
+
+<http://example.org/gsu-dm#result/lab2_HAR_linear_3_features_test_RMSE_of_log_RV_22_days> a dm:Result ;
+    dm:inLab <http://example.org/gsu-dm#lab/2> ;
+    dm:metric "test RMSE of log RV (22 days)" ;
+    dm:ofModel <http://example.org/gsu-dm#model/HAR_linear_3_features> ;
+    dm:value 0.386 .
+
+<http://example.org/gsu-dm#result/lab2_Linear_7_features_test_RMSE_of_log_RV_22_days> a dm:Result ;
+    dm:inLab <http://example.org/gsu-dm#lab/2> ;
+    dm:metric "test RMSE of log RV (22 days)" ;
+    dm:ofModel <http://example.org/gsu-dm#model/Linear_7_features> ;
+    dm:value 0.354 .
+
+<http://example.org/gsu-dm#result/lab2_Naive_last_22_day_RV_test_RMSE_of_log_RV_22_days> a dm:Result ;
+    dm:inLab <http://example.org/gsu-dm#lab/2> ;
+    dm:metric "test RMSE of log RV (22 days)" ;
+    dm:ofModel <http://example.org/gsu-dm#model/Naive_last_22_day_RV> ;
+    dm:value 0.453 .
+
+<http://example.org/gsu-dm#result/lab2_PCA_4_polynomial_d_2_clip_test_RMSE_of_log_RV_22_days> a dm:Result ;
+    dm:inLab <http://example.org/gsu-dm#lab/2> ;
+    dm:metric "test RMSE of log RV (22 days)" ;
+    dm:ofModel <http://example.org/gsu-dm#model/PCA_4_polynomial_d_2_clip> ;
+    dm:value 0.384 .
+
+<http://example.org/gsu-dm#result/lab2_Polynomial_d_2_OLS_test_RMSE_of_log_RV_22_days> a dm:Result ;
+    dm:inLab <http://example.org/gsu-dm#lab/2> ;
+    dm:metric "test RMSE of log RV (22 days)" ;
+    dm:ofModel <http://example.org/gsu-dm#model/Polynomial_d_2_OLS> ;
+    dm:value 0.362 .
+
+<http://example.org/gsu-dm#result/lab2_Polynomial_d_2_ridge_clip_test_RMSE_of_log_RV_22_days> a dm:Result ;
+    dm:inLab <http://example.org/gsu-dm#lab/2> ;
+    dm:metric "test RMSE of log RV (22 days)" ;
+    dm:ofModel <http://example.org/gsu-dm#model/Polynomial_d_2_ridge_clip> ;
+    dm:value 0.361 .
+
+<http://example.org/gsu-dm#result/lab2_Polynomial_d_3_ridge_clip_test_RMSE_of_log_RV_22_days> a dm:Result ;
+    dm:inLab <http://example.org/gsu-dm#lab/2> ;
+    dm:metric "test RMSE of log RV (22 days)" ;
+    dm:ofModel <http://example.org/gsu-dm#model/Polynomial_d_3_ridge_clip> ;
+    dm:value 0.357 .
+
+<http://example.org/gsu-dm#result/lab3_Gaussian_naive_Bayes_test_AUC_credit_default> a dm:Result ;
+    dm:inLab <http://example.org/gsu-dm#lab/3> ;
+    dm:metric "test AUC (credit default)" ;
+    dm:ofModel <http://example.org/gsu-dm#model/Gaussian_naive_Bayes> ;
+    dm:value 0.765 .
+
+<http://example.org/gsu-dm#result/lab3_Linear_SVM_Platt_calibrated_test_AUC_credit_default> a dm:Result ;
+    dm:inLab <http://example.org/gsu-dm#lab/3> ;
+    dm:metric "test AUC (credit default)" ;
+    dm:ofModel <http://example.org/gsu-dm#model/Linear_SVM_Platt_calibrated> ;
+    dm:value 0.775 .
+
+<http://example.org/gsu-dm#result/lab3_Linear_discriminant_analysis_test_AUC_credit_default> a dm:Result ;
+    dm:inLab <http://example.org/gsu-dm#lab/3> ;
+    dm:metric "test AUC (credit default)" ;
+    dm:ofModel <http://example.org/gsu-dm#model/Linear_discriminant_analysis> ;
+    dm:value 0.773 .
+
+<http://example.org/gsu-dm#result/lab3_Logistic_regression_Lab_3_test_AUC_credit_default> a dm:Result ;
+    dm:inLab <http://example.org/gsu-dm#lab/3> ;
+    dm:metric "test AUC (credit default)" ;
+    dm:ofModel <http://example.org/gsu-dm#model/Logistic_regression_Lab_3> ;
+    dm:value 0.774 .
+
+<http://example.org/gsu-dm#result/lab3_MLP_2_x_64_10_seed_ensemble_test_AUC_credit_default> a dm:Result ;
+    dm:inLab <http://example.org/gsu-dm#lab/3> ;
+    dm:metric "test AUC (credit default)" ;
+    dm:ofModel <http://example.org/gsu-dm#model/MLP_2_x_64_10_seed_ensemble> ;
+    dm:value 0.79 .
+
+<http://example.org/gsu-dm#result/lab3_RBF_SVM_Platt_calibrated_test_AUC_credit_default> a dm:Result ;
+    dm:inLab <http://example.org/gsu-dm#lab/3> ;
+    dm:metric "test AUC (credit default)" ;
+    dm:ofModel <http://example.org/gsu-dm#model/RBF_SVM_Platt_calibrated> ;
+    dm:value 0.722 .
+
+<http://example.org/gsu-dm#result/lab3_k_nearest_neighbours_k_200_test_AUC_credit_default> a dm:Result ;
+    dm:inLab <http://example.org/gsu-dm#lab/3> ;
+    dm:metric "test AUC (credit default)" ;
+    dm:ofModel <http://example.org/gsu-dm#model/k_nearest_neighbours_k_200> ;
+    dm:value 0.779 .
+
+<http://example.org/gsu-dm#result/lab4_Decision_tree_pruned_CART_test_AUC_credit_default> a dm:Result ;
+    dm:inLab <http://example.org/gsu-dm#lab/4> ;
+    dm:metric "test AUC (credit default)" ;
+    dm:ofModel <http://example.org/gsu-dm#model/Decision_tree_pruned_CART> ;
+    dm:value 0.768 .
+
+<http://example.org/gsu-dm#result/lab4_Gradient_boosting_for_each_series_mean_test_RMSE_per_series_of_log_RV_5_days_62_series> a dm:Result ;
+    dm:inLab <http://example.org/gsu-dm#lab/4> ;
+    dm:metric "mean test RMSE per series of log RV (5 days, 62 series)" ;
+    dm:ofModel <http://example.org/gsu-dm#model/Gradient_boosting_for_each_series> ;
+    dm:value 0.475 .
+
+<http://example.org/gsu-dm#result/lab4_Gradient_boosting_test_AUC_credit_default> a dm:Result ;
+    dm:inLab <http://example.org/gsu-dm#lab/4> ;
+    dm:metric "test AUC (credit default)" ;
+    dm:ofModel <http://example.org/gsu-dm#model/Gradient_boosting> ;
+    dm:value 0.79 .
+
+<http://example.org/gsu-dm#result/lab4_Gradient_boosting_test_RMSE_of_log_RV_22_days> a dm:Result ;
+    dm:inLab <http://example.org/gsu-dm#lab/4> ;
+    dm:metric "test RMSE of log RV (22 days)" ;
+    dm:ofModel <http://example.org/gsu-dm#model/Gradient_boosting> ;
+    dm:value 0.394 .
+
+<http://example.org/gsu-dm#result/lab4_Linear_HAR_model_for_each_series_mean_test_RMSE_per_series_of_log_RV_5_days_62_series> a dm:Result ;
+    dm:inLab <http://example.org/gsu-dm#lab/4> ;
+    dm:metric "mean test RMSE per series of log RV (5 days, 62 series)" ;
+    dm:ofModel <http://example.org/gsu-dm#model/Linear_HAR_model_for_each_series> ;
+    dm:value 0.454 .
+
+<http://example.org/gsu-dm#result/lab4_Linear_Lab_2_test_RMSE_of_log_RV_22_days> a dm:Result ;
+    dm:inLab <http://example.org/gsu-dm#lab/4> ;
+    dm:metric "test RMSE of log RV (22 days)" ;
+    dm:ofModel <http://example.org/gsu-dm#model/Linear_Lab_2> ;
+    dm:value 0.354 .
+
+<http://example.org/gsu-dm#result/lab4_Logistic_regression_Lab_3_test_AUC_credit_default> a dm:Result ;
+    dm:inLab <http://example.org/gsu-dm#lab/4> ;
+    dm:metric "test AUC (credit default)" ;
+    dm:ofModel <http://example.org/gsu-dm#model/Logistic_regression_Lab_3> ;
+    dm:value 0.774 .
+
+<http://example.org/gsu-dm#result/lab4_One_gradient_boosting_model_for_all_series_mean_test_RMSE_per_series_of_log_RV_5_days_62_series> a dm:Result ;
+    dm:inLab <http://example.org/gsu-dm#lab/4> ;
+    dm:metric "mean test RMSE per series of log RV (5 days, 62 series)" ;
+    dm:ofModel <http://example.org/gsu-dm#model/One_gradient_boosting_model_for_all_series> ;
+    dm:value 0.458 .
+
+<http://example.org/gsu-dm#result/lab4_Random_forest_500_trees_test_AUC_credit_default> a dm:Result ;
+    dm:inLab <http://example.org/gsu-dm#lab/4> ;
+    dm:metric "test AUC (credit default)" ;
+    dm:ofModel <http://example.org/gsu-dm#model/Random_forest_500_trees> ;
+    dm:value 0.787 .
+
+<http://example.org/gsu-dm#result/lab4_Random_forest_test_RMSE_of_log_RV_22_days> a dm:Result ;
+    dm:inLab <http://example.org/gsu-dm#lab/4> ;
+    dm:metric "test RMSE of log RV (22 days)" ;
+    dm:ofModel <http://example.org/gsu-dm#model/Random_forest> ;
+    dm:value 0.364 .
+
+<http://example.org/gsu-dm#result/lab4_Regression_tree_depth_5_test_RMSE_of_log_RV_22_days> a dm:Result ;
+    dm:inLab <http://example.org/gsu-dm#lab/4> ;
+    dm:metric "test RMSE of log RV (22 days)" ;
+    dm:ofModel <http://example.org/gsu-dm#model/Regression_tree_depth_5> ;
+    dm:value 0.378 .
+
+<http://example.org/gsu-dm#result/lab6_Chronos_2_with_VIX_zero_shot_pooled_test_RMSE_of_log_RV_5_days_62_series> a dm:Result ;
+    dm:inLab <http://example.org/gsu-dm#lab/6> ;
+    dm:metric "pooled test RMSE of log RV (5 days, 62 series)" ;
+    dm:ofModel <http://example.org/gsu-dm#model/Chronos_2_with_VIX_zero_shot> ;
+    dm:value 0.445 .
+
+<http://example.org/gsu-dm#result/lab6_Chronos_2_zero_shot_pooled_test_RMSE_of_log_RV_5_days_62_series> a dm:Result ;
+    dm:inLab <http://example.org/gsu-dm#lab/6> ;
+    dm:metric "pooled test RMSE of log RV (5 days, 62 series)" ;
+    dm:ofModel <http://example.org/gsu-dm#model/Chronos_2_zero_shot> ;
+    dm:value 0.468 .
+
+<http://example.org/gsu-dm#result/lab6_Chronos_Bolt_zero_shot_pooled_test_RMSE_of_log_RV_5_days_62_series> a dm:Result ;
+    dm:inLab <http://example.org/gsu-dm#lab/6> ;
+    dm:metric "pooled test RMSE of log RV (5 days, 62 series)" ;
+    dm:ofModel <http://example.org/gsu-dm#model/Chronos_Bolt_zero_shot> ;
+    dm:value 0.474 .
+
+<http://example.org/gsu-dm#result/lab6_Elman_RNN_5_seed_ensemble_test_RMSE_of_log_RV_5_days> a dm:Result ;
+    dm:inLab <http://example.org/gsu-dm#lab/6> ;
+    dm:metric "test RMSE of log RV (5 days)" ;
+    dm:ofModel <http://example.org/gsu-dm#model/Elman_RNN_5_seed_ensemble> ;
+    dm:value 0.406 .
+
+<http://example.org/gsu-dm#result/lab6_Elman_RNN_single_seed_mean_test_RMSE_of_log_RV_5_days> a dm:Result ;
+    dm:inLab <http://example.org/gsu-dm#lab/6> ;
+    dm:metric "test RMSE of log RV (5 days)" ;
+    dm:ofModel <http://example.org/gsu-dm#model/Elman_RNN_single_seed_mean> ;
+    dm:value 0.412 .
+
+<http://example.org/gsu-dm#result/lab6_GRU_5_seed_ensemble_test_RMSE_of_log_RV_5_days> a dm:Result ;
+    dm:inLab <http://example.org/gsu-dm#lab/6> ;
+    dm:metric "test RMSE of log RV (5 days)" ;
+    dm:ofModel <http://example.org/gsu-dm#model/GRU_5_seed_ensemble> ;
+    dm:value 0.413 .
+
+<http://example.org/gsu-dm#result/lab6_GRU_single_seed_mean_test_RMSE_of_log_RV_5_days> a dm:Result ;
+    dm:inLab <http://example.org/gsu-dm#lab/6> ;
+    dm:metric "test RMSE of log RV (5 days)" ;
+    dm:ofModel <http://example.org/gsu-dm#model/GRU_single_seed_mean> ;
+    dm:value 0.416 .
+
+<http://example.org/gsu-dm#result/lab6_Global_GRU_pooled_test_RMSE_of_log_RV_5_days_62_series> a dm:Result ;
+    dm:inLab <http://example.org/gsu-dm#lab/6> ;
+    dm:metric "pooled test RMSE of log RV (5 days, 62 series)" ;
+    dm:ofModel <http://example.org/gsu-dm#model/Global_GRU> ;
+    dm:value 0.444 .
+
+<http://example.org/gsu-dm#result/lab6_Global_LSTM_pooled_test_RMSE_of_log_RV_5_days_62_series> a dm:Result ;
+    dm:inLab <http://example.org/gsu-dm#lab/6> ;
+    dm:metric "pooled test RMSE of log RV (5 days, 62 series)" ;
+    dm:ofModel <http://example.org/gsu-dm#model/Global_LSTM> ;
+    dm:value 0.444 .
+
+<http://example.org/gsu-dm#result/lab6_Global_TCN_pooled_test_RMSE_of_log_RV_5_days_62_series> a dm:Result ;
+    dm:inLab <http://example.org/gsu-dm#lab/6> ;
+    dm:metric "pooled test RMSE of log RV (5 days, 62 series)" ;
+    dm:ofModel <http://example.org/gsu-dm#model/Global_TCN> ;
+    dm:value 0.441 .
+
+<http://example.org/gsu-dm#result/lab6_Global_Transformer_pooled_test_RMSE_of_log_RV_5_days_62_series> a dm:Result ;
+    dm:inLab <http://example.org/gsu-dm#lab/6> ;
+    dm:metric "pooled test RMSE of log RV (5 days, 62 series)" ;
+    dm:ofModel <http://example.org/gsu-dm#model/Global_Transformer> ;
+    dm:value 0.439 .
+
+<http://example.org/gsu-dm#result/lab6_HAR_VIX_OLS_test_RMSE_of_log_RV_5_days> a dm:Result ;
+    dm:inLab <http://example.org/gsu-dm#lab/6> ;
+    dm:metric "test RMSE of log RV (5 days)" ;
+    dm:ofModel <http://example.org/gsu-dm#model/HAR_VIX_OLS> ;
+    dm:value 0.415 .
+
+<http://example.org/gsu-dm#result/lab6_LSTM_5_seed_ensemble_test_RMSE_of_log_RV_5_days> a dm:Result ;
+    dm:inLab <http://example.org/gsu-dm#lab/6> ;
+    dm:metric "test RMSE of log RV (5 days)" ;
+    dm:ofModel <http://example.org/gsu-dm#model/LSTM_5_seed_ensemble> ;
+    dm:value 0.406 .
+
+<http://example.org/gsu-dm#result/lab6_LSTM_single_seed_mean_test_RMSE_of_log_RV_5_days> a dm:Result ;
+    dm:inLab <http://example.org/gsu-dm#lab/6> ;
+    dm:metric "test RMSE of log RV (5 days)" ;
+    dm:ofModel <http://example.org/gsu-dm#model/LSTM_single_seed_mean> ;
+    dm:value 0.409 .
+
+<http://example.org/gsu-dm#result/lab6_Linear_HAR_VIX_for_each_series_pooled_test_RMSE_of_log_RV_5_days_62_series> a dm:Result ;
+    dm:inLab <http://example.org/gsu-dm#lab/6> ;
+    dm:metric "pooled test RMSE of log RV (5 days, 62 series)" ;
+    dm:ofModel <http://example.org/gsu-dm#model/Linear_HAR_VIX_for_each_series> ;
+    dm:value 0.447 .
+
+<http://example.org/gsu-dm#result/lab6_Naive_last_5_day_RV_test_RMSE_of_log_RV_5_days> a dm:Result ;
+    dm:inLab <http://example.org/gsu-dm#lab/6> ;
+    dm:metric "test RMSE of log RV (5 days)" ;
+    dm:ofModel <http://example.org/gsu-dm#model/Naive_last_5_day_RV> ;
+    dm:value 0.545 .
+
+<http://example.org/gsu-dm#result/lab6_One_linear_HAR_VIX_for_all_series_pooled_test_RMSE_of_log_RV_5_days_62_series> a dm:Result ;
+    dm:inLab <http://example.org/gsu-dm#lab/6> ;
+    dm:metric "pooled test RMSE of log RV (5 days, 62 series)" ;
+    dm:ofModel <http://example.org/gsu-dm#model/One_linear_HAR_VIX_for_all_series> ;
+    dm:value 0.46 .
+
+<http://example.org/gsu-dm#result/lab7_All_available_groups_fixed_test_RMSE_of_log_RV_5_days_11_feature_groups> a dm:Result ;
+    dm:inLab <http://example.org/gsu-dm#lab/7> ;
+    dm:metric "test RMSE of log RV (5 days), 11 feature groups" ;
+    dm:ofModel <http://example.org/gsu-dm#model/All_available_groups_fixed> ;
+    dm:value 0.6612 .
+
+<http://example.org/gsu-dm#result/lab7_Best_fixed_subset_on_train_valid_test_RMSE_of_log_RV_5_days_11_feature_groups> a dm:Result ;
+    dm:inLab <http://example.org/gsu-dm#lab/7> ;
+    dm:metric "test RMSE of log RV (5 days), 11 feature groups" ;
+    dm:ofModel <http://example.org/gsu-dm#model/Best_fixed_subset_on_train_valid> ;
+    dm:value 0.4209 .
+
+<http://example.org/gsu-dm#result/lab7_Deep_Q_network_10_seeds_test_RMSE_of_log_RV_5_days_11_feature_groups> a dm:Result ;
+    dm:inLab <http://example.org/gsu-dm#lab/7> ;
+    dm:metric "test RMSE of log RV (5 days), 11 feature groups" ;
+    dm:ofModel <http://example.org/gsu-dm#model/Deep_Q_network_10_seeds> ;
+    dm:value 0.4657 .
+
+<http://example.org/gsu-dm#result/lab7_LinUCB_contextual_bandit_10_seeds_test_RMSE_of_log_RV_5_days_11_feature_groups> a dm:Result ;
+    dm:inLab <http://example.org/gsu-dm#lab/7> ;
+    dm:metric "test RMSE of log RV (5 days), 11 feature groups" ;
+    dm:ofModel <http://example.org/gsu-dm#model/LinUCB_contextual_bandit_10_seeds> ;
+    dm:value 0.4524 .
+
+<http://example.org/gsu-dm#result/lab7_Q_learning_10_seeds_test_RMSE_of_log_RV_5_days_11_feature_groups> a dm:Result ;
+    dm:inLab <http://example.org/gsu-dm#lab/7> ;
+    dm:metric "test RMSE of log RV (5 days), 11 feature groups" ;
+    dm:ofModel <http://example.org/gsu-dm#model/Q_learning_10_seeds> ;
+    dm:value 0.4679 .
+
+<http://example.org/gsu-dm#result/lab7_Random_policy_10_runs_test_RMSE_of_log_RV_5_days_11_feature_groups> a dm:Result ;
+    dm:inLab <http://example.org/gsu-dm#lab/7> ;
+    dm:metric "test RMSE of log RV (5 days), 11 feature groups" ;
+    dm:ofModel <http://example.org/gsu-dm#model/Random_policy_10_runs> ;
+    dm:value 0.5014 .
+
+<http://example.org/gsu-dm#result/lab7_Re_selection_at_each_step_inner_validation_test_RMSE_of_log_RV_5_days_11_feature_groups> a dm:Result ;
+    dm:inLab <http://example.org/gsu-dm#lab/7> ;
+    dm:metric "test RMSE of log RV (5 days), 11 feature groups" ;
+    dm:ofModel <http://example.org/gsu-dm#model/Re_selection_at_each_step_inner_validation> ;
+    dm:value 0.4767 .
+
+<http://example.org/gsu-dm#result/lab7_Rolling_lasso_on_all_available_features_test_RMSE_of_log_RV_5_days_11_feature_groups> a dm:Result ;
+    dm:inLab <http://example.org/gsu-dm#lab/7> ;
+    dm:metric "test RMSE of log RV (5 days), 11 feature groups" ;
+    dm:ofModel <http://example.org/gsu-dm#model/Rolling_lasso_on_all_available_features> ;
+    dm:value 0.4431 .
+
+<http://example.org/gsu-dm#result/lab7_SARSA_10_seeds_test_RMSE_of_log_RV_5_days_11_feature_groups> a dm:Result ;
+    dm:inLab <http://example.org/gsu-dm#lab/7> ;
+    dm:metric "test RMSE of log RV (5 days), 11 feature groups" ;
+    dm:ofModel <http://example.org/gsu-dm#model/SARSA_10_seeds> ;
+    dm:value 0.4773 .
+
+<http://example.org/gsu-dm#result/lab8_Genetic_algorithm_pooled_test_RMSE_of_log_RV_5_days_62_series> a dm:Result ;
+    dm:inLab <http://example.org/gsu-dm#lab/8> ;
+    dm:metric "pooled test RMSE of log RV (5 days, 62 series)" ;
+    dm:ofModel <http://example.org/gsu-dm#model/Genetic_algorithm> ;
+    dm:value 0.4458 .
+
+<http://example.org/gsu-dm#result/lab8_Hyperband_pooled_test_RMSE_of_log_RV_5_days_62_series> a dm:Result ;
+    dm:inLab <http://example.org/gsu-dm#lab/8> ;
+    dm:metric "pooled test RMSE of log RV (5 days, 62 series)" ;
+    dm:ofModel <http://example.org/gsu-dm#model/Hyperband> ;
+    dm:value 0.444 .
+
+<http://example.org/gsu-dm#result/lab8_Population_based_training_pooled_test_RMSE_of_log_RV_5_days_62_series> a dm:Result ;
+    dm:inLab <http://example.org/gsu-dm#lab/8> ;
+    dm:metric "pooled test RMSE of log RV (5 days, 62 series)" ;
+    dm:ofModel <http://example.org/gsu-dm#model/Population_based_training> ;
+    dm:value 0.4466 .
+
+<http://example.org/gsu-dm#result/lab8_Random_search_2_seeds_per_configuration_pooled_test_RMSE_of_log_RV_5_days_62_series> a dm:Result ;
+    dm:inLab <http://example.org/gsu-dm#lab/8> ;
+    dm:metric "pooled test RMSE of log RV (5 days, 62 series)" ;
+    dm:ofModel <http://example.org/gsu-dm#model/Random_search_2_seeds_per_configuration> ;
+    dm:value 0.4463 .
+
+<http://example.org/gsu-dm#result/lab8_Random_search_pooled_test_RMSE_of_log_RV_5_days_62_series> a dm:Result ;
+    dm:inLab <http://example.org/gsu-dm#lab/8> ;
+    dm:metric "pooled test RMSE of log RV (5 days, 62 series)" ;
+    dm:ofModel <http://example.org/gsu-dm#model/Random_search> ;
+    dm:value 0.4436 .
+
+<http://example.org/gsu-dm#result/lab8_TPE_Optuna_pooled_test_RMSE_of_log_RV_5_days_62_series> a dm:Result ;
+    dm:inLab <http://example.org/gsu-dm#lab/8> ;
+    dm:metric "pooled test RMSE of log RV (5 days, 62 series)" ;
+    dm:ofModel <http://example.org/gsu-dm#model/TPE_Optuna> ;
+    dm:value 0.4426 .
+
+<http://example.org/gsu-dm#series/CL_F> a dm:PriceSeries ;
+    rdfs:label "WTI crude oil futures" ;
+    dm:frequency "daily" ;
+    dm:providedBy <http://example.org/gsu-dm#provider/Yahoo_Finance> ;
+    dm:startDate "2000-08-23"^^xsd:date ;
+    dm:usedIn <http://example.org/gsu-dm#lab/0>,
+        <http://example.org/gsu-dm#lab/6>,
+        <http://example.org/gsu-dm#lab/7> .
+
+<http://example.org/gsu-dm#series/DAAA> a dm:MacroSeries ;
+    rdfs:label "Moody's seasoned Aaa corporate bond yield, %" ;
+    dm:frequency "daily" ;
+    dm:providedBy <http://example.org/gsu-dm#provider/FRED> ;
+    dm:startDate "2000-01-03"^^xsd:date ;
+    dm:usedIn <http://example.org/gsu-dm#lab/0>,
+        <http://example.org/gsu-dm#lab/2>,
+        <http://example.org/gsu-dm#lab/6>,
+        <http://example.org/gsu-dm#lab/7> .
+
+<http://example.org/gsu-dm#series/DBAA> a dm:MacroSeries ;
+    rdfs:label "Moody's seasoned Baa corporate bond yield, %" ;
+    dm:frequency "daily" ;
+    dm:providedBy <http://example.org/gsu-dm#provider/FRED> ;
+    dm:startDate "2000-01-03"^^xsd:date ;
+    dm:usedIn <http://example.org/gsu-dm#lab/0>,
+        <http://example.org/gsu-dm#lab/2>,
+        <http://example.org/gsu-dm#lab/6>,
+        <http://example.org/gsu-dm#lab/7> .
+
+<http://example.org/gsu-dm#series/DCOILWTICO> a dm:MacroSeries ;
+    rdfs:label "WTI crude oil spot price, USD/barrel" ;
+    dm:frequency "daily" ;
+    dm:providedBy <http://example.org/gsu-dm#provider/FRED> ;
+    dm:startDate "2000-01-03"^^xsd:date ;
+    dm:usedIn <http://example.org/gsu-dm#lab/0>,
+        <http://example.org/gsu-dm#lab/2>,
+        <http://example.org/gsu-dm#lab/6>,
+        <http://example.org/gsu-dm#lab/7> .
+
+<http://example.org/gsu-dm#series/DFF> a dm:MacroSeries ;
+    rdfs:label "Effective federal funds rate, %" ;
+    dm:frequency "daily" ;
+    dm:providedBy <http://example.org/gsu-dm#provider/FRED> ;
+    dm:startDate "2000-01-03"^^xsd:date ;
+    dm:usedIn <http://example.org/gsu-dm#lab/0>,
+        <http://example.org/gsu-dm#lab/2>,
+        <http://example.org/gsu-dm#lab/6>,
+        <http://example.org/gsu-dm#lab/7> .
+
+<http://example.org/gsu-dm#series/DGS10> a dm:MacroSeries ;
+    rdfs:label "10-year Treasury constant-maturity yield, %" ;
+    dm:frequency "daily" ;
+    dm:providedBy <http://example.org/gsu-dm#provider/FRED> ;
+    dm:startDate "2000-01-03"^^xsd:date ;
+    dm:usedIn <http://example.org/gsu-dm#lab/0>,
+        <http://example.org/gsu-dm#lab/2>,
+        <http://example.org/gsu-dm#lab/6>,
+        <http://example.org/gsu-dm#lab/7> .
+
+<http://example.org/gsu-dm#series/DGS2> a dm:MacroSeries ;
+    rdfs:label "2-year Treasury constant-maturity yield, %" ;
+    dm:frequency "daily" ;
+    dm:providedBy <http://example.org/gsu-dm#provider/FRED> ;
+    dm:startDate "2000-01-03"^^xsd:date ;
+    dm:usedIn <http://example.org/gsu-dm#lab/0>,
+        <http://example.org/gsu-dm#lab/2>,
+        <http://example.org/gsu-dm#lab/6>,
+        <http://example.org/gsu-dm#lab/7> .
+
+<http://example.org/gsu-dm#series/DTB3> a dm:MacroSeries ;
+    rdfs:label "3-month Treasury bill secondary-market rate, %" ;
+    dm:frequency "daily" ;
+    dm:providedBy <http://example.org/gsu-dm#provider/FRED> ;
+    dm:startDate "2000-01-03"^^xsd:date ;
+    dm:usedIn <http://example.org/gsu-dm#lab/0>,
+        <http://example.org/gsu-dm#lab/2>,
+        <http://example.org/gsu-dm#lab/6>,
+        <http://example.org/gsu-dm#lab/7> .
+
+<http://example.org/gsu-dm#series/DTWEXBGS> a dm:MacroSeries ;
+    rdfs:label "Nominal broad US dollar index (from 2006)" ;
+    dm:frequency "daily" ;
+    dm:providedBy <http://example.org/gsu-dm#provider/FRED> ;
+    dm:startDate "2006-01-02"^^xsd:date ;
+    dm:usedIn <http://example.org/gsu-dm#lab/0>,
+        <http://example.org/gsu-dm#lab/2>,
+        <http://example.org/gsu-dm#lab/6>,
+        <http://example.org/gsu-dm#lab/7> .
+
+<http://example.org/gsu-dm#series/DX_Y_NYB> a dm:PriceSeries ;
+    rdfs:label "US dollar index" ;
+    dm:frequency "daily" ;
+    dm:providedBy <http://example.org/gsu-dm#provider/Yahoo_Finance> ;
+    dm:startDate "2000-01-03"^^xsd:date ;
+    dm:usedIn <http://example.org/gsu-dm#lab/0>,
+        <http://example.org/gsu-dm#lab/6>,
+        <http://example.org/gsu-dm#lab/7> .
+
+<http://example.org/gsu-dm#series/EEM> a dm:PriceSeries ;
+    rdfs:label "Emerging-markets equity ETF" ;
+    dm:frequency "daily" ;
+    dm:providedBy <http://example.org/gsu-dm#provider/Yahoo_Finance> ;
+    dm:startDate "2003-04-14"^^xsd:date ;
+    dm:usedIn <http://example.org/gsu-dm#lab/0>,
+        <http://example.org/gsu-dm#lab/6>,
+        <http://example.org/gsu-dm#lab/7> .
+
+<http://example.org/gsu-dm#series/FF49> a dm:PriceSeries ;
+    rdfs:label "49 industry portfolios (value-weighted)" ;
+    dm:frequency "daily" ;
+    dm:providedBy <http://example.org/gsu-dm#provider/Kenneth_R_French_Data_Library> ;
+    dm:startDate "2000-01-03"^^xsd:date ;
+    dm:usedIn <http://example.org/gsu-dm#lab/1>,
+        <http://example.org/gsu-dm#lab/4>,
+        <http://example.org/gsu-dm#lab/6> .
+
+<http://example.org/gsu-dm#series/FREDMD> a dm:MacroSeries ;
+    rdfs:label "FRED-MD (126 monthly series)" ;
+    dm:frequency "monthly" ;
+    dm:providedBy <http://example.org/gsu-dm#provider/FRED_MD> ;
+    dm:startDate "2000-01-01"^^xsd:date ;
+    dm:usedIn <http://example.org/gsu-dm#lab/2> .
+
+<http://example.org/gsu-dm#series/FTSE> a dm:PriceSeries ;
+    rdfs:label "FTSE 100" ;
+    dm:frequency "daily" ;
+    dm:providedBy <http://example.org/gsu-dm#provider/Yahoo_Finance> ;
+    dm:startDate "2000-01-04"^^xsd:date ;
+    dm:usedIn <http://example.org/gsu-dm#lab/0>,
+        <http://example.org/gsu-dm#lab/6>,
+        <http://example.org/gsu-dm#lab/7> .
+
+<http://example.org/gsu-dm#series/GC_F> a dm:PriceSeries ;
+    rdfs:label "Gold futures" ;
+    dm:frequency "daily" ;
+    dm:providedBy <http://example.org/gsu-dm#provider/Yahoo_Finance> ;
+    dm:startDate "2000-08-30"^^xsd:date ;
+    dm:usedIn <http://example.org/gsu-dm#lab/0>,
+        <http://example.org/gsu-dm#lab/6>,
+        <http://example.org/gsu-dm#lab/7> .
+
+<http://example.org/gsu-dm#series/GSPC> a dm:PriceSeries ;
+    rdfs:label "S&P 500" ;
+    dm:frequency "daily" ;
+    dm:providedBy <http://example.org/gsu-dm#provider/Yahoo_Finance> ;
+    dm:startDate "2000-01-03"^^xsd:date ;
+    dm:usedIn <http://example.org/gsu-dm#lab/0>,
+        <http://example.org/gsu-dm#lab/6>,
+        <http://example.org/gsu-dm#lab/7> .
+
+<http://example.org/gsu-dm#series/GVZCLS> a dm:VolatilityIndex ;
+    rdfs:label "Gold volatility index" ;
+    dm:frequency "daily" ;
+    dm:providedBy <http://example.org/gsu-dm#provider/FRED> ;
+    dm:startDate "2008-06-03"^^xsd:date ;
+    dm:usedIn <http://example.org/gsu-dm#lab/0>,
+        <http://example.org/gsu-dm#lab/7> .
+
+<http://example.org/gsu-dm#series/HYG> a dm:PriceSeries ;
+    rdfs:label "US high-yield bond ETF" ;
+    dm:frequency "daily" ;
+    dm:providedBy <http://example.org/gsu-dm#provider/Yahoo_Finance> ;
+    dm:startDate "2007-04-11"^^xsd:date ;
+    dm:usedIn <http://example.org/gsu-dm#lab/0>,
+        <http://example.org/gsu-dm#lab/6>,
+        <http://example.org/gsu-dm#lab/7> .
+
+<http://example.org/gsu-dm#series/IEF> a dm:PriceSeries ;
+    rdfs:label "US Treasury 7-10 years ETF" ;
+    dm:frequency "daily" ;
+    dm:providedBy <http://example.org/gsu-dm#provider/Yahoo_Finance> ;
+    dm:startDate "2002-07-30"^^xsd:date ;
+    dm:usedIn <http://example.org/gsu-dm#lab/0>,
+        <http://example.org/gsu-dm#lab/6>,
+        <http://example.org/gsu-dm#lab/7> .
+
+<http://example.org/gsu-dm#series/IXIC> a dm:PriceSeries ;
+    rdfs:label "Nasdaq Composite" ;
+    dm:frequency "daily" ;
+    dm:providedBy <http://example.org/gsu-dm#provider/Yahoo_Finance> ;
+    dm:startDate "2000-01-03"^^xsd:date ;
+    dm:usedIn <http://example.org/gsu-dm#lab/0>,
+        <http://example.org/gsu-dm#lab/6>,
+        <http://example.org/gsu-dm#lab/7> .
+
+<http://example.org/gsu-dm#series/N225> a dm:PriceSeries ;
+    rdfs:label "Nikkei 225" ;
+    dm:frequency "daily" ;
+    dm:providedBy <http://example.org/gsu-dm#provider/Yahoo_Finance> ;
+    dm:startDate "2000-01-04"^^xsd:date ;
+    dm:usedIn <http://example.org/gsu-dm#lab/0>,
+        <http://example.org/gsu-dm#lab/6>,
+        <http://example.org/gsu-dm#lab/7> .
+
+<http://example.org/gsu-dm#series/NFCI> a dm:MacroSeries ;
+    rdfs:label "Chicago Fed national financial conditions index (weekly)" ;
+    dm:frequency "weekly" ;
+    dm:providedBy <http://example.org/gsu-dm#provider/FRED> ;
+    dm:startDate "2000-01-07"^^xsd:date ;
+    dm:usedIn <http://example.org/gsu-dm#lab/0>,
+        <http://example.org/gsu-dm#lab/7> .
+
+<http://example.org/gsu-dm#series/OVXCLS> a dm:VolatilityIndex ;
+    rdfs:label "Oil volatility index" ;
+    dm:frequency "daily" ;
+    dm:providedBy <http://example.org/gsu-dm#provider/FRED> ;
+    dm:startDate "2007-05-10"^^xsd:date ;
+    dm:usedIn <http://example.org/gsu-dm#lab/0>,
+        <http://example.org/gsu-dm#lab/7> .
+
+<http://example.org/gsu-dm#series/RUT> a dm:PriceSeries ;
+    rdfs:label "Russell 2000" ;
+    dm:frequency "daily" ;
+    dm:providedBy <http://example.org/gsu-dm#provider/Yahoo_Finance> ;
+    dm:startDate "2000-01-03"^^xsd:date ;
+    dm:usedIn <http://example.org/gsu-dm#lab/0>,
+        <http://example.org/gsu-dm#lab/6>,
+        <http://example.org/gsu-dm#lab/7> .
+
+<http://example.org/gsu-dm#series/SKEW> a dm:MacroSeries ;
+    rdfs:label "CBOE SKEW index" ;
+    dm:frequency "daily" ;
+    dm:providedBy <http://example.org/gsu-dm#provider/Yahoo_Finance> ;
+    dm:startDate "2000-01-03"^^xsd:date ;
+    dm:usedIn <http://example.org/gsu-dm#lab/0>,
+        <http://example.org/gsu-dm#lab/7> .
+
+<http://example.org/gsu-dm#series/STLFSI4> a dm:MacroSeries ;
+    rdfs:label "St. Louis Fed financial stress index (weekly)" ;
+    dm:frequency "weekly" ;
+    dm:providedBy <http://example.org/gsu-dm#provider/FRED> ;
+    dm:startDate "2000-01-07"^^xsd:date ;
+    dm:usedIn <http://example.org/gsu-dm#lab/0>,
+        <http://example.org/gsu-dm#lab/7> .
+
+<http://example.org/gsu-dm#series/STOXX50E> a dm:PriceSeries ;
+    rdfs:label "Euro Stoxx 50" ;
+    dm:frequency "daily" ;
+    dm:providedBy <http://example.org/gsu-dm#provider/Yahoo_Finance> ;
+    dm:startDate "2007-03-30"^^xsd:date ;
+    dm:usedIn <http://example.org/gsu-dm#lab/0>,
+        <http://example.org/gsu-dm#lab/6>,
+        <http://example.org/gsu-dm#lab/7> .
+
+<http://example.org/gsu-dm#series/T10YIE> a dm:MacroSeries ;
+    rdfs:label "10-year breakeven inflation rate, % (from 2003)" ;
+    dm:frequency "daily" ;
+    dm:providedBy <http://example.org/gsu-dm#provider/FRED> ;
+    dm:startDate "2003-01-02"^^xsd:date ;
+    dm:usedIn <http://example.org/gsu-dm#lab/0>,
+        <http://example.org/gsu-dm#lab/2>,
+        <http://example.org/gsu-dm#lab/6>,
+        <http://example.org/gsu-dm#lab/7> .
+
+<http://example.org/gsu-dm#series/TLT> a dm:PriceSeries ;
+    rdfs:label "US Treasury 20+ years ETF" ;
+    dm:frequency "daily" ;
+    dm:providedBy <http://example.org/gsu-dm#provider/Yahoo_Finance> ;
+    dm:startDate "2002-07-30"^^xsd:date ;
+    dm:usedIn <http://example.org/gsu-dm#lab/0>,
+        <http://example.org/gsu-dm#lab/6>,
+        <http://example.org/gsu-dm#lab/7> .
+
+<http://example.org/gsu-dm#series/USEPUINDXD> a dm:MacroSeries ;
+    rdfs:label "Economic policy uncertainty index (daily, news-based)" ;
+    dm:frequency "daily" ;
+    dm:providedBy <http://example.org/gsu-dm#provider/FRED> ;
+    dm:startDate "2000-01-01"^^xsd:date ;
+    dm:usedIn <http://example.org/gsu-dm#lab/0>,
+        <http://example.org/gsu-dm#lab/7> .
+
+<http://example.org/gsu-dm#series/USREC> a dm:MacroSeries ;
+    rdfs:label "NBER recession indicator (monthly, 0/1)" ;
+    dm:frequency "monthly" ;
+    dm:providedBy <http://example.org/gsu-dm#provider/FRED> ;
+    dm:startDate "2000-01-03"^^xsd:date ;
+    dm:usedIn <http://example.org/gsu-dm#lab/0>,
+        <http://example.org/gsu-dm#lab/2>,
+        <http://example.org/gsu-dm#lab/6>,
+        <http://example.org/gsu-dm#lab/7> .
+
+<http://example.org/gsu-dm#series/VIX9D> a dm:VolatilityIndex ;
+    rdfs:label "VIX 9-day" ;
+    dm:frequency "daily" ;
+    dm:providedBy <http://example.org/gsu-dm#provider/Yahoo_Finance> ;
+    dm:startDate "2011-01-03"^^xsd:date ;
+    dm:usedIn <http://example.org/gsu-dm#lab/0>,
+        <http://example.org/gsu-dm#lab/7> .
+
+<http://example.org/gsu-dm#series/VIXCLS> a dm:MacroSeries ;
+    rdfs:label "CBOE Volatility Index (VIX), close" ;
+    dm:frequency "daily" ;
+    dm:providedBy <http://example.org/gsu-dm#provider/FRED> ;
+    dm:startDate "2000-01-03"^^xsd:date ;
+    dm:usedIn <http://example.org/gsu-dm#lab/0>,
+        <http://example.org/gsu-dm#lab/2>,
+        <http://example.org/gsu-dm#lab/6>,
+        <http://example.org/gsu-dm#lab/7> .
+
+<http://example.org/gsu-dm#series/VVIX> a dm:VolatilityIndex ;
+    rdfs:label "Volatility of VIX" ;
+    dm:frequency "daily" ;
+    dm:providedBy <http://example.org/gsu-dm#provider/Yahoo_Finance> ;
+    dm:startDate "2007-01-03"^^xsd:date ;
+    dm:usedIn <http://example.org/gsu-dm#lab/0>,
+        <http://example.org/gsu-dm#lab/7> .
+
+<http://example.org/gsu-dm#series/VXVCLS> a dm:VolatilityIndex ;
+    rdfs:label "VIX 3-month" ;
+    dm:frequency "daily" ;
+    dm:providedBy <http://example.org/gsu-dm#provider/FRED> ;
+    dm:startDate "2007-12-04"^^xsd:date ;
+    dm:usedIn <http://example.org/gsu-dm#lab/0>,
+        <http://example.org/gsu-dm#lab/7> .
+
+dm:sicCode a owl:DatatypeProperty ;
+    rdfs:domain dm:SICIndustry ;
+    rdfs:range xsd:integer .
+
+dm:sicDivisionOf a owl:ObjectProperty ;
+    owl:propertyChainAxiom ( dm:hasSIC dm:inDivision ) .
+
+dm:startDate a owl:DatatypeProperty ;
+    rdfs:domain dm:Series ;
+    rdfs:range xsd:date .
+
+dm:ticker a owl:DatatypeProperty ;
+    rdfs:range xsd:string .
+
+dm:usedIn a owl:ObjectProperty ;
+    rdfs:domain dm:Series ;
+    rdfs:range dm:LabAssignment .
+
+dm:value a owl:DatatypeProperty ;
+    rdfs:domain dm:Result ;
+    rdfs:range xsd:decimal .
+
+dm:ComovementCluster a owl:Class ;
+    rdfs:subClassOf dm:Cluster .
+
+dm:RiskCluster a owl:Class ;
+    rdfs:subClassOf dm:Cluster .
+
+dm:SICDivision a owl:Class ;
+    rdfs:label "SIC division" ;
+    rdfs:subClassOf dm:Classification .
+
+<http://example.org/gsu-dm#company/ADBE> a dm:Company ;
+    rdfs:label "ADOBE INC." ;
+    dm:cik 796343 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/AMZN>,
+        <http://example.org/gsu-dm#company/GOOGL>,
+        <http://example.org/gsu-dm#company/META>,
+        <http://example.org/gsu-dm#company/MSFT>,
+        <http://example.org/gsu-dm#company/NFLX>,
+        <http://example.org/gsu-dm#company/NVDA>,
+        <http://example.org/gsu-dm#company/ORCL>,
+        <http://example.org/gsu-dm#company/TMO> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/7372> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F9> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Softw> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C2> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Information_Technology> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/Nasdaq> ;
+    dm:ticker "ADBE" .
+
+<http://example.org/gsu-dm#company/AMGN> a dm:Company ;
+    rdfs:label "AMGEN INC" ;
+    dm:cik 318154 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/BMY>,
+        <http://example.org/gsu-dm#company/JNJ>,
+        <http://example.org/gsu-dm#company/LLY>,
+        <http://example.org/gsu-dm#company/MRK>,
+        <http://example.org/gsu-dm#company/PEP>,
+        <http://example.org/gsu-dm#company/PFE> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/2836> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F5> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Drugs> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C1> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Health_Care> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/Nasdaq> ;
+    dm:ticker "AMGN" .
+
+<http://example.org/gsu-dm#company/BAC> a dm:Company ;
+    rdfs:label "BANK OF AMERICA CORP /DE/" ;
+    dm:cik 70858 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/BLK>,
+        <http://example.org/gsu-dm#company/C>,
+        <http://example.org/gsu-dm#company/CAT>,
+        <http://example.org/gsu-dm#company/GS>,
+        <http://example.org/gsu-dm#company/IP>,
+        <http://example.org/gsu-dm#company/JPM>,
+        <http://example.org/gsu-dm#company/MS>,
+        <http://example.org/gsu-dm#company/NUE>,
+        <http://example.org/gsu-dm#company/OMC>,
+        <http://example.org/gsu-dm#company/PNC>,
+        <http://example.org/gsu-dm#company/USB>,
+        <http://example.org/gsu-dm#company/WFC> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/6021> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F11> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Banks> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C3> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Financials> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE>,
+        <http://example.org/gsu-dm#exchange/OTC> ;
+    dm:ticker "BAC" .
+
+<http://example.org/gsu-dm#company/BKNG> a dm:Company ;
+    rdfs:label "Booking Holdings Inc." ;
+    dm:cik 1075531 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/C>,
+        <http://example.org/gsu-dm#company/DIS>,
+        <http://example.org/gsu-dm#company/JPM>,
+        <http://example.org/gsu-dm#company/MS> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/4700> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F11> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Trans> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C3> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Consumer_Discretionary> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/Nasdaq> ;
+    dm:ticker "BKNG" .
+
+<http://example.org/gsu-dm#company/BMY> a dm:Company ;
+    rdfs:label "BRISTOL MYERS SQUIBB CO" ;
+    dm:cik 14272 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/JNJ>,
+        <http://example.org/gsu-dm#company/LLY>,
+        <http://example.org/gsu-dm#company/MRK>,
+        <http://example.org/gsu-dm#company/PFE> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/2834> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F5> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Drugs> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C1> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Health_Care> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "BMY" .
+
+<http://example.org/gsu-dm#company/CAT> a dm:Company ;
+    rdfs:label "CATERPILLAR INC" ;
+    dm:cik 18230 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/DE>,
+        <http://example.org/gsu-dm#company/FCX>,
+        <http://example.org/gsu-dm#company/HON>,
+        <http://example.org/gsu-dm#company/MMM>,
+        <http://example.org/gsu-dm#company/MS>,
+        <http://example.org/gsu-dm#company/NUE> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/3531> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F2> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Mach> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C3> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Industrials> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "CAT" .
+
+<http://example.org/gsu-dm#company/CCI> a dm:Company ;
+    rdfs:label "CROWN CASTLE INC." ;
+    dm:cik 1051470 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/DLR>,
+        <http://example.org/gsu-dm#company/EQIX>,
+        <http://example.org/gsu-dm#company/PLD>,
+        <http://example.org/gsu-dm#company/PSA>,
+        <http://example.org/gsu-dm#company/XEL> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/6798> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F1> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Fin> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C1> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Real_Estate> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "CCI" .
+
+<http://example.org/gsu-dm#company/CHTR> a dm:Company ;
+    rdfs:label "CHARTER COMMUNICATIONS, INC. /MO/" ;
+    dm:cik 1091667 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/CMCSA>,
+        <http://example.org/gsu-dm#company/HD>,
+        <http://example.org/gsu-dm#company/LOW>,
+        <http://example.org/gsu-dm#company/SHW> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/4841> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F7> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Telcm> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C5> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Communication_Services> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/Nasdaq> ;
+    dm:ticker "CHTR" .
+
+<http://example.org/gsu-dm#company/CMCSA> a dm:Company ;
+    rdfs:label "COMCAST CORP" ;
+    dm:cik 1166691 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/DIS>,
+        <http://example.org/gsu-dm#company/JPM>,
+        <http://example.org/gsu-dm#company/MS>,
+        <http://example.org/gsu-dm#company/OMC>,
+        <http://example.org/gsu-dm#company/T>,
+        <http://example.org/gsu-dm#company/TMUS> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/4841> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F7> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Telcm> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C2> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Communication_Services> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE>,
+        <http://example.org/gsu-dm#exchange/Nasdaq> ;
+    dm:ticker "CMCSA" .
+
+<http://example.org/gsu-dm#company/COST> a dm:Company ;
+    rdfs:label "COSTCO WHOLESALE CORP /NEW" ;
+    dm:cik 909832 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/HD>,
+        <http://example.org/gsu-dm#company/MSFT>,
+        <http://example.org/gsu-dm#company/PEP>,
+        <http://example.org/gsu-dm#company/WMT> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/5331> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F8> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Rtail> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C2> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Consumer_Staples> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/Nasdaq> ;
+    dm:ticker "COST" .
+
+<http://example.org/gsu-dm#company/CVX> a dm:Company ;
+    rdfs:label "CHEVRON CORP" ;
+    dm:cik 93410 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/FCX>,
+        <http://example.org/gsu-dm#company/HAL>,
+        <http://example.org/gsu-dm#company/MPC>,
+        <http://example.org/gsu-dm#company/PSX>,
+        <http://example.org/gsu-dm#company/SLB>,
+        <http://example.org/gsu-dm#company/VLO>,
+        <http://example.org/gsu-dm#company/XOM> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/2911> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F4> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Oil> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C3> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Energy> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "CVX" .
+
+<http://example.org/gsu-dm#company/D> a dm:Company ;
+    rdfs:label "DOMINION ENERGY, INC" ;
+    dm:cik 715957 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/DUK>,
+        <http://example.org/gsu-dm#company/ED>,
+        <http://example.org/gsu-dm#company/SO>,
+        <http://example.org/gsu-dm#company/SRE>,
+        <http://example.org/gsu-dm#company/XEL> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/4911> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F6> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Util> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C1> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Utilities> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "D" .
+
+<http://example.org/gsu-dm#company/DE> a dm:Company ;
+    rdfs:label "DEERE & CO" ;
+    dm:cik 315189 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/GS>,
+        <http://example.org/gsu-dm#company/HON>,
+        <http://example.org/gsu-dm#company/MS>,
+        <http://example.org/gsu-dm#company/UNP> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/3523> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F2> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Mach> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C2> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Industrials> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "DE" .
+
+<http://example.org/gsu-dm#company/EOG> a dm:Company ;
+    rdfs:label "EOG RESOURCES INC" ;
+    dm:cik 821189 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/HAL>,
+        <http://example.org/gsu-dm#company/OXY>,
+        <http://example.org/gsu-dm#company/SLB>,
+        <http://example.org/gsu-dm#company/XOM> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/1311> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F4> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Oil> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C4> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Energy> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "EOG" .
+
+<http://example.org/gsu-dm#company/GD> a dm:Company ;
+    rdfs:label "GENERAL DYNAMICS CORP" ;
+    dm:cik 40533 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/HON>,
+        <http://example.org/gsu-dm#company/JPM>,
+        <http://example.org/gsu-dm#company/LMT>,
+        <http://example.org/gsu-dm#company/RTX> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/3730> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F2> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Ships> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C2> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Industrials> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "GD" .
+
+<http://example.org/gsu-dm#company/GIS> a dm:Company ;
+    rdfs:label "GENERAL MILLS INC" ;
+    dm:cik 40704 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/KMB>,
+        <http://example.org/gsu-dm#company/MDLZ>,
+        <http://example.org/gsu-dm#company/PEP>,
+        <http://example.org/gsu-dm#company/PG> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/2040> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F8> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Food> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C1> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Consumer_Staples> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "GIS" .
+
+<http://example.org/gsu-dm#company/MPC> a dm:Company ;
+    rdfs:label "Marathon Petroleum Corp" ;
+    dm:cik 1510295 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/PSX>,
+        <http://example.org/gsu-dm#company/SLB>,
+        <http://example.org/gsu-dm#company/VLO>,
+        <http://example.org/gsu-dm#company/XOM> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/2911> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F4> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Oil> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C6> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Energy> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "MPC" .
+
+<http://example.org/gsu-dm#company/O> a dm:Company ;
+    rdfs:label "REALTY INCOME CORP" ;
+    dm:cik 726728 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/PEG>,
+        <http://example.org/gsu-dm#company/PLD>,
+        <http://example.org/gsu-dm#company/PSA>,
+        <http://example.org/gsu-dm#company/SPG>,
+        <http://example.org/gsu-dm#company/VTR>,
+        <http://example.org/gsu-dm#company/WELL> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/6798> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F10> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Fin> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C5> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Real_Estate> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "O" .
+
+<http://example.org/gsu-dm#ff49/BusSv> a dm:FFIndustry ;
+    rdfs:label "BusSv" .
+
+<http://example.org/gsu-dm#ff49/Clths> a dm:FFIndustry ;
+    rdfs:label "Clths" .
+
+<http://example.org/gsu-dm#ff49/Gold> a dm:FFIndustry ;
+    rdfs:label "Gold" .
+
+<http://example.org/gsu-dm#ff49/Guns> a dm:FFIndustry ;
+    rdfs:label "Guns" .
+
+<http://example.org/gsu-dm#ff49/Insur> a dm:FFIndustry ;
+    rdfs:label "Insur" .
+
+<http://example.org/gsu-dm#ff49/LabEq> a dm:FFIndustry ;
+    rdfs:label "LabEq" .
+
+<http://example.org/gsu-dm#ff49/Ships> a dm:FFIndustry ;
+    rdfs:label "Ships" .
+
+<http://example.org/gsu-dm#ff49/Smoke> a dm:FFIndustry ;
+    rdfs:label "Smoke" .
+
+<http://example.org/gsu-dm#ff49/Steel> a dm:FFIndustry ;
+    rdfs:label "Steel" .
+
+dm:hasSIC a owl:ObjectProperty ;
+    rdfs:domain dm:Company ;
+    rdfs:range dm:SICIndustry .
+
+dm:inDivision a owl:ObjectProperty ;
+    rdfs:domain dm:SICIndustry ;
+    rdfs:range dm:SICDivision .
+
+<http://example.org/gsu-dm#lab/1> a dm:LabAssignment ;
+    rdfs:label "Lab 1" .
+
+<http://example.org/gsu-dm#model/All_available_groups_fixed> a dm:Model ;
+    rdfs:label "All available groups (fixed)" .
+
+<http://example.org/gsu-dm#model/Best_fixed_subset_on_train_valid> a dm:Model ;
+    rdfs:label "Best fixed subset on train+valid." .
+
+<http://example.org/gsu-dm#model/Chronos_2_with_VIX_zero_shot> a dm:Model ;
+    rdfs:label "Chronos-2 with VIX (zero-shot)" .
+
+<http://example.org/gsu-dm#model/Chronos_2_zero_shot> a dm:Model ;
+    rdfs:label "Chronos-2 (zero-shot)" .
+
+<http://example.org/gsu-dm#model/Chronos_Bolt_zero_shot> a dm:Model ;
+    rdfs:label "Chronos-Bolt (zero-shot)" .
+
+<http://example.org/gsu-dm#model/Decision_tree_pruned_CART> a dm:Model ;
+    rdfs:label "Decision tree, pruned (CART)" .
+
+<http://example.org/gsu-dm#model/Deep_Q_network_10_seeds> a dm:Model ;
+    rdfs:label "Deep Q-network (10 seeds)" .
+
+<http://example.org/gsu-dm#model/Elman_RNN_5_seed_ensemble> a dm:Model ;
+    rdfs:label "Elman RNN, 5-seed ensemble" .
+
+<http://example.org/gsu-dm#model/Elman_RNN_single_seed_mean> a dm:Model ;
+    rdfs:label "Elman RNN, single seed (mean)" .
+
+<http://example.org/gsu-dm#model/GRU_5_seed_ensemble> a dm:Model ;
+    rdfs:label "GRU, 5-seed ensemble" .
+
+<http://example.org/gsu-dm#model/GRU_single_seed_mean> a dm:Model ;
+    rdfs:label "GRU, single seed (mean)" .
+
+<http://example.org/gsu-dm#model/Gaussian_naive_Bayes> a dm:Model ;
+    rdfs:label "Gaussian naive Bayes" .
+
+<http://example.org/gsu-dm#model/Genetic_algorithm> a dm:Model ;
+    rdfs:label "Genetic algorithm" .
+
+<http://example.org/gsu-dm#model/Global_GRU> a dm:Model ;
+    rdfs:label "Global GRU" .
+
+<http://example.org/gsu-dm#model/Global_LSTM> a dm:Model ;
+    rdfs:label "Global LSTM" .
+
+<http://example.org/gsu-dm#model/Global_TCN> a dm:Model ;
+    rdfs:label "Global TCN" .
+
+<http://example.org/gsu-dm#model/Global_Transformer> a dm:Model ;
+    rdfs:label "Global Transformer" .
+
+<http://example.org/gsu-dm#model/Gradient_boosting_for_each_series> a dm:Model ;
+    rdfs:label "Gradient boosting for each series" .
+
+<http://example.org/gsu-dm#model/HAR_VIX_OLS> a dm:Model ;
+    rdfs:label "HAR + VIX, OLS" .
+
+<http://example.org/gsu-dm#model/HAR_linear_3_features> a dm:Model ;
+    rdfs:label "HAR, linear (3 features)" .
+
+<http://example.org/gsu-dm#model/Hyperband> a dm:Model ;
+    rdfs:label "Hyperband" .
+
+<http://example.org/gsu-dm#model/LSTM_5_seed_ensemble> a dm:Model ;
+    rdfs:label "LSTM, 5-seed ensemble" .
+
+<http://example.org/gsu-dm#model/LSTM_single_seed_mean> a dm:Model ;
+    rdfs:label "LSTM, single seed (mean)" .
+
+<http://example.org/gsu-dm#model/LinUCB_contextual_bandit_10_seeds> a dm:Model ;
+    rdfs:label "LinUCB (contextual bandit) (10 seeds)" .
+
+<http://example.org/gsu-dm#model/Linear_7_features> a dm:Model ;
+    rdfs:label "Linear, 7 features" .
+
+<http://example.org/gsu-dm#model/Linear_HAR_VIX_for_each_series> a dm:Model ;
+    rdfs:label "Linear HAR + VIX for each series" .
+
+<http://example.org/gsu-dm#model/Linear_HAR_model_for_each_series> a dm:Model ;
+    rdfs:label "Linear HAR model for each series" .
+
+<http://example.org/gsu-dm#model/Linear_Lab_2> a dm:Model ;
+    rdfs:label "Linear (Lab 2)" .
+
+<http://example.org/gsu-dm#model/Linear_SVM_Platt_calibrated> a dm:Model ;
+    rdfs:label "Linear SVM (Platt-calibrated)" .
+
+<http://example.org/gsu-dm#model/Linear_discriminant_analysis> a dm:Model ;
+    rdfs:label "Linear discriminant analysis" .
+
+<http://example.org/gsu-dm#model/MLP_2_x_64_10_seed_ensemble> a dm:Model ;
+    rdfs:label "MLP, 2 x 64, 10-seed ensemble" .
+
+<http://example.org/gsu-dm#model/Naive_last_22_day_RV> a dm:Model ;
+    rdfs:label "Naive (last 22-day RV)" .
+
+<http://example.org/gsu-dm#model/Naive_last_5_day_RV> a dm:Model ;
+    rdfs:label "Naive (last 5-day RV)" .
+
+<http://example.org/gsu-dm#model/One_gradient_boosting_model_for_all_series> a dm:Model ;
+    rdfs:label "One gradient-boosting model for all series" .
+
+<http://example.org/gsu-dm#model/One_linear_HAR_VIX_for_all_series> a dm:Model ;
+    rdfs:label "One linear HAR + VIX for all series" .
+
+<http://example.org/gsu-dm#model/PCA_4_polynomial_d_2_clip> a dm:Model ;
+    rdfs:label "PCA(4) + polynomial d=2 + clip" .
+
+<http://example.org/gsu-dm#model/Polynomial_d_2_OLS> a dm:Model ;
+    rdfs:label "Polynomial d=2, OLS" .
+
+<http://example.org/gsu-dm#model/Polynomial_d_2_ridge_clip> a dm:Model ;
+    rdfs:label "Polynomial d=2, ridge + clip" .
+
+<http://example.org/gsu-dm#model/Polynomial_d_3_ridge_clip> a dm:Model ;
+    rdfs:label "Polynomial d=3, ridge + clip" .
+
+<http://example.org/gsu-dm#model/Population_based_training> a dm:Model ;
+    rdfs:label "Population-based training" .
+
+<http://example.org/gsu-dm#model/Q_learning_10_seeds> a dm:Model ;
+    rdfs:label "Q-learning (10 seeds)" .
+
+<http://example.org/gsu-dm#model/RBF_SVM_Platt_calibrated> a dm:Model ;
+    rdfs:label "RBF SVM (Platt-calibrated)" .
+
+<http://example.org/gsu-dm#model/Random_forest> a dm:Model ;
+    rdfs:label "Random forest" .
+
+<http://example.org/gsu-dm#model/Random_forest_500_trees> a dm:Model ;
+    rdfs:label "Random forest (500 trees)" .
+
+<http://example.org/gsu-dm#model/Random_policy_10_runs> a dm:Model ;
+    rdfs:label "Random policy (10 runs)" .
+
+<http://example.org/gsu-dm#model/Random_search> a dm:Model ;
+    rdfs:label "Random search" .
+
+<http://example.org/gsu-dm#model/Random_search_2_seeds_per_configuration> a dm:Model ;
+    rdfs:label "Random search, 2 seeds per configuration" .
+
+<http://example.org/gsu-dm#model/Re_selection_at_each_step_inner_validation> a dm:Model ;
+    rdfs:label "Re-selection at each step (inner validation)" .
+
+<http://example.org/gsu-dm#model/Regression_tree_depth_5> a dm:Model ;
+    rdfs:label "Regression tree (depth 5)" .
+
+<http://example.org/gsu-dm#model/Rolling_lasso_on_all_available_features> a dm:Model ;
+    rdfs:label "Rolling lasso on all available features" .
+
+<http://example.org/gsu-dm#model/SARSA_10_seeds> a dm:Model ;
+    rdfs:label "SARSA (10 seeds)" .
+
+<http://example.org/gsu-dm#model/TPE_Optuna> a dm:Model ;
+    rdfs:label "TPE (Optuna)" .
+
+<http://example.org/gsu-dm#model/k_nearest_neighbours_k_200> a dm:Model ;
+    rdfs:label "k nearest neighbours (k=200)" .
+
+<http://example.org/gsu-dm#provider/FRED_MD> a dm:DataProvider ;
+    rdfs:label "FRED-MD" .
+
+<http://example.org/gsu-dm#provider/Kenneth_R_French_Data_Library> a dm:DataProvider ;
+    rdfs:label "Kenneth R. French Data Library" .
+
+<http://example.org/gsu-dm#sic/1000> rdfs:label "Metal Mining" ;
+    dm:inDivision <http://example.org/gsu-dm#sicdivision/B> ;
+    dm:sicCode 1000 .
+
+<http://example.org/gsu-dm#sic/1040> rdfs:label "Gold and Silver Ores" ;
+    dm:inDivision <http://example.org/gsu-dm#sicdivision/B> ;
+    dm:sicCode 1040 .
+
+<http://example.org/gsu-dm#sic/2000> rdfs:label "Food and Kindred Products" ;
+    dm:inDivision <http://example.org/gsu-dm#sicdivision/D> ;
+    dm:sicCode 2000 .
+
+<http://example.org/gsu-dm#sic/2040> rdfs:label "Grain Mill Products" ;
+    dm:inDivision <http://example.org/gsu-dm#sicdivision/D> ;
+    dm:sicCode 2040 .
+
+<http://example.org/gsu-dm#sic/2111> rdfs:label "Cigarettes" ;
+    dm:inDivision <http://example.org/gsu-dm#sicdivision/D> ;
+    dm:sicCode 2111 .
+
+<http://example.org/gsu-dm#sic/2621> rdfs:label "Paper Mills" ;
+    dm:inDivision <http://example.org/gsu-dm#sicdivision/D> ;
+    dm:sicCode 2621 .
+
+<http://example.org/gsu-dm#sic/2670> rdfs:label "Converted Paper & Paperboard Prods (No Contaners/Boxes)" ;
+    dm:inDivision <http://example.org/gsu-dm#sicdivision/D> ;
+    dm:sicCode 2670 .
+
+<http://example.org/gsu-dm#sic/2836> rdfs:label "Biological Products, (No Diagnostic Substances)" ;
+    dm:inDivision <http://example.org/gsu-dm#sicdivision/D> ;
+    dm:sicCode 2836 .
+
+<http://example.org/gsu-dm#sic/2844> rdfs:label "Perfumes, Cosmetics & Other Toilet Preparations" ;
+    dm:inDivision <http://example.org/gsu-dm#sicdivision/D> ;
+    dm:sicCode 2844 .
+
+<http://example.org/gsu-dm#sic/3021> rdfs:label "Rubber & Plastics Footwear" ;
+    dm:inDivision <http://example.org/gsu-dm#sicdivision/D> ;
+    dm:sicCode 3021 .
+
+<http://example.org/gsu-dm#sic/3312> rdfs:label "Steel Works, Blast Furnaces & Rolling Mills (Coke Ovens)" ;
+    dm:inDivision <http://example.org/gsu-dm#sicdivision/D> ;
+    dm:sicCode 3312 .
+
+<http://example.org/gsu-dm#sic/3523> rdfs:label "Farm Machinery & Equipment" ;
+    dm:inDivision <http://example.org/gsu-dm#sicdivision/D> ;
+    dm:sicCode 3523 .
+
+<http://example.org/gsu-dm#sic/3531> rdfs:label "Construction Machinery & Equip" ;
+    dm:inDivision <http://example.org/gsu-dm#sicdivision/D> ;
+    dm:sicCode 3531 .
+
+<http://example.org/gsu-dm#sic/3570> rdfs:label "Computer & office Equipment" ;
+    dm:inDivision <http://example.org/gsu-dm#sicdivision/D> ;
+    dm:sicCode 3570 .
+
+<http://example.org/gsu-dm#sic/3571> rdfs:label "Electronic Computers" ;
+    dm:inDivision <http://example.org/gsu-dm#sicdivision/D> ;
+    dm:sicCode 3571 .
+
+<http://example.org/gsu-dm#sic/3576> rdfs:label "Computer Communications Equipment" ;
+    dm:inDivision <http://example.org/gsu-dm#sicdivision/D> ;
+    dm:sicCode 3576 .
+
+<http://example.org/gsu-dm#sic/3663> rdfs:label "Radio & Tv Broadcasting & Communications Equipment" ;
+    dm:inDivision <http://example.org/gsu-dm#sicdivision/D> ;
+    dm:sicCode 3663 .
+
+<http://example.org/gsu-dm#sic/3730> rdfs:label "Ship & Boat Building & Repairing" ;
+    dm:inDivision <http://example.org/gsu-dm#sicdivision/D> ;
+    dm:sicCode 3730 .
+
+<http://example.org/gsu-dm#sic/3760> rdfs:label "Guided Missiles & Space Vehicles & Parts" ;
+    dm:inDivision <http://example.org/gsu-dm#sicdivision/D> ;
+    dm:sicCode 3760 .
+
+<http://example.org/gsu-dm#sic/3829> rdfs:label "Measuring & Controlling Devices, NEC" ;
+    dm:inDivision <http://example.org/gsu-dm#sicdivision/D> ;
+    dm:sicCode 3829 .
+
+<http://example.org/gsu-dm#sic/3841> rdfs:label "Surgical & Medical Instruments & Apparatus" ;
+    dm:inDivision <http://example.org/gsu-dm#sicdivision/D> ;
+    dm:sicCode 3841 .
+
+<http://example.org/gsu-dm#sic/3845> rdfs:label "Electromedical & Electrotherapeutic Apparatus" ;
+    dm:inDivision <http://example.org/gsu-dm#sicdivision/D> ;
+    dm:sicCode 3845 .
+
+<http://example.org/gsu-dm#sic/4011> rdfs:label "Railroads, Line-Haul Operating" ;
+    dm:inDivision <http://example.org/gsu-dm#sicdivision/E> ;
+    dm:sicCode 4011 .
+
+<http://example.org/gsu-dm#sic/4210> rdfs:label "Trucking & Courier Services (No Air)" ;
+    dm:inDivision <http://example.org/gsu-dm#sicdivision/E> ;
+    dm:sicCode 4210 .
+
+<http://example.org/gsu-dm#sic/4513> rdfs:label "Air Courier Services" ;
+    dm:inDivision <http://example.org/gsu-dm#sicdivision/E> ;
+    dm:sicCode 4513 .
+
+<http://example.org/gsu-dm#sic/4700> rdfs:label "Transportation Services" ;
+    dm:inDivision <http://example.org/gsu-dm#sicdivision/E> ;
+    dm:sicCode 4700 .
+
+<http://example.org/gsu-dm#sic/4812> rdfs:label "Radiotelephone Communications" ;
+    dm:inDivision <http://example.org/gsu-dm#sicdivision/E> ;
+    dm:sicCode 4812 .
+
+<http://example.org/gsu-dm#sic/4932> rdfs:label "Gas & Other Services Combined" ;
+    dm:inDivision <http://example.org/gsu-dm#sicdivision/E> ;
+    dm:sicCode 4932 .
+
+<http://example.org/gsu-dm#sic/5200> rdfs:label "Retail-Building Materials, Hardware, Garden Supply" ;
+    dm:inDivision <http://example.org/gsu-dm#sicdivision/G> ;
+    dm:sicCode 5200 .
+
+<http://example.org/gsu-dm#sic/5651> rdfs:label "Retail-Family Clothing Stores" ;
+    dm:inDivision <http://example.org/gsu-dm#sicdivision/G> ;
+    dm:sicCode 5651 .
+
+<http://example.org/gsu-dm#sic/5810> rdfs:label "Retail-Eating & Drinking Places" ;
+    dm:inDivision <http://example.org/gsu-dm#sicdivision/G> ;
+    dm:sicCode 5810 .
+
+<http://example.org/gsu-dm#sic/5812> rdfs:label "Retail-Eating  Places" ;
+    dm:inDivision <http://example.org/gsu-dm#sicdivision/G> ;
+    dm:sicCode 5812 .
+
+<http://example.org/gsu-dm#sic/5961> rdfs:label "Retail-Catalog & Mail-Order Houses" ;
+    dm:inDivision <http://example.org/gsu-dm#sicdivision/G> ;
+    dm:sicCode 5961 .
+
+<http://example.org/gsu-dm#sic/6199> rdfs:label "Finance Services" ;
+    dm:inDivision <http://example.org/gsu-dm#sicdivision/H> ;
+    dm:sicCode 6199 .
+
+<http://example.org/gsu-dm#sic/6324> rdfs:label "Hospital & Medical Service Plans" ;
+    dm:inDivision <http://example.org/gsu-dm#sicdivision/H> ;
+    dm:sicCode 6324 .
+
+<http://example.org/gsu-dm#sic/7311> rdfs:label "Services-Advertising Agencies" ;
+    dm:inDivision <http://example.org/gsu-dm#sicdivision/I> ;
+    dm:sicCode 7311 .
+
+<http://example.org/gsu-dm#sic/7841> rdfs:label "Services-Video Tape Rental" ;
+    dm:inDivision <http://example.org/gsu-dm#sicdivision/I> ;
+    dm:sicCode 7841 .
+
+<http://example.org/gsu-dm#sic/7990> rdfs:label "Services-Miscellaneous Amusement & Recreation" ;
+    dm:inDivision <http://example.org/gsu-dm#sicdivision/I> ;
+    dm:sicCode 7990 .
+
+dm:Organization a owl:Class .
+
+<http://example.org/gsu-dm#company/AMZN> a dm:Company ;
+    rdfs:label "AMAZON COM INC" ;
+    dm:cik 1018724 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/GOOGL>,
+        <http://example.org/gsu-dm#company/META>,
+        <http://example.org/gsu-dm#company/MSFT>,
+        <http://example.org/gsu-dm#company/NFLX> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/5961> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F9> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Rtail> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C2> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Consumer_Discretionary> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/Nasdaq> ;
+    dm:ticker "AMZN" .
+
+<http://example.org/gsu-dm#company/CSCO> a dm:Company ;
+    rdfs:label "CISCO SYSTEMS, INC." ;
+    dm:cik 858877 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/HON>,
+        <http://example.org/gsu-dm#company/IBM>,
+        <http://example.org/gsu-dm#company/INTC>,
+        <http://example.org/gsu-dm#company/MSFT>,
+        <http://example.org/gsu-dm#company/ORCL>,
+        <http://example.org/gsu-dm#company/TXN> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/3576> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F2> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Hardw> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C2> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Information_Technology> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/Nasdaq> ;
+    dm:ticker "CSCO" .
+
+<http://example.org/gsu-dm#company/DLR> a dm:Company ;
+    rdfs:label "DIGITAL REALTY TRUST, INC." ;
+    dm:cik 1297996 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/EQIX>,
+        <http://example.org/gsu-dm#company/PLD>,
+        <http://example.org/gsu-dm#company/PSA> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/6798> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F1> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Fin> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C1> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Real_Estate> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "DLR" .
+
+<http://example.org/gsu-dm#company/DUK> a dm:Company ;
+    rdfs:label "Duke Energy CORP" ;
+    dm:cik 1326160 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/ED>,
+        <http://example.org/gsu-dm#company/EXC>,
+        <http://example.org/gsu-dm#company/KO>,
+        <http://example.org/gsu-dm#company/NEE>,
+        <http://example.org/gsu-dm#company/NEM>,
+        <http://example.org/gsu-dm#company/PEG>,
+        <http://example.org/gsu-dm#company/PSA>,
+        <http://example.org/gsu-dm#company/SO>,
+        <http://example.org/gsu-dm#company/SRE>,
+        <http://example.org/gsu-dm#company/VZ>,
+        <http://example.org/gsu-dm#company/XEL> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/4931> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F6> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Util> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C1> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Utilities> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "DUK" .
+
+<http://example.org/gsu-dm#company/EXC> a dm:Company ;
+    rdfs:label "EXELON CORP" ;
+    dm:cik 1109357 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/MCD>,
+        <http://example.org/gsu-dm#company/NEE>,
+        <http://example.org/gsu-dm#company/NEM>,
+        <http://example.org/gsu-dm#company/PEG>,
+        <http://example.org/gsu-dm#company/SO>,
+        <http://example.org/gsu-dm#company/SRE>,
+        <http://example.org/gsu-dm#company/XEL> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/4931> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F6> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Util> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C1> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Utilities> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/Nasdaq> ;
+    dm:ticker "EXC" .
+
+<http://example.org/gsu-dm#company/F> a dm:Company ;
+    rdfs:label "FORD MOTOR CO" ;
+    dm:cik 37996 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/GM>,
+        <http://example.org/gsu-dm#company/JPM>,
+        <http://example.org/gsu-dm#company/MS> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/3711> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F11> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Autos> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C3> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Consumer_Discretionary> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "F" .
+
+<http://example.org/gsu-dm#company/FCX> a dm:Company ;
+    rdfs:label "FREEPORT-MCMORAN INC" ;
+    dm:cik 831259 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/HAL>,
+        <http://example.org/gsu-dm#company/MS>,
+        <http://example.org/gsu-dm#company/NEM>,
+        <http://example.org/gsu-dm#company/NUE> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/1000> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F2> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Mines> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C6> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Materials> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "FCX" .
+
+<http://example.org/gsu-dm#company/FDX> a dm:Company ;
+    rdfs:label "FEDEX CORP" ;
+    dm:cik 1048911 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/IP>,
+        <http://example.org/gsu-dm#company/MS>,
+        <http://example.org/gsu-dm#company/UPS> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/4513> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F2> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Trans> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C3> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Industrials> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "FDX" .
+
+<http://example.org/gsu-dm#company/INTC> a dm:Company ;
+    rdfs:label "INTEL CORP" ;
+    dm:cik 50863 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/MSFT>,
+        <http://example.org/gsu-dm#company/QCOM>,
+        <http://example.org/gsu-dm#company/TXN> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/3674> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F9> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Chips> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C3> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Information_Technology> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/Nasdaq> ;
+    dm:ticker "INTC" .
+
+<http://example.org/gsu-dm#company/KMB> a dm:Company ;
+    rdfs:label "KIMBERLY CLARK CORP" ;
+    dm:cik 55785 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/KO>,
+        <http://example.org/gsu-dm#company/MDLZ>,
+        <http://example.org/gsu-dm#company/PEP>,
+        <http://example.org/gsu-dm#company/PG> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/2670> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F8> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Paper> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C1> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Consumer_Staples> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/Nasdaq> ;
+    dm:ticker "KMB" .
+
+<http://example.org/gsu-dm#ff49/Aero> a dm:FFIndustry ;
+    rdfs:label "Aero" .
+
+<http://example.org/gsu-dm#ff49/Autos> a dm:FFIndustry ;
+    rdfs:label "Autos" .
+
+<http://example.org/gsu-dm#ff49/Beer> a dm:FFIndustry ;
+    rdfs:label "Beer" .
+
+<http://example.org/gsu-dm#ff49/Chems> a dm:FFIndustry ;
+    rdfs:label "Chems" .
+
+<http://example.org/gsu-dm#ff49/Food> a dm:FFIndustry ;
+    rdfs:label "Food" .
+
+<http://example.org/gsu-dm#ff49/Fun> a dm:FFIndustry ;
+    rdfs:label "Fun" .
+
+<http://example.org/gsu-dm#ff49/Mach> a dm:FFIndustry ;
+    rdfs:label "Mach" .
+
+<http://example.org/gsu-dm#ff49/Meals> a dm:FFIndustry ;
+    rdfs:label "Meals" .
+
+<http://example.org/gsu-dm#ff49/MedEq> a dm:FFIndustry ;
+    rdfs:label "MedEq" .
+
+<http://example.org/gsu-dm#ff49/Paper> a dm:FFIndustry ;
+    rdfs:label "Paper" .
+
+dm:memberOf a owl:ObjectProperty ;
+    rdfs:range dm:Cluster .
+
+<http://example.org/gsu-dm#model/Gradient_boosting> a dm:Model ;
+    rdfs:label "Gradient boosting" .
+
+<http://example.org/gsu-dm#model/Logistic_regression_Lab_3> a dm:Model ;
+    rdfs:label "Logistic regression (Lab 3)" .
+
+<http://example.org/gsu-dm#sic/1311> rdfs:label "Crude Petroleum & Natural Gas" ;
+    dm:inDivision <http://example.org/gsu-dm#sicdivision/B> ;
+    dm:sicCode 1311 .
+
+<http://example.org/gsu-dm#sic/1389> rdfs:label "Oil & Gas Field Services, NEC" ;
+    dm:inDivision <http://example.org/gsu-dm#sicdivision/B> ;
+    dm:sicCode 1389 .
+
+<http://example.org/gsu-dm#sic/1400> rdfs:label "Mining & Quarrying of  Nonmetallic Minerals (No Fuels)" ;
+    dm:inDivision <http://example.org/gsu-dm#sicdivision/B> ;
+    dm:sicCode 1400 .
+
+<http://example.org/gsu-dm#sic/2080> rdfs:label "Beverages" ;
+    dm:inDivision <http://example.org/gsu-dm#sicdivision/D> ;
+    dm:sicCode 2080 .
+
+<http://example.org/gsu-dm#sic/2810> rdfs:label "Industrial Inorganic Chemicals" ;
+    dm:inDivision <http://example.org/gsu-dm#sicdivision/D> ;
+    dm:sicCode 2810 .
+
+<http://example.org/gsu-dm#sic/2840> rdfs:label "Soap, Detergents, Cleang Preparations, Perfumes, Cosmetics" ;
+    dm:inDivision <http://example.org/gsu-dm#sicdivision/D> ;
+    dm:sicCode 2840 .
+
+<http://example.org/gsu-dm#sic/3711> rdfs:label "Motor Vehicles & Passenger Car Bodies" ;
+    dm:inDivision <http://example.org/gsu-dm#sicdivision/D> ;
+    dm:sicCode 3711 .
+
+<http://example.org/gsu-dm#sic/3724> rdfs:label "Aircraft Engines & Engine Parts" ;
+    dm:inDivision <http://example.org/gsu-dm#sicdivision/D> ;
+    dm:sicCode 3724 .
+
+<http://example.org/gsu-dm#sic/4813> rdfs:label "Telephone Communications (No Radiotelephone)" ;
+    dm:inDivision <http://example.org/gsu-dm#sicdivision/E> ;
+    dm:sicCode 4813 .
+
+<http://example.org/gsu-dm#sic/4841> rdfs:label "Cable & Other Pay Television Services" ;
+    dm:inDivision <http://example.org/gsu-dm#sicdivision/E> ;
+    dm:sicCode 4841 .
+
+<http://example.org/gsu-dm#sic/5211> rdfs:label "Retail-Lumber & Other Building Materials Dealers" ;
+    dm:inDivision <http://example.org/gsu-dm#sicdivision/G> ;
+    dm:sicCode 5211 .
+
+<http://example.org/gsu-dm#sic/5331> rdfs:label "Retail-Variety Stores" ;
+    dm:inDivision <http://example.org/gsu-dm#sicdivision/G> ;
+    dm:sicCode 5331 .
+
+<http://example.org/gsu-dm#sic/7370> rdfs:label "Services-Computer Programming, Data Processing, Etc." ;
+    dm:inDivision <http://example.org/gsu-dm#sicdivision/I> ;
+    dm:sicCode 7370 .
+
+dm:Cluster a owl:Class .
+
+dm:SICIndustry a owl:Class ;
+    rdfs:label "SIC industry (4 digits)" ;
+    rdfs:subClassOf dm:Classification .
+
+<http://example.org/gsu-dm#company/BLK> a dm:Company ;
+    rdfs:label "BlackRock, Inc." ;
+    dm:cik 2012383 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/CHTR>,
+        <http://example.org/gsu-dm#company/CSCO>,
+        <http://example.org/gsu-dm#company/ECL>,
+        <http://example.org/gsu-dm#company/FDX>,
+        <http://example.org/gsu-dm#company/GS>,
+        <http://example.org/gsu-dm#company/HD>,
+        <http://example.org/gsu-dm#company/JPM>,
+        <http://example.org/gsu-dm#company/LIN>,
+        <http://example.org/gsu-dm#company/LOW>,
+        <http://example.org/gsu-dm#company/MMM>,
+        <http://example.org/gsu-dm#company/MS>,
+        <http://example.org/gsu-dm#company/NKE>,
+        <http://example.org/gsu-dm#company/ORCL>,
+        <http://example.org/gsu-dm#company/PNC>,
+        <http://example.org/gsu-dm#company/SBUX>,
+        <http://example.org/gsu-dm#company/SHW>,
+        <http://example.org/gsu-dm#company/TJX>,
+        <http://example.org/gsu-dm#company/TMO>,
+        <http://example.org/gsu-dm#company/TMUS>,
+        <http://example.org/gsu-dm#company/UNH>,
+        <http://example.org/gsu-dm#company/UNP>,
+        <http://example.org/gsu-dm#company/UPS> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/6211> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F2> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Fin> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C2> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Financials> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "BLK" .
+
+<http://example.org/gsu-dm#company/C> a dm:Company ;
+    rdfs:label "CITIGROUP INC" ;
+    dm:cik 831001 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/DIS>,
+        <http://example.org/gsu-dm#company/F>,
+        <http://example.org/gsu-dm#company/FDX>,
+        <http://example.org/gsu-dm#company/GM>,
+        <http://example.org/gsu-dm#company/GS>,
+        <http://example.org/gsu-dm#company/IBM>,
+        <http://example.org/gsu-dm#company/JPM>,
+        <http://example.org/gsu-dm#company/MS>,
+        <http://example.org/gsu-dm#company/NUE>,
+        <http://example.org/gsu-dm#company/OMC>,
+        <http://example.org/gsu-dm#company/PNC>,
+        <http://example.org/gsu-dm#company/SPG>,
+        <http://example.org/gsu-dm#company/USB>,
+        <http://example.org/gsu-dm#company/WFC> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/6021> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F11> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Banks> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C3> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Financials> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "C" .
+
+<http://example.org/gsu-dm#company/ECL> a dm:Company ;
+    rdfs:label "ECOLAB INC." ;
+    dm:cik 31462 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/HON>,
+        <http://example.org/gsu-dm#company/LIN>,
+        <http://example.org/gsu-dm#company/MCD>,
+        <http://example.org/gsu-dm#company/MDT>,
+        <http://example.org/gsu-dm#company/MLM>,
+        <http://example.org/gsu-dm#company/MMM>,
+        <http://example.org/gsu-dm#company/NKE>,
+        <http://example.org/gsu-dm#company/SBUX>,
+        <http://example.org/gsu-dm#company/SHW> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/2840> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F3> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Hshld> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C2> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Materials> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "ECL" .
+
+<http://example.org/gsu-dm#company/ED> a dm:Company ;
+    rdfs:label "CONSOLIDATED EDISON INC" ;
+    dm:cik 1047862 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/SO>,
+        <http://example.org/gsu-dm#company/XEL> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/4931> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F6> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Util> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C1> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Utilities> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "ED" .
+
+<http://example.org/gsu-dm#company/EQIX> a dm:Company ;
+    rdfs:label "EQUINIX INC" ;
+    dm:cik 1101239 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/NEE>,
+        <http://example.org/gsu-dm#company/PLD> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/6798> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F1> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Fin> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C1> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Real_Estate> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/Nasdaq> ;
+    dm:ticker "EQIX" .
+
+<http://example.org/gsu-dm#company/GM> a dm:Company ;
+    rdfs:label "General Motors Co" ;
+    dm:cik 1467858 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/GS>,
+        <http://example.org/gsu-dm#company/JPM> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/3711> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F11> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Autos> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C3> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Consumer_Discretionary> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "GM" .
+
+<http://example.org/gsu-dm#company/GOOGL> a dm:Company ;
+    rdfs:label "Alphabet Inc." ;
+    dm:cik 1652044 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/META>,
+        <http://example.org/gsu-dm#company/MSFT>,
+        <http://example.org/gsu-dm#company/NFLX>,
+        <http://example.org/gsu-dm#company/NVDA>,
+        <http://example.org/gsu-dm#company/TMUS> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/7370> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F9> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Softw> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C2> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Communication_Services> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/Nasdaq> ;
+    dm:ticker "GOOGL" .
+
+<http://example.org/gsu-dm#company/HD> a dm:Company ;
+    rdfs:label "HOME DEPOT, INC." ;
+    dm:cik 354950 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/LOW>,
+        <http://example.org/gsu-dm#company/MSFT>,
+        <http://example.org/gsu-dm#company/NKE>,
+        <http://example.org/gsu-dm#company/SHW>,
+        <http://example.org/gsu-dm#company/TJX>,
+        <http://example.org/gsu-dm#company/UNH> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/5211> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F3> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Rtail> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C2> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Consumer_Discretionary> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "HD" .
+
+<http://example.org/gsu-dm#company/IBM> a dm:Company ;
+    rdfs:label "INTERNATIONAL BUSINESS MACHINES CORP" ;
+    dm:cik 51143 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/JPM>,
+        <http://example.org/gsu-dm#company/MS> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/3570> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F2> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Hardw> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C2> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Information_Technology> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "IBM" .
+
+<http://example.org/gsu-dm#company/IP> a dm:Company ;
+    rdfs:label "INTERNATIONAL PAPER CO /NEW/" ;
+    dm:cik 51434 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/JPM>,
+        <http://example.org/gsu-dm#company/MS>,
+        <http://example.org/gsu-dm#company/PNC>,
+        <http://example.org/gsu-dm#company/USB> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/2621> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F2> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Paper> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C3> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Materials> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE>,
+        <http://example.org/gsu-dm#exchange/OTC> ;
+    dm:ticker "IP" .
+
+<http://example.org/gsu-dm#company/JNJ> a dm:Company ;
+    rdfs:label "JOHNSON & JOHNSON" ;
+    dm:cik 200406 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/LLY>,
+        <http://example.org/gsu-dm#company/MRK>,
+        <http://example.org/gsu-dm#company/PEP>,
+        <http://example.org/gsu-dm#company/PFE>,
+        <http://example.org/gsu-dm#company/PG> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/2834> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F5> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Drugs> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C1> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Health_Care> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "JNJ" .
+
+<http://example.org/gsu-dm#company/KO> a dm:Company ;
+    rdfs:label "COCA COLA CO" ;
+    dm:cik 21344 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/LMT>,
+        <http://example.org/gsu-dm#company/MDLZ>,
+        <http://example.org/gsu-dm#company/MO>,
+        <http://example.org/gsu-dm#company/PEP>,
+        <http://example.org/gsu-dm#company/PG>,
+        <http://example.org/gsu-dm#company/SO>,
+        <http://example.org/gsu-dm#company/VZ> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/2080> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F8> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Beer> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C1> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Consumer_Staples> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "KO" .
+
+<http://example.org/gsu-dm#company/LMT> a dm:Company ;
+    rdfs:label "LOCKHEED MARTIN CORP" ;
+    dm:cik 936468 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/RTX>,
+        <http://example.org/gsu-dm#company/SRE> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/3760> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F5> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Guns> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C1> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Industrials> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "LMT" .
+
+<http://example.org/gsu-dm#company/LOW> a dm:Company ;
+    rdfs:label "LOWES COMPANIES INC" ;
+    dm:cik 60667 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/SHW>,
+        <http://example.org/gsu-dm#company/TJX>,
+        <http://example.org/gsu-dm#company/UNP> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/5211> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F3> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Rtail> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C5> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Consumer_Discretionary> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "LOW" .
+
+<http://example.org/gsu-dm#company/MCD> a dm:Company ;
+    rdfs:label "MCDONALDS CORP" ;
+    dm:cik 63908 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/O>,
+        <http://example.org/gsu-dm#company/SBUX> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/5812> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F3> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Meals> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C2> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Consumer_Discretionary> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "MCD" .
+
+<http://example.org/gsu-dm#company/MO> a dm:Company ;
+    rdfs:label "ALTRIA GROUP, INC." ;
+    dm:cik 764180 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/PEP>,
+        <http://example.org/gsu-dm#company/PG> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/2111> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F8> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Smoke> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C1> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Consumer_Staples> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "MO" .
+
+<http://example.org/gsu-dm#company/NEM> a dm:Company ;
+    rdfs:label "NEWMONT Corp /DE/" ;
+    dm:cik 1164727 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/PEG>,
+        <http://example.org/gsu-dm#company/XEL> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/1040> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F6> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Gold> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C1> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Materials> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE>,
+        <http://example.org/gsu-dm#exchange/OTC> ;
+    dm:ticker "NEM" .
+
+<http://example.org/gsu-dm#company/OXY> a dm:Company ;
+    rdfs:label "OCCIDENTAL PETROLEUM CORP /DE/" ;
+    dm:cik 797468 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/SLB>,
+        <http://example.org/gsu-dm#company/XOM> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/1311> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F4> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Oil> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C4> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Energy> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "OXY" .
+
+<http://example.org/gsu-dm#company/PSX> a dm:Company ;
+    rdfs:label "Phillips 66" ;
+    dm:cik 1534701 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/VLO>,
+        <http://example.org/gsu-dm#company/XOM> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/2911> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F4> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Oil> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C3> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Energy> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "PSX" .
+
+<http://example.org/gsu-dm#company/SPG> a dm:Company ;
+    rdfs:label "SIMON PROPERTY GROUP INC." ;
+    dm:cik 1063761 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/VTR>,
+        <http://example.org/gsu-dm#company/WELL> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/6798> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F10> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Fin> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C5> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Real_Estate> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "SPG" .
+
+<http://example.org/gsu-dm#company/T> a dm:Company ;
+    rdfs:label "AT&T INC." ;
+    dm:cik 732717 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/USB>,
+        <http://example.org/gsu-dm#company/VZ> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/4813> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F7> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Telcm> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C1> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Communication_Services> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "T" .
+
+<http://example.org/gsu-dm#ff49/Hardw> a dm:FFIndustry ;
+    rdfs:label "Hardw" .
+
+<http://example.org/gsu-dm#ff49/Hshld> a dm:FFIndustry ;
+    rdfs:label "Hshld" .
+
+<http://example.org/gsu-dm#ff49/Mines> a dm:FFIndustry ;
+    rdfs:label "Mines" .
+
+<http://example.org/gsu-dm#sic/3674> rdfs:label "Semiconductors & Related Devices" ;
+    dm:inDivision <http://example.org/gsu-dm#sicdivision/D> ;
+    dm:sicCode 3674 .
+
+<http://example.org/gsu-dm#sic/6211> rdfs:label "Security Brokers, Dealers & Flotation Companies" ;
+    dm:inDivision <http://example.org/gsu-dm#sicdivision/H> ;
+    dm:sicCode 6211 .
+
+<http://example.org/gsu-dm#sic/7372> rdfs:label "Services-Prepackaged Software" ;
+    dm:inDivision <http://example.org/gsu-dm#sicdivision/I> ;
+    dm:sicCode 7372 .
+
+dm:Classification a owl:Class .
+
+dm:Exchange a owl:Class .
+
+<http://example.org/gsu-dm#cluster/C6> rdfs:label "C6" .
+
+<http://example.org/gsu-dm#cluster/F10> rdfs:label "F10" .
+
+<http://example.org/gsu-dm#company/DIS> a dm:Company ;
+    rdfs:label "Walt Disney Co" ;
+    dm:cik 1744489 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/HON>,
+        <http://example.org/gsu-dm#company/JPM>,
+        <http://example.org/gsu-dm#company/MS> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/7990> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F11> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Fun> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C3> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Communication_Services> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "DIS" .
+
+<http://example.org/gsu-dm#company/HAL> a dm:Company ;
+    rdfs:label "HALLIBURTON CO" ;
+    dm:cik 45012 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/OXY>,
+        <http://example.org/gsu-dm#company/SLB>,
+        <http://example.org/gsu-dm#company/XOM> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/1389> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F4> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Oil> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C4> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Energy> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "HAL" .
+
+<http://example.org/gsu-dm#company/LIN> a dm:Company ;
+    rdfs:label "LINDE PLC" ;
+    dm:cik 1707925 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/MS>,
+        <http://example.org/gsu-dm#company/SHW> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/2810> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F2> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Chems> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C2> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Materials> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/Nasdaq> ;
+    dm:ticker "LIN" .
+
+<http://example.org/gsu-dm#company/LLY> a dm:Company ;
+    rdfs:label "ELI LILLY & Co" ;
+    dm:cik 59478 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/MRK>,
+        <http://example.org/gsu-dm#company/PFE> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/2834> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F5> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Drugs> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C1> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Health_Care> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "LLY" .
+
+<http://example.org/gsu-dm#company/MDLZ> a dm:Company ;
+    rdfs:label "Mondelez International, Inc." ;
+    dm:cik 1103982 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/MO>,
+        <http://example.org/gsu-dm#company/PEP>,
+        <http://example.org/gsu-dm#company/PG>,
+        <http://example.org/gsu-dm#company/WMT>,
+        <http://example.org/gsu-dm#company/XEL> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/2000> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F8> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Food> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C1> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Consumer_Staples> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/Nasdaq> ;
+    dm:ticker "MDLZ" .
+
+<http://example.org/gsu-dm#company/MDT> a dm:Company ;
+    rdfs:label "Medtronic plc" ;
+    dm:cik 1613103 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/RTX> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/3845> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F3> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/MedEq> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C2> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Health_Care> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "MDT" .
+
+<http://example.org/gsu-dm#company/META> a dm:Company ;
+    rdfs:label "Meta Platforms, Inc." ;
+    dm:cik 1326801 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/MSFT>,
+        <http://example.org/gsu-dm#company/NFLX> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/7370> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F9> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Softw> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C5> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Communication_Services> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/Nasdaq> ;
+    dm:ticker "META" .
+
+<http://example.org/gsu-dm#company/MLM> a dm:Company ;
+    rdfs:label "MARTIN MARIETTA MATERIALS INC" ;
+    dm:cik 916076 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/VMC> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/1400> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F3> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Mines> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C3> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Materials> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "MLM" .
+
+<http://example.org/gsu-dm#company/MMM> a dm:Company ;
+    rdfs:label "3M CO" ;
+    dm:cik 66740 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/MS>,
+        <http://example.org/gsu-dm#company/UPS> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/3841> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F2> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/MedEq> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C3> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Industrials> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "MMM" .
+
+<http://example.org/gsu-dm#company/NEE> a dm:Company ;
+    rdfs:label "NEXTERA ENERGY INC" ;
+    dm:cik 753308 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/SO>,
+        <http://example.org/gsu-dm#company/XEL> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/4911> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F6> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Util> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C1> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Utilities> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "NEE" .
+
+<http://example.org/gsu-dm#company/NKE> a dm:Company ;
+    rdfs:label "NIKE, Inc." ;
+    dm:cik 320187 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/SBUX> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/3021> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F3> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Clths> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C3> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Consumer_Discretionary> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "NKE" .
+
+<http://example.org/gsu-dm#company/NVDA> a dm:Company ;
+    rdfs:label "NVIDIA CORP" ;
+    dm:cik 1045810 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/QCOM>,
+        <http://example.org/gsu-dm#company/TXN> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/3674> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F9> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Chips> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C6> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Information_Technology> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/Nasdaq> ;
+    dm:ticker "NVDA" .
+
+<http://example.org/gsu-dm#company/QCOM> a dm:Company ;
+    rdfs:label "QUALCOMM INC/DE" ;
+    dm:cik 804328 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/TXN> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/3663> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F9> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Chips> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C3> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Information_Technology> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/Nasdaq> ;
+    dm:ticker "QCOM" .
+
+<http://example.org/gsu-dm#company/VLO> a dm:Company ;
+    rdfs:label "VALERO ENERGY CORP/TX" ;
+    dm:cik 1035002 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/XOM> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/2911> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F4> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Oil> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C6> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Energy> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "VLO" .
+
+<http://example.org/gsu-dm#company/VTR> a dm:Company ;
+    rdfs:label "Ventas, Inc." ;
+    dm:cik 740260 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/WELL> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/6798> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F10> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Fin> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C5> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Real_Estate> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "VTR" .
+
+<http://example.org/gsu-dm#ff49/Chips> a dm:FFIndustry ;
+    rdfs:label "Chips" .
+
+<http://example.org/gsu-dm#ff49/Trans> a dm:FFIndustry ;
+    rdfs:label "Trans" .
+
+<http://example.org/gsu-dm#sic/4911> rdfs:label "Electric Services" ;
+    dm:inDivision <http://example.org/gsu-dm#sicdivision/E> ;
+    dm:sicCode 4911 .
+
+dm:DataProvider a owl:Class ;
+    rdfs:subClassOf dm:Organization .
+
+dm:VolatilityIndex a owl:Class ;
+    rdfs:subClassOf dm:Series .
+
+<http://example.org/gsu-dm#cluster/C4> rdfs:label "C4" .
+
+<http://example.org/gsu-dm#cluster/F7> rdfs:label "F7" .
+
+<http://example.org/gsu-dm#company/GS> a dm:Company ;
+    rdfs:label "GOLDMAN SACHS GROUP INC" ;
+    dm:cik 886982 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/JPM>,
+        <http://example.org/gsu-dm#company/MS>,
+        <http://example.org/gsu-dm#company/PNC>,
+        <http://example.org/gsu-dm#company/UNP> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/6211> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F11> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Fin> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C3> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Financials> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE>,
+        <http://example.org/gsu-dm#exchange/OTC> ;
+    dm:ticker "GS" .
+
+<http://example.org/gsu-dm#company/MRK> a dm:Company ;
+    rdfs:label "Merck & Co., Inc." ;
+    dm:cik 310158 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/PFE> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/2834> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F5> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Drugs> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C1> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Health_Care> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "MRK" .
+
+<http://example.org/gsu-dm#company/NFLX> a dm:Company ;
+    rdfs:label "NETFLIX INC" ;
+    dm:cik 1065280 ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/7841> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F9> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Fun> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C5> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Communication_Services> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/Nasdaq> ;
+    dm:ticker "NFLX" .
+
+<http://example.org/gsu-dm#company/NUE> a dm:Company ;
+    rdfs:label "NUCOR CORP" ;
+    dm:cik 73309 ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/3312> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F2> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Steel> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C3> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Materials> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "NUE" .
+
+<http://example.org/gsu-dm#company/OMC> a dm:Company ;
+    rdfs:label "OMNICOM GROUP INC." ;
+    dm:cik 29989 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/USB> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/7311> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F11> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/BusSv> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C3> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Communication_Services> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "OMC" .
+
+<http://example.org/gsu-dm#company/ORCL> a dm:Company ;
+    rdfs:label "ORACLE CORP" ;
+    dm:cik 1341439 ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/7372> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F2> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Softw> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C2> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Information_Technology> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "ORCL" .
+
+<http://example.org/gsu-dm#company/PEG> a dm:Company ;
+    rdfs:label "PUBLIC SERVICE ENTERPRISE GROUP INC" ;
+    dm:cik 788784 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/SO>,
+        <http://example.org/gsu-dm#company/SRE>,
+        <http://example.org/gsu-dm#company/WELL>,
+        <http://example.org/gsu-dm#company/XEL> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/4931> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F6> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Util> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C1> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Utilities> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "PEG" .
+
+<http://example.org/gsu-dm#company/PLD> a dm:Company ;
+    rdfs:label "Prologis, Inc." ;
+    dm:cik 1045609 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/PSA>,
+        <http://example.org/gsu-dm#company/VTR>,
+        <http://example.org/gsu-dm#company/WELL> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/6798> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F1> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Fin> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C2> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Real_Estate> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE>,
+        <http://example.org/gsu-dm#exchange/OTC> ;
+    dm:ticker "PLD" .
+
+<http://example.org/gsu-dm#company/TMO> a dm:Company ;
+    rdfs:label "THERMO FISHER SCIENTIFIC INC." ;
+    dm:cik 97745 ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/3829> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F5> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/LabEq> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C2> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Health_Care> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "TMO" .
+
+<http://example.org/gsu-dm#company/TMUS> a dm:Company ;
+    rdfs:label "T-Mobile US, Inc." ;
+    dm:cik 1283699 ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/4812> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F7> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Telcm> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C1> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Communication_Services> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/Nasdaq> ;
+    dm:ticker "TMUS" .
+
+<http://example.org/gsu-dm#company/UNH> a dm:Company ;
+    rdfs:label "UNITEDHEALTH GROUP INC" ;
+    dm:cik 731766 ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/6324> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F5> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Insur> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C2> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Health_Care> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "UNH" .
+
+<http://example.org/gsu-dm#company/UPS> a dm:Company ;
+    rdfs:label "UNITED PARCEL SERVICE INC" ;
+    dm:cik 1090727 ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/4210> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F2> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Trans> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C2> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Industrials> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "UPS" .
+
+<http://example.org/gsu-dm#company/VMC> a dm:Company ;
+    rdfs:label "Vulcan Materials CO" ;
+    dm:cik 1396009 ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/1400> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F3> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Mines> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C3> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Materials> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "VMC" .
+
+<http://example.org/gsu-dm#company/VZ> a dm:Company ;
+    rdfs:label "VERIZON COMMUNICATIONS INC" ;
+    dm:cik 732712 ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/4813> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F7> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Telcm> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C1> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Communication_Services> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "VZ" .
+
+<http://example.org/gsu-dm#company/WELL> a dm:Company ;
+    rdfs:label "WELLTOWER INC." ;
+    dm:cik 766704 ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/6798> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F10> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Fin> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C5> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Real_Estate> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "WELL" .
+
+<http://example.org/gsu-dm#company/WFC> a dm:Company ;
+    rdfs:label "WELLS FARGO & COMPANY/MN" ;
+    dm:cik 72971 ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/6021> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F11> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Banks> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C3> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Financials> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE>,
+        <http://example.org/gsu-dm#exchange/OTC> ;
+    dm:ticker "WFC" .
+
+<http://example.org/gsu-dm#company/WMT> a dm:Company ;
+    rdfs:label "Walmart Inc." ;
+    dm:cik 104169 ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/5331> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F8> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Rtail> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C1> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Consumer_Staples> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/Nasdaq> ;
+    dm:ticker "WMT" .
+
+<http://example.org/gsu-dm#ff49/Softw> a dm:FFIndustry ;
+    rdfs:label "Softw" .
+
+<http://example.org/gsu-dm#ff49/Telcm> a dm:FFIndustry ;
+    rdfs:label "Telcm" .
+
+<http://example.org/gsu-dm#sic/4931> rdfs:label "Electric & Other Services Combined" ;
+    dm:inDivision <http://example.org/gsu-dm#sicdivision/E> ;
+    dm:sicCode 4931 .
+
+<http://example.org/gsu-dm#sicdivision/B> rdfs:label "Mining" .
+
+<http://example.org/gsu-dm#sicdivision/H> rdfs:label "Finance, insurance and real estate" .
+
+<http://example.org/gsu-dm#sicdivision/I> rdfs:label "Services" .
+
+<http://example.org/gsu-dm#cluster/F1> rdfs:label "F1" .
+
+<http://example.org/gsu-dm#company/PFE> a dm:Company ;
+    rdfs:label "PFIZER INC" ;
+    dm:cik 78003 ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/2834> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F5> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Drugs> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C1> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Health_Care> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "PFE" .
+
+<http://example.org/gsu-dm#company/PSA> a dm:Company ;
+    rdfs:label "Public Storage" ;
+    dm:cik 1393311 ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/6798> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F1> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Fin> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C1> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Real_Estate> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "PSA" .
+
+<http://example.org/gsu-dm#company/SBUX> a dm:Company ;
+    rdfs:label "STARBUCKS CORP" ;
+    dm:cik 829224 ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/5810> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F3> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Meals> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C2> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Consumer_Discretionary> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/Nasdaq> ;
+    dm:ticker "SBUX" .
+
+<http://example.org/gsu-dm#company/SHW> a dm:Company ;
+    rdfs:label "SHERWIN WILLIAMS CO" ;
+    dm:cik 89800 ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/5200> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F3> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Rtail> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C2> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Materials> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "SHW" .
+
+<http://example.org/gsu-dm#company/SLB> a dm:Company ;
+    rdfs:label "SLB LIMITED/NV" ;
+    dm:cik 87347 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/VLO>,
+        <http://example.org/gsu-dm#company/XOM> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/1389> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F4> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Oil> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C4> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Energy> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "SLB" .
+
+<http://example.org/gsu-dm#company/SRE> a dm:Company ;
+    rdfs:label "SEMPRA" ;
+    dm:cik 1032208 ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/4932> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F6> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Util> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C1> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Utilities> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "SRE" .
+
+<http://example.org/gsu-dm#company/TJX> a dm:Company ;
+    rdfs:label "TJX COMPANIES INC /DE/" ;
+    dm:cik 109198 ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/5651> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F3> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Rtail> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C2> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Consumer_Discretionary> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "TJX" .
+
+<http://example.org/gsu-dm#company/TXN> a dm:Company ;
+    rdfs:label "TEXAS INSTRUMENTS INC" ;
+    dm:cik 97476 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/UPS> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/3674> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F9> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Chips> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C2> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Information_Technology> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/Nasdaq> ;
+    dm:ticker "TXN" .
+
+<http://example.org/gsu-dm#exchange/OTC> a dm:Exchange ;
+    rdfs:label "OTC" .
+
+<http://example.org/gsu-dm#lab/8> a dm:LabAssignment ;
+    rdfs:label "Lab 8" .
+
+<http://example.org/gsu-dm#sic/2834> rdfs:label "Pharmaceutical Preparations" ;
+    dm:inDivision <http://example.org/gsu-dm#sicdivision/D> ;
+    dm:sicCode 2834 .
+
+<http://example.org/gsu-dm#sic/2911> rdfs:label "Petroleum Refining" ;
+    dm:inDivision <http://example.org/gsu-dm#sicdivision/D> ;
+    dm:sicCode 2911 .
+
+<http://example.org/gsu-dm#sic/6021> rdfs:label "National Commercial Banks" ;
+    dm:inDivision <http://example.org/gsu-dm#sicdivision/H> ;
+    dm:sicCode 6021 .
+
+dm:Series a owl:Class ;
+    rdfs:label "data series" .
+
+<http://example.org/gsu-dm#company/RTX> a dm:Company ;
+    rdfs:label "RTX Corp" ;
+    dm:cik 101829 ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/3724> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F3> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Aero> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C3> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Industrials> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "RTX" .
+
+<http://example.org/gsu-dm#company/UNP> a dm:Company ;
+    rdfs:label "UNION PACIFIC CORP" ;
+    dm:cik 100885 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/UPS> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/4011> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F2> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Trans> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C2> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Industrials> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "UNP" .
+
+<http://example.org/gsu-dm#company/USB> a dm:Company ;
+    rdfs:label "US BANCORP \\DE\\" ;
+    dm:cik 36104 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/WFC> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/6021> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F11> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Banks> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C3> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Financials> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "USB" .
+
+<http://example.org/gsu-dm#ff49/Banks> a dm:FFIndustry ;
+    rdfs:label "Banks" .
+
+<http://example.org/gsu-dm#ff49/Drugs> a dm:FFIndustry ;
+    rdfs:label "Drugs" .
+
+<http://example.org/gsu-dm#ff49/Rtail> a dm:FFIndustry ;
+    rdfs:label "Rtail" .
+
+<http://example.org/gsu-dm#lab/3> a dm:LabAssignment ;
+    rdfs:label "Lab 3" .
+
+<http://example.org/gsu-dm#sicdivision/G> rdfs:label "Retail trade" .
+
+<http://example.org/gsu-dm#cluster/C5> rdfs:label "C5" .
+
+<http://example.org/gsu-dm#company/HON> a dm:Company ;
+    rdfs:label "HONEYWELL INTERNATIONAL INC" ;
+    dm:cik 773840 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/IBM>,
+        <http://example.org/gsu-dm#company/JPM>,
+        <http://example.org/gsu-dm#company/LIN>,
+        <http://example.org/gsu-dm#company/LMT>,
+        <http://example.org/gsu-dm#company/MCD>,
+        <http://example.org/gsu-dm#company/MDT>,
+        <http://example.org/gsu-dm#company/MLM>,
+        <http://example.org/gsu-dm#company/MMM>,
+        <http://example.org/gsu-dm#company/MO>,
+        <http://example.org/gsu-dm#company/MS>,
+        <http://example.org/gsu-dm#company/NKE>,
+        <http://example.org/gsu-dm#company/ORCL>,
+        <http://example.org/gsu-dm#company/RTX>,
+        <http://example.org/gsu-dm#company/SBUX>,
+        <http://example.org/gsu-dm#company/T>,
+        <http://example.org/gsu-dm#company/TJX>,
+        <http://example.org/gsu-dm#company/UNH>,
+        <http://example.org/gsu-dm#company/UNP>,
+        <http://example.org/gsu-dm#company/VMC> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/3724> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F3> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Aero> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C2> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Industrials> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/Nasdaq> ;
+    dm:ticker "HON" .
+
+<http://example.org/gsu-dm#company/PG> a dm:Company ;
+    rdfs:label "PROCTER & GAMBLE Co" ;
+    dm:cik 80424 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/VZ>,
+        <http://example.org/gsu-dm#company/WMT> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/2840> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F8> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Hshld> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C1> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Consumer_Staples> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "PG" .
+
+<http://example.org/gsu-dm#company/PNC> a dm:Company ;
+    rdfs:label "PNC FINANCIAL SERVICES GROUP, INC." ;
+    dm:cik 713676 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/RTX>,
+        <http://example.org/gsu-dm#company/USB>,
+        <http://example.org/gsu-dm#company/VMC>,
+        <http://example.org/gsu-dm#company/WFC> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/6021> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F11> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Banks> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C3> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Financials> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "PNC" .
+
+<http://example.org/gsu-dm#company/SO> a dm:Company ;
+    rdfs:label "SOUTHERN CO" ;
+    dm:cik 92122 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/SRE>,
+        <http://example.org/gsu-dm#company/XEL> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/4911> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F6> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Util> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C1> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Utilities> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "SO" .
+
+<http://example.org/gsu-dm#company/PEP> a dm:Company ;
+    rdfs:label "PEPSICO INC" ;
+    dm:cik 77476 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/PG>,
+        <http://example.org/gsu-dm#company/TMUS>,
+        <http://example.org/gsu-dm#company/UNH>,
+        <http://example.org/gsu-dm#company/VZ>,
+        <http://example.org/gsu-dm#company/WMT>,
+        <http://example.org/gsu-dm#company/XEL> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/2080> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F8> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Beer> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C1> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Consumer_Staples> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/Nasdaq> ;
+    dm:ticker "PEP" .
+
+<http://example.org/gsu-dm#company/XOM> a dm:Company ;
+    rdfs:label "ExxonMobil Holdings Corp" ;
+    dm:cik 2115436 ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/2911> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F4> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Oil> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C3> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Energy> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "XOM" .
+
+dm:LabAssignment a owl:Class .
+
+<http://example.org/gsu-dm#cluster/F4> rdfs:label "F4" .
+
+<http://example.org/gsu-dm#cluster/F5> rdfs:label "F5" .
+
+<http://example.org/gsu-dm#cluster/F8> rdfs:label "F8" .
+
+<http://example.org/gsu-dm#company/MSFT> a dm:Company ;
+    rdfs:label "MICROSOFT CORP" ;
+    dm:cik 789019 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/NFLX>,
+        <http://example.org/gsu-dm#company/NVDA>,
+        <http://example.org/gsu-dm#company/ORCL>,
+        <http://example.org/gsu-dm#company/QCOM>,
+        <http://example.org/gsu-dm#company/TMO>,
+        <http://example.org/gsu-dm#company/TMUS>,
+        <http://example.org/gsu-dm#company/TXN> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/7372> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F9> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Softw> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C2> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Information_Technology> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/Nasdaq> ;
+    dm:ticker "MSFT" .
+
+<http://example.org/gsu-dm#ff49/Oil> a dm:FFIndustry ;
+    rdfs:label "Oil" .
+
+<http://example.org/gsu-dm#ff49/Util> a dm:FFIndustry ;
+    rdfs:label "Util" .
+
+<http://example.org/gsu-dm#sector/Communication_Services> a dm:Sector ;
+    rdfs:label "Communication Services" .
+
+<http://example.org/gsu-dm#sector/Consumer_Discretionary> a dm:Sector ;
+    rdfs:label "Consumer Discretionary" .
+
+<http://example.org/gsu-dm#sector/Consumer_Staples> a dm:Sector ;
+    rdfs:label "Consumer Staples" .
+
+<http://example.org/gsu-dm#sector/Energy> a dm:Sector ;
+    rdfs:label "Energy" .
+
+<http://example.org/gsu-dm#sector/Financials> a dm:Sector ;
+    rdfs:label "Financials" .
+
+<http://example.org/gsu-dm#sector/Health_Care> a dm:Sector ;
+    rdfs:label "Health Care" .
+
+<http://example.org/gsu-dm#sector/Industrials> a dm:Sector ;
+    rdfs:label "Industrials" .
+
+<http://example.org/gsu-dm#sector/Information_Technology> a dm:Sector ;
+    rdfs:label "Information Technology" .
+
+<http://example.org/gsu-dm#sector/Materials> a dm:Sector ;
+    rdfs:label "Materials" .
+
+<http://example.org/gsu-dm#sector/Real_Estate> a dm:Sector ;
+    rdfs:label "Real Estate" .
+
+<http://example.org/gsu-dm#sector/Utilities> a dm:Sector ;
+    rdfs:label "Utilities" .
+
+<http://example.org/gsu-dm#sic/6798> rdfs:label "Real Estate Investment Trusts" ;
+    dm:inDivision <http://example.org/gsu-dm#sicdivision/H> ;
+    dm:sicCode 6798 .
+
+<http://example.org/gsu-dm#sicdivision/E> rdfs:label "Transportation, communications and utilities" .
+
+<http://example.org/gsu-dm#cluster/F6> rdfs:label "F6" .
+
+<http://example.org/gsu-dm#cluster/F9> rdfs:label "F9" .
+
+dm:Sector a owl:Class ;
+    rdfs:label "GICS sector" ;
+    rdfs:subClassOf dm:Classification .
+
+<http://example.org/gsu-dm#lab/4> a dm:LabAssignment ;
+    rdfs:label "Lab 4" .
+
+<http://example.org/gsu-dm#cluster/F3> rdfs:label "F3" .
+
+<http://example.org/gsu-dm#company/XEL> a dm:Company ;
+    rdfs:label "XCEL ENERGY INC" ;
+    dm:cik 72903 ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/4931> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F6> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Util> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C1> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Utilities> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/Nasdaq> ;
+    dm:ticker "XEL" .
+
+<http://example.org/gsu-dm#ff49/Fin> a dm:FFIndustry ;
+    rdfs:label "Fin" .
+
+dm:PriceSeries a owl:Class ;
+    rdfs:subClassOf dm:Series .
+
+<http://example.org/gsu-dm#cluster/F11> rdfs:label "F11" .
+
+<http://example.org/gsu-dm#company/JPM> a dm:Company ;
+    rdfs:label "JPMORGAN CHASE & CO" ;
+    dm:cik 19617 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/MLM>,
+        <http://example.org/gsu-dm#company/MS>,
+        <http://example.org/gsu-dm#company/NUE>,
+        <http://example.org/gsu-dm#company/OMC>,
+        <http://example.org/gsu-dm#company/PNC>,
+        <http://example.org/gsu-dm#company/RTX>,
+        <http://example.org/gsu-dm#company/T>,
+        <http://example.org/gsu-dm#company/TJX>,
+        <http://example.org/gsu-dm#company/UNP>,
+        <http://example.org/gsu-dm#company/USB>,
+        <http://example.org/gsu-dm#company/VMC>,
+        <http://example.org/gsu-dm#company/WFC> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/6021> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F11> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Banks> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C3> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Financials> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "JPM" .
+
+dm:MacroSeries a owl:Class ;
+    rdfs:subClassOf dm:Series .
+
+<http://example.org/gsu-dm#cluster/F2> rdfs:label "F2" .
+
+<http://example.org/gsu-dm#provider/Yahoo_Finance> a dm:DataProvider ;
+    rdfs:label "Yahoo Finance" .
+
+<http://example.org/gsu-dm#provider/FRED> a dm:DataProvider ;
+    rdfs:label "FRED" .
+
+<http://example.org/gsu-dm#company/MS> a dm:Company ;
+    rdfs:label "MORGAN STANLEY" ;
+    dm:cik 895421 ;
+    dm:coMovesWith <http://example.org/gsu-dm#company/PNC>,
+        <http://example.org/gsu-dm#company/UNP> ;
+    dm:hasSIC <http://example.org/gsu-dm#sic/6211> ;
+    dm:inComovementCluster <http://example.org/gsu-dm#cluster/F11> ;
+    dm:inFFIndustry <http://example.org/gsu-dm#ff49/Fin> ;
+    dm:inRiskCluster <http://example.org/gsu-dm#cluster/C3> ;
+    dm:inSector <http://example.org/gsu-dm#sector/Financials> ;
+    dm:listedOn <http://example.org/gsu-dm#exchange/NYSE> ;
+    dm:ticker "MS" .
+
+<http://example.org/gsu-dm#lab/2> a dm:LabAssignment ;
+    rdfs:label "Lab 2" .
+
+<http://example.org/gsu-dm#cluster/C3> rdfs:label "C3" .
+
+<http://example.org/gsu-dm#sicdivision/D> rdfs:label "Manufacturing" .
+
+<http://example.org/gsu-dm#exchange/Nasdaq> a dm:Exchange ;
+    rdfs:label "Nasdaq" .
+
+<http://example.org/gsu-dm#cluster/C2> rdfs:label "C2" .
+
+dm:FFIndustry a owl:Class ;
+    rdfs:label "Fama-French industry (49)" ;
+    rdfs:subClassOf dm:Classification .
+
+<http://example.org/gsu-dm#lab/0> a dm:LabAssignment ;
+    rdfs:label "Lab 0" .
+
+<http://example.org/gsu-dm#cluster/C1> rdfs:label "C1" .
+
+<http://example.org/gsu-dm#lab/6> a dm:LabAssignment ;
+    rdfs:label "Lab 6" .
+
+<http://example.org/gsu-dm#lab/7> a dm:LabAssignment ;
+    rdfs:label "Lab 7" .
+
+dm:Model a owl:Class .
+
+dm:Result a owl:Class .
+
+<http://example.org/gsu-dm#exchange/NYSE> a dm:Exchange ;
+    rdfs:label "NYSE" .
+
+dm:Company a owl:Class ;
+    rdfs:label "listed company" ;
+    rdfs:subClassOf dm:Organization .
+

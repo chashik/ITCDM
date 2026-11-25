@@ -1,0 +1,8 @@
+Policy,Test RMSE,Mean active groups,Switches
+All available groups (fixed),0.5206,6.0,0
+Best fixed subset on train+valid. (vol+vix),0.4209,2.0,0
+Best subset re-selected at each step (inner validation),0.4315,2.6,57
+"Rolling lasso, $\alpha$ by inner validation",0.4624,--,--
+Random policy (mean of 10 runs),0.4829,--,--
+Q-learning agent (mean of 10 seeds),0.4314,2.7,66
+Hindsight oracle (upper bound),0.3469,--,--

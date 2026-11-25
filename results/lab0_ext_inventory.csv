@@ -1,0 +1,29 @@
+Id,Data,Frequency,Series,First,Last,"Missing, \%"
+D1,S&P 500,daily,1,2000-01-03,2026-06-30,0.0
+D1,Nasdaq Composite,daily,1,2000-01-03,2026-06-30,0.0
+D1,Russell 2000,daily,1,2000-01-03,2026-06-30,0.0
+D1,FTSE 100,daily,1,2000-01-04,2026-06-30,0.0
+D1,Nikkei 225,daily,1,2000-01-04,2026-06-30,0.0
+D1,Euro Stoxx 50,daily,1,2007-03-30,2026-06-30,0.0
+D1,Gold futures,daily,1,2000-08-30,2026-06-30,0.0
+D1,WTI crude oil futures,daily,1,2000-08-23,2026-06-30,0.0
+D1,US Treasury 20+ years ETF,daily,1,2002-07-30,2026-06-30,0.0
+D1,US Treasury 7-10 years ETF,daily,1,2002-07-30,2026-06-30,0.0
+D1,US high-yield bond ETF,daily,1,2007-04-11,2026-06-30,0.0
+D1,Emerging-markets equity ETF,daily,1,2003-04-14,2026-06-30,0.0
+D1,US dollar index,daily,1,2000-01-03,2026-06-30,0.0
+D2,VIX 9-day,daily,1,2011-01-03,2026-06-30,0.0
+D2,Volatility of VIX,daily,1,2007-01-03,2026-06-30,0.0
+D2,CBOE SKEW index,daily,1,2000-01-03,2026-06-30,0.0
+D2,VIX 3-month,daily,1,2007-12-04,2026-06-30,3.6
+D2,Oil volatility index,daily,1,2007-05-10,2026-06-30,3.5
+D2,Gold volatility index,daily,1,2008-06-03,2026-06-30,3.5
+D2,St. Louis Fed financial stress index (weekly),weekly,1,2000-01-07,2026-06-26,0.0
+D2,Chicago Fed national financial conditions index (weekly),weekly,1,2000-01-07,2026-06-26,0.0
+D2,"Economic policy uncertainty index (daily, news-based)",daily,1,2000-01-01,2026-06-30,0.0
+D3,Fama-French 5 factors + momentum,daily,7,2000-01-03,2026-06-30,0.0
+D3,49 industry portfolios (value-weighted),daily,49,2000-01-03,2026-06-30,0.0
+D4,FRED-MD vintage 2026-09,monthly,126,2000-01-01,2026-08-01,0.1
+D6,Scheduled FOMC meetings,events,212,2000-02-02,2026-06-17,0.0
+D7,Statlog German credit,cross-section,20,--,--,0.0
+D8,"Financial news tweets, sentiment",texts,1,--,--,0.0

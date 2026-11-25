@@ -1,0 +1,6 @@
+Bank (inflation),$R^2$ linear,$R^2$ TS-0,$R^2$ TS-1,RMSE no change,RMSE linear,RMSE TS-0,RMSE TS-1
+NBRB,0.59,0.79,0.80,0.17,0.90,2.39,2.52
+NBP,0.35,0.57,0.57,0.17,2.51,2.56,2.51
+Bank of Russia,0.06,0.45,0.62,0.89,6.75,6.05,5.42
+ECB (Lithuanian inflation),0.68,0.75,0.79,0.15,1.40,1.45,1.53
+ECB (euro-area inflation),0.62,0.78,0.80,0.15,1.47,1.29,1.30

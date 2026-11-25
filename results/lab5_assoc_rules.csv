@@ -1,0 +1,11 @@
+IF (antecedent),"Support, \%",Confidence,Lift
+delinquent months=3+ $\wedge$ pay 1=late $\wedge$ utilisation=medium,3.0,0.675,3.05
+pay 1=late $\wedge$ pay ratio=medium $\wedge$ sex=female,2.2,0.663,3.00
+limit=low $\wedge$ pay 1=late $\wedge$ pay ratio=medium,2.4,0.662,2.99
+limit=low $\wedge$ pay 1=late $\wedge$ utilisation=medium,2.4,0.659,2.98
+delinquent months=3+ $\wedge$ pay 1=late $\wedge$ sex=male,3.2,0.655,2.96
+delinquent months=3+ $\wedge$ limit=low $\wedge$ utilisation=medium,2.2,0.654,2.96
+delinquent months=3+ $\wedge$ pay 1=late $\wedge$ pay ratio=medium,2.8,0.649,2.93
+delinquent months=3+ $\wedge$ married=yes $\wedge$ pay 1=late,3.2,0.643,2.90
+pay 1=late $\wedge$ pay ratio=medium,3.7,0.641,2.90
+delinquent months=3+ $\wedge$ limit=low $\wedge$ pay 1=late,4.2,0.639,2.89

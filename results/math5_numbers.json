@@ -1,0 +1,22 @@
+{
+ "order_holds": 1,
+ "residuation_minimum": 1,
+ "assoc_minimum": 0.0,
+ "residuation_product": 1,
+ "assoc_product": 1.1102230246251565e-16,
+ "residuation_lukasiewicz": 1,
+ "assoc_lukasiewicz": 4.440892098500626e-16,
+ "mv_identity_err": 1.1102230246251565e-16,
+ "days": 6618,
+ "partial_share": 36.44605621033545,
+ "contradiction_min_max": 0.49999999999999983,
+ "excluded_middle_max_min": 0.5000000000000002,
+ "contradiction_luk_max": 0.0,
+ "excluded_middle_luk_min": 1.0,
+ "idempotence_luk_maxgap": 0.49999999999999983,
+ "auc_minimum": 0.8748826575757167,
+ "auc_product": 0.8775079837764274,
+ "auc_lukasiewicz": 0.878497253401246,
+ "summaries": 78,
+ "quant_monotone": 1
+}

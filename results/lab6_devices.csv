@@ -1,0 +1,3 @@
+Device,"Test RMSE (single, mean)",Test RMSE (ensemble),DM vs HAR,$p$,Best epoch of seeds 0--4
+CPU,0.4094,0.4061,−2.11,0.035,11 9 10 6 13
+GPU,0.4094,0.4061,−2.11,0.035,11 9 10 6 13

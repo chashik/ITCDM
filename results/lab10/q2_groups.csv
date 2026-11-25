@@ -1,0 +1,16 @@
+country,group,features
+BY,1,"USD rate y/y, bank bond coupon"
+BY,2,"inflation, mortgage rate, petrol y/y, policy rate"
+BY,3,flour y/y
+BY,4,sugar y/y
+BY,5,gov. bond yield
+BY,6,milk y/y
+PL,1,"mortgage rate, policy rate, retail bond rate"
+PL,2,"USD rate y/y, flour y/y, petrol y/y"
+PL,3,"gov. bond yield, inflation, milk y/y, sugar y/y"
+RU,1,"gov. bond yield, policy rate"
+RU,2,"flour y/y, inflation, milk y/y"
+RU,3,mortgage rate
+RU,4,USD rate y/y
+LT,1,"flour y/y, inflation, sugar y/y"
+LT,2,"USD rate y/y, gov. bond yield, milk y/y, mortgage rate, petrol y/y, policy rate"

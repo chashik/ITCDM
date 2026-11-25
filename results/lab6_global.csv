@@ -1,0 +1,11 @@
+Model,Test RMSE,Mean ratio to HAR,Series better,Series,S\&P 500
+Linear HAR + VIX for each series,0.447,1.000,0,62,0.427
+One linear HAR + VIX for all series,0.460,1.034,6,62,0.466
+LSTM trained on the S\&P 500 only,0.427,1.000,1,1,0.427
+Global LSTM,0.444,0.999,24,62,0.438
+Global GRU,0.444,0.998,26,62,0.441
+Global TCN,0.441,0.992,33,62,0.441
+Global Transformer,0.439,0.986,35,62,0.433
+Chronos-Bolt (zero-shot),0.474,1.065,5,62,0.495
+Chronos-2 (zero-shot),0.468,1.053,6,62,0.487
+Chronos-2 with VIX (zero-shot),0.445,1.001,21,62,0.442

@@ -1,0 +1,6 @@
+Model,Predictors,Train RMSE,Valid. RMSE,Test RMSE
+Baseline: log RV and log VIX,2,0.303,0.385,0.338
+"Baseline + all 126 series, OLS",128,0.154,0.668,1.642
+Baseline + 6 principal components,8,0.296,0.384,0.341
+"Baseline + all series, ridge",128,0.236,0.428,0.727
+"Baseline + all series, lasso",24,0.276,0.396,0.466

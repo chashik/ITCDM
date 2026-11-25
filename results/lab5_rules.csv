@@ -1,0 +1,11 @@
+PAY\_1,Utilization,Limit,Pay ratio,Support,P(default),Lift
+paid,low,high,high,995,0.128,0.58
+revolving,high,low,medium,941,0.198,0.89
+paid,low,medium,high,869,0.162,0.73
+revolving,high,medium,medium,550,0.141,0.64
+revolving,medium,medium,medium,495,0.100,0.45
+revolving,medium,low,medium,418,0.216,0.98
+revolving,high,medium,low,290,0.176,0.80
+revolving,low,high,medium,275,0.061,0.28
+paid,low,medium,low,264,0.215,0.97
+revolving,medium,high,medium,250,0.045,0.21

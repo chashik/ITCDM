@@ -1,0 +1,7 @@
+country left out,months,"""hold"" (majority)",conditional inference tree,CART
+BY,57.0,0.754,0.193,0.404
+PL,57.0,0.614,0.474,0.421
+RU,57.0,0.333,0.333,0.368
+LT,48.0,0.396,0.458,0.271
+all four,219.0,0.53,0.361,0.37
+"5-fold cross-validation, 5 repeats",219.0,0.53,0.506,0.571

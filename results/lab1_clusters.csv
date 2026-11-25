@@ -1,0 +1,111 @@
+ticker,sector,risk_cluster,comove_cluster
+AAPL,Information Technology,C2,F9
+MSFT,Information Technology,C2,F9
+NVDA,Information Technology,C6,F9
+ORCL,Information Technology,C2,F2
+CSCO,Information Technology,C2,F2
+ADBE,Information Technology,C2,F9
+INTC,Information Technology,C3,F9
+TXN,Information Technology,C2,F9
+QCOM,Information Technology,C3,F9
+IBM,Information Technology,C2,F2
+JNJ,Health Care,C1,F5
+UNH,Health Care,C2,F5
+PFE,Health Care,C1,F5
+MRK,Health Care,C1,F5
+ABT,Health Care,C2,F5
+TMO,Health Care,C2,F5
+LLY,Health Care,C1,F5
+AMGN,Health Care,C1,F5
+MDT,Health Care,C2,F3
+BMY,Health Care,C1,F5
+JPM,Financials,C3,F11
+BAC,Financials,C3,F11
+WFC,Financials,C3,F11
+C,Financials,C3,F11
+GS,Financials,C3,F11
+MS,Financials,C3,F11
+AXP,Financials,C3,F11
+BLK,Financials,C2,F2
+USB,Financials,C3,F11
+PNC,Financials,C3,F11
+AMZN,Consumer Discretionary,C2,F9
+HD,Consumer Discretionary,C2,F3
+MCD,Consumer Discretionary,C2,F3
+NKE,Consumer Discretionary,C3,F3
+SBUX,Consumer Discretionary,C2,F3
+LOW,Consumer Discretionary,C5,F3
+TJX,Consumer Discretionary,C2,F3
+BKNG,Consumer Discretionary,C3,F11
+F,Consumer Discretionary,C3,F11
+GM,Consumer Discretionary,C3,F11
+PG,Consumer Staples,C1,F8
+KO,Consumer Staples,C1,F8
+PEP,Consumer Staples,C1,F8
+WMT,Consumer Staples,C1,F8
+COST,Consumer Staples,C2,F8
+CL,Consumer Staples,C1,F8
+MDLZ,Consumer Staples,C1,F8
+MO,Consumer Staples,C1,F8
+KMB,Consumer Staples,C1,F8
+GIS,Consumer Staples,C1,F8
+XOM,Energy,C3,F4
+CVX,Energy,C3,F4
+COP,Energy,C4,F4
+SLB,Energy,C4,F4
+EOG,Energy,C4,F4
+OXY,Energy,C4,F4
+PSX,Energy,C3,F4
+VLO,Energy,C6,F4
+MPC,Energy,C6,F4
+HAL,Energy,C4,F4
+HON,Industrials,C2,F3
+UPS,Industrials,C2,F2
+CAT,Industrials,C3,F2
+DE,Industrials,C2,F2
+LMT,Industrials,C1,F5
+RTX,Industrials,C3,F3
+UNP,Industrials,C2,F2
+MMM,Industrials,C3,F2
+FDX,Industrials,C3,F2
+GD,Industrials,C2,F2
+NEE,Utilities,C1,F6
+DUK,Utilities,C1,F6
+SO,Utilities,C1,F6
+D,Utilities,C1,F6
+AEP,Utilities,C1,F6
+EXC,Utilities,C1,F6
+SRE,Utilities,C1,F6
+XEL,Utilities,C1,F6
+ED,Utilities,C1,F6
+PEG,Utilities,C1,F6
+PLD,Real Estate,C2,F1
+AMT,Real Estate,C1,F1
+SPG,Real Estate,C5,F10
+EQIX,Real Estate,C1,F1
+PSA,Real Estate,C1,F1
+O,Real Estate,C5,F10
+WELL,Real Estate,C5,F10
+CCI,Real Estate,C1,F1
+DLR,Real Estate,C1,F1
+VTR,Real Estate,C5,F10
+LIN,Materials,C2,F2
+APD,Materials,C2,F2
+SHW,Materials,C2,F3
+ECL,Materials,C2,F3
+NEM,Materials,C1,F6
+FCX,Materials,C6,F2
+NUE,Materials,C3,F2
+IP,Materials,C3,F2
+VMC,Materials,C3,F3
+MLM,Materials,C3,F3
+GOOGL,Communication Services,C2,F9
+META,Communication Services,C5,F9
+NFLX,Communication Services,C5,F9
+DIS,Communication Services,C3,F11
+CMCSA,Communication Services,C2,F7
+VZ,Communication Services,C1,F7
+T,Communication Services,C1,F7
+TMUS,Communication Services,C1,F7
+CHTR,Communication Services,C5,F7
+OMC,Communication Services,C3,F11

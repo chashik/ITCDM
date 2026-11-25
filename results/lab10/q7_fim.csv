@@ -1,0 +1,12 @@
+,Lab 10 events,Lab 5 credit data
+transactions,232,18000
+items,9,24
+frequent itemsets,34,3455
+identical results,True,True
+Apriori: database passes,4,4
+Apriori: candidates counted,58,4949
+FP-growth: database passes,2,2
+FP-growth: nodes of the FP-tree,81,6585
+FP-growth: conditional trees,17,1206
+"Apriori, seconds",0.0008853599997564743,0.9691599559996575
+"FP-growth, seconds",0.0009295130003010854,0.19281239400015693

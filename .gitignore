@@ -1,0 +1,19 @@
+# environment and caches
+.venv/
+__pycache__/
+.pytest_cache/
+# downloaded public data (recreated by `make data`)
+data/
+# intermediate results that the scripts recompute or cache
+results/*_cache/
+results/*.pkl
+results/*.pt
+results/*.parquet
+results/*.log
+results/rerun_logs/
+# the same exclusions as `make dist` (dmfin-code.zip)
+*.pkl
+*.pt
+*.parquet
+*.log
+results/lab7_stream.json

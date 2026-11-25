@@ -1,0 +1,5 @@
+Method,objects in PAM,cost / PAM,worst of 10,medoids of PAM,seconds
+"PAM, all objects",612,1.000,1.000,3.0,0.051
+"CLARA, 5 samples of 46",46,1.030,1.071,0.0,0.005
+"CLARA, 5 samples of 12",12,1.104,1.147,0.0,0.002
+"CLARA, 1 sample of 12",12,1.173,1.337,0.0,0.000

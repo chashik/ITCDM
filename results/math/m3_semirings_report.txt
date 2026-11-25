@@ -1,0 +1,16 @@
+seg_BY_k              6.000000e+00
+seg_PL_k              6.000000e+00
+seg_RU_k              6.000000e+00
+seg_LT_k              6.000000e+00
+seg_countries_same    4.000000e+00
+seg_matrix_size       6.100000e+01
+seg_products          5.000000e+00
+mamdani_rules         1.500000e+01
+mamdani_days          6.618000e+03
+mamdani_universe      5.010000e+02
+mamdani_max_diff      0.000000e+00
+relu_hidden           1.200000e+01
+relu_points           2.280000e+02
+relu_gap              1.065814e-14
+relu_kinks            5.000000e+00
+relu_pieces           6.000000e+00

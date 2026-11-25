@@ -1,0 +1,8 @@
+Class,Rule,months covered,of them in the class,accuracy
+raise,change over 3 months $>$ 0.6 and inflation $>$ 5.9 and inflation $\le$ 9.4,29,25,0.86
+,real policy rate $\le$ -7.4 and USD rate y/y $>$ 10.7 and inflation $\le$ 17.3,7,7,1.00
+,real policy rate $\le$ -12.1 and change over 3 months $\le$ 2.6,8,8,1.00
+,real policy rate $\le$ -0.2 and change over 3 months $\le$ -4.1 and inflation $\le$ 10.8,6,5,0.83
+,all rules together,50,45,0.90
+cut,"change over 3 months $\le$ -0.1 and USD rate y/y $\le$ -3.0 and food, 3 months $>$ 0.1",13,12,0.92
+,all rules together,13,12,0.92

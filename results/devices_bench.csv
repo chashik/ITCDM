@@ -1,0 +1,13 @@
+Workload,Lab,Unit,CPU threads,"CPU, s","GPU, s",CPU / GPU
+"Perceptron, two layers of 64 units, batch 256",3,epoch,1,0.08,0.17,0.5
+"Q-network, two layers of 64 units, batch 64",7,"1\,000 updates",1,1.19,4.43,0.3
+"LSTM, 32 units, batch 64",6,epoch,2,0.35,0.66,0.5
+"GRU, 32 units, batch 64",6,epoch,2,1.06,1.14,0.9
+"LSTM autoencoder, 32 units, batch 64",6,epoch,16,0.47,1.25,0.4
+"LSTM, two layers of 128 units, batch 32",8,epoch,2,2.88,1.88,1.5
+"LSTM, two layers of 128 units, batch 128",8,epoch,2,2.97,0.45,6.5
+"Global perceptron of the searches, batch 1\,024",8,epoch,1,0.86,0.79,1.1
+"Global LSTM, 62 series, batch 1\,024",6,epoch,16,4.52,1.58,2.9
+"Global Transformer, 62 series, batch 1\,024",6,epoch,16,31.28,4.11,7.6
+"Chronos-2 with VIX, zero-shot",6,"2\,048 forecasts",16,48.42,5.76,8.4
+"DistilRoBERTa fine-tuning, batch 32",3,20 updates,16,14.82,1.06,14.0

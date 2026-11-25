@@ -1,0 +1,5 @@
+Feature set,Features,Train+valid. RMSE,Test RMSE
+All 20 features,20,0.4659,0.5206
+"Groups vol + vix (best fixed subset, Lab 7)",6,0.4186,0.4209
+"GA, individual features (best of 5 runs)",3,0.4126,0.4197
+Forward stepwise selection (same fitness),3,0.4139,0.4263

@@ -1,0 +1,7 @@
+pair,"correlation, same month",lag with the highest correlation (k > 0: first leads by k months),correlation at that lag
+BY-PL,0.571,6,0.895
+BY-RU,0.791,0,0.791
+BY-LT,0.766,3,0.898
+PL-RU,0.417,-6,0.625
+PL-LT,0.938,-2,0.973
+RU-LT,0.58,3,0.685

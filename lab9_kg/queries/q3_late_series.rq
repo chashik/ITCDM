@@ -1,0 +1,7 @@
+PREFIX dm: <http://example.org/gsu-dm#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?series ?provider ?start WHERE {
+  ?s a dm:Series ; rdfs:label ?series ; dm:startDate ?start ; dm:providedBy/rdfs:label ?provider .
+  FILTER (?start > "2005-01-01"^^xsd:date)
+} ORDER BY ?start

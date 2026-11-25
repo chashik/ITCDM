@@ -1,0 +1,8 @@
+Model,AUC,SD,Brier,Cost at 1/6,SD 
+Logistic regression,0.784,0.035,0.168,0.547,0.075
+"MLP (1 x 16, early stopping)",0.786,0.033,0.166,0.534,0.063
+RBF SVM (Platt),0.788,0.030,0.164,0.548,0.062
+$k$ nearest neighbours ($k=25$),0.752,0.030,0.179,0.568,0.055
+Linear discriminant analysis,0.785,0.035,0.168,0.547,0.068
+Gaussian naive Bayes,0.734,0.040,0.323,0.618,0.081
+Trivial: reject everybody / accept everybody,0.500,0.000,--,0.700,0.000

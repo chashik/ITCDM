@@ -1,0 +1,22 @@
+{
+ "pamk_k": 2,
+ "bad_month": "PL 2023-02",
+ "clara_n": 612,
+ "decisions": {
+  "hold": 116,
+  "raise": 60,
+  "cut": 43
+ },
+ "ct_splits": [
+  "USD rate y/y",
+  "inflation",
+  "USD rate y/y"
+ ],
+ "ct_root_p": 4.141648361619102e-06,
+ "cart_depth": 7,
+ "cart_leaves": 18,
+ "bn_score": -1327.6653409432627,
+ "bn_empty": -1440.4067499550213,
+ "bn_months": 220,
+ "regime_months": 232
+}

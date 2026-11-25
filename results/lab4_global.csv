@@ -1,0 +1,4 @@
+Model,Mean test RMSE,Mean ratio to HAR,Series better than HAR,S\&P 500 test RMSE
+Linear HAR model for each series,0.454,1.000,0,0.439
+Gradient boosting for each series,0.475,1.046,4,0.465
+One gradient-boosting model for all series,0.458,1.014,19,0.474

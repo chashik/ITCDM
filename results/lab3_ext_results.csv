@@ -1,0 +1,8 @@
+Model,AUC,PR AUC,Brier,Cost*
+Logistic regression (Lab 3),0.774,0.528,0.137,0.552
+"MLP, 2 x 64, 10-seed ensemble",0.790,0.562,0.133,0.532
+Linear SVM (Platt-calibrated),0.775,0.528,0.138,0.556
+RBF SVM (Platt-calibrated),0.722,0.511,0.141,0.612
+$k$ nearest neighbours ($k=200$),0.779,0.527,0.138,0.552
+Linear discriminant analysis,0.773,0.527,0.138,0.553
+Gaussian naive Bayes,0.765,0.506,0.189,0.569

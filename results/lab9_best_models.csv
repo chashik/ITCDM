@@ -1,0 +1,9 @@
+lab,metric,model,value
+Lab 2,test RMSE of log RV (22 days),"Linear, 7 features",0.354
+Lab 4,test RMSE of log RV (22 days),Linear (Lab 2),0.354
+Lab 4,"mean test RMSE per series of log RV (5 days, 62 series)",Linear HAR model for each series,0.454
+Lab 6,test RMSE of log RV (5 days),"LSTM, 5-seed ensemble",0.406
+Lab 6,test RMSE of log RV (5 days),"Elman RNN, 5-seed ensemble",0.406
+Lab 6,"pooled test RMSE of log RV (5 days, 62 series)",Global Transformer,0.439
+Lab 7,"test RMSE of log RV (5 days), 11 feature groups",Best fixed subset on train+valid.,0.421
+Lab 8,"pooled test RMSE of log RV (5 days, 62 series)",TPE (Optuna),0.443

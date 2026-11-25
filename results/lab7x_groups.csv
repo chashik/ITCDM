@@ -1,0 +1,6 @@
+Group,Features,Source,Last series starts,First usable decision,"Available in test, \%"
+termvol,"log\_vix9d, log\_vix3m, vix\_slope, log\_vvix, skew","Cboe (Yahoo), FRED",2011-01,2013-06,100
+stress,"stlfsi, nfci, log\_epu\_22","FRED (St. Louis Fed, Chicago Fed, EPU)",2000-06,2003-10,100
+cross,"ndx\_ret\_5, rut\_ret\_5, sx5e\_ret\_5, n225\_ret\_5, gold\_ret\_22, tlt\_ret\_22, hyg\_ret\_22, eem\_ret\_22, dxy\_ret\_22",Yahoo,2007-05,2009-10,100
+crossvol,"ndx\_lrv\_22, rut\_lrv\_22, gold\_lrv\_22, oil\_lrv\_22, tlt\_lrv\_22, log\_ovx, log\_gvz","Yahoo, FRED (Cboe)",2008-06,2010-11,100
+factors,"mkt\_22, smb\_22, hml\_22, rmw\_22, cma\_22, mom\_22",Kenneth French library,2000-06,2003-10,100

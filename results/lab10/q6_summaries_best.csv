@@ -1,0 +1,21 @@
+country,period,qualifier W,summarizer S,quantifier Q,proportion r,T1 truth,T2 imprecision (high = precise S),T3 covering,score T1 x T3
+BY,2024-2025,falling inflation,the policy rate was much higher than inflation,almost all,1.0,1.0,0.657,1.0,1.0
+BY,2024-2025,high inflation (above 5-10 %),the policy rate was much higher than inflation,almost all,1.0,1.0,0.657,1.0,1.0
+RU,2024-2025,(all months),the policy rate was much higher than inflation,almost all,1.0,1.0,0.657,1.0,1.0
+LT,2021-2025,high inflation (above 5-10 %),the policy rate was much lower than inflation,almost all,1.0,1.0,0.4,1.0,1.0
+RU,2024-2025,falling inflation,the policy rate was much higher than inflation,almost all,1.0,1.0,0.657,1.0,1.0
+RU,2024-2025,high inflation (above 5-10 %),the policy rate was much higher than inflation,almost all,1.0,1.0,0.657,1.0,1.0
+PL,2024-2025,falling inflation,the policy rate was much higher than inflation,about half,0.527,1.0,0.657,1.0,1.0
+PL,2024-2025,falling inflation,the policy rate was about equal to inflation,most,0.832,1.0,0.772,1.0,1.0
+BY,2024-2025,(all months),the policy rate was much higher than inflation,most,0.781,0.923,0.657,1.0,0.923
+PL,2021-2025,high inflation (above 5-10 %),the policy rate was much lower than inflation,most,0.94,1.0,0.4,0.897,0.897
+PL,2024-2025,(all months),the policy rate was much higher than inflation,few,0.273,1.0,0.657,0.792,0.792
+BY,2024-2025,high inflation (above 5-10 %),the policy rate was about equal to inflation,most,0.862,1.0,0.772,0.792,0.792
+BY,2024-2025,(all months),the policy rate was about equal to inflation,few,0.219,1.0,0.772,0.792,0.792
+PL,2021-2025,falling inflation,the policy rate was about equal to inflation,about half,0.491,1.0,0.772,0.731,0.731
+RU,2021-2025,(all good-years),a good grew about as fast as inflation,about half,0.564,0.907,0.904,0.8,0.726
+LT,2021-2025,(all months),the policy rate was much lower than inflation,about half,0.494,1.0,0.4,0.65,0.65
+LT,2021-2025,(all good-years),a good grew much slower than inflation,about half,0.521,1.0,0.656,0.6,0.6
+LT,2024-2025,falling inflation,the policy rate was about equal to inflation,about half,0.616,0.56,0.772,1.0,0.56
+RU,2021-2025,falling inflation,the policy rate was much higher than inflation,about half,0.555,0.965,0.657,0.571,0.552
+LT,2021-2025,falling inflation,the policy rate was much lower than inflation,about half,0.499,1.0,0.4,0.524,0.524

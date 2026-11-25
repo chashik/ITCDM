@@ -1,0 +1,13 @@
+Country,Period,Summary,$T_1$,$T_2$,$T_3$
+Belarus,2024--2025,"In almost all of the months with falling inflation, the policy rate was much higher than inflation",1.00,0.66,1.00
+,2024--2025,"In almost all of the months with high inflation (above 5--10 %), the policy rate was much higher than inflation",1.00,0.66,1.00
+,2024--2025,"In most of the months, the policy rate was much higher than inflation",0.92,0.66,1.00
+Poland,2024--2025,"In about half of the months with falling inflation, the policy rate was much higher than inflation",1.00,0.66,1.00
+,2024--2025,"In most of the months with falling inflation, the policy rate was about equal to inflation",1.00,0.77,1.00
+,2021--2025,"In most of the months with high inflation (above 5--10 %), the policy rate was much lower than inflation",1.00,0.40,0.90
+Russia,2024--2025,"In almost all of the months, the policy rate was much higher than inflation",1.00,0.66,1.00
+,2024--2025,"In almost all of the months with falling inflation, the policy rate was much higher than inflation",1.00,0.66,1.00
+,2024--2025,"In almost all of the months with high inflation (above 5--10 %), the policy rate was much higher than inflation",1.00,0.66,1.00
+Lithuania,2021--2025,"In almost all of the months with high inflation (above 5--10 %), the policy rate was much lower than inflation",1.00,0.40,1.00
+,2021--2025,"In about half of the months, the policy rate was much lower than inflation",1.00,0.40,0.65
+,2021--2025,"In about half of the good-years, a good grew much slower than inflation",1.00,0.66,0.60

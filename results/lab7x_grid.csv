@@ -1,0 +1,39 @@
+Groups,Agent,Hyperparameters,Valid. RMSE,SD,Chosen
+6,Q-learning,"alpha=0.05, gamma=0.5",0.4782,0.0071,
+6,Q-learning,"alpha=0.05, gamma=0.9",0.4706,0.0033,
+6,Q-learning,"alpha=0.1, gamma=0.5",0.4799,0.0065,
+6,Q-learning,"alpha=0.1, gamma=0.9",0.4684,0.0066,*
+6,Q-learning,"alpha=0.3, gamma=0.5",0.4890,0.0060,
+6,Q-learning,"alpha=0.3, gamma=0.9",0.4809,0.0117,
+6,SARSA,"alpha=0.05, gamma=0.5",0.4741,0.0024,
+6,SARSA,"alpha=0.05, gamma=0.9",0.4700,0.0052,*
+6,SARSA,"alpha=0.1, gamma=0.5",0.4776,0.0126,
+6,SARSA,"alpha=0.1, gamma=0.9",0.4738,0.0025,
+6,SARSA,"alpha=0.3, gamma=0.5",0.4979,0.0047,
+6,SARSA,"alpha=0.3, gamma=0.9",0.4850,0.0108,
+6,LinUCB (contextual bandit),alpha=0.1,0.4930,0.0038,*
+6,LinUCB (contextual bandit),alpha=0.3,0.4932,0.0089,
+6,LinUCB (contextual bandit),alpha=1,0.4957,0.0080,
+6,Deep Q-network,"lr=0.0003, gamma=0.5",0.4893,0.0075,
+6,Deep Q-network,"lr=0.0003, gamma=0.9",0.4881,0.0088,
+6,Deep Q-network,"lr=0.001, gamma=0.5",0.5199,0.0309,
+6,Deep Q-network,"lr=0.001, gamma=0.9",0.4831,0.0118,*
+11,Q-learning,"alpha=0.05, gamma=0.5",0.4917,0.0077,*
+11,Q-learning,"alpha=0.05, gamma=0.9",0.5228,0.0145,
+11,Q-learning,"alpha=0.1, gamma=0.5",0.5509,0.0202,
+11,Q-learning,"alpha=0.1, gamma=0.9",0.5197,0.0139,
+11,Q-learning,"alpha=0.3, gamma=0.5",0.5320,0.0410,
+11,Q-learning,"alpha=0.3, gamma=0.9",0.4934,0.0220,
+11,SARSA,"alpha=0.05, gamma=0.5",0.5083,0.0113,
+11,SARSA,"alpha=0.05, gamma=0.9",0.5044,0.0064,*
+11,SARSA,"alpha=0.1, gamma=0.5",0.5073,0.0120,
+11,SARSA,"alpha=0.1, gamma=0.9",0.5111,0.0168,
+11,SARSA,"alpha=0.3, gamma=0.5",0.5130,0.0102,
+11,SARSA,"alpha=0.3, gamma=0.9",0.5074,0.0147,
+11,LinUCB (contextual bandit),alpha=0.1,0.5024,0.0038,
+11,LinUCB (contextual bandit),alpha=0.3,0.5149,0.0271,
+11,LinUCB (contextual bandit),alpha=1,0.4867,0.0152,*
+11,Deep Q-network,"lr=0.0003, gamma=0.5",0.5082,0.0145,
+11,Deep Q-network,"lr=0.0003, gamma=0.9",0.4952,0.0056,
+11,Deep Q-network,"lr=0.001, gamma=0.5",0.5204,0.0359,
+11,Deep Q-network,"lr=0.001, gamma=0.9",0.4828,0.0088,*

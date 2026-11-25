@@ -1,0 +1,190 @@
+== silhouette
+            PAM  k-means
+clusters                
+2         0.474    0.476
+3         0.227    0.429
+4         0.279    0.399
+5         0.322    0.369
+6         0.341    0.341
+
+== medoids
+        PAM medoid  PAM size  medoid: inflation  medoid: change over 3 months  medoid: real policy rate  k-means size  centre: inflation  centre: change over 3 months  centre: real policy rate k-means centre: nearest country-month  k-means centre: its distance (s.d.)
+regime                                                                                                                                                                                                                                                                     
+1       BY 2024-12        99              5.153                        -0.882                     4.347           151              5.616                         0.398                     2.361                            BY 2024-08                                0.180
+2       RU 2021-07        86              6.500                         1.000                    -0.806            39              9.324                        -4.359                    -2.339                            PL 2023-07                                0.410
+3       PL 2022-09        47             17.200                         1.700                   -10.508            42             16.265                         2.897                   -10.794                            PL 2022-07                                0.282
+
+== robustness
+                                       PAM, k = 2  k-means, k = 2  PAM, k = 3  k-means, k = 3
+inflation of PL 2023-02 multiplied by                                                        
+2                                             0.0           0.036         0.0           0.045
+5                                             0.0           0.165         0.0           5.930
+10                                            0.0          16.528         0.0          11.856
+
+== CLARA
+                        objects used by PAM  cost relative to PAM  worst of 10 runs  medoids shared with PAM  seconds
+method                                                                                                               
+PAM, all objects                        612                 1.000             1.000                      3.0    0.051
+CLARA, 5 samples of 46                   46                 1.030             1.071                      0.0    0.005
+CLARA, 5 samples of 12                   12                 1.104             1.147                      0.0    0.002
+CLARA, 1 sample of 12                    12                 1.173             1.337                      0.0    0.000
+
+== spectral
+         series  groups, average linkage  groups by eigengap  adjusted Rand, same number of groups                                                                                                          spectral groups (eigengap)
+country                                                                                                                                                                                                                               
+BY           10                        6                   2                                 0.617  petrol y/y, inflation, USD rate y/y, mortgage rate, gov. bond yield, bank bond coupon; flour y/y, milk y/y, sugar y/y, policy rate
+PL           10                        3                   2                                 0.318  flour y/y, milk y/y, sugar y/y, petrol y/y, inflation, USD rate y/y, gov. bond yield; policy rate, mortgage rate, retail bond rate
+RU            7                        4                   2                                 0.488                                           flour y/y, milk y/y, inflation, USD rate y/y, mortgage rate; policy rate, gov. bond yield
+LT            9                        2                   2                                 1.000                    milk y/y, petrol y/y, USD rate y/y, policy rate, mortgage rate, gov. bond yield; flour y/y, sugar y/y, inflation
+
+== HMM BIC
+        log-likelihood  parameters       BIC
+states                                      
+2            -1564.010           7  3173.074
+3            -1335.531          14  2761.169
+4            -1175.810          23  2499.652
+5            -1067.842          34  2354.514
+
+== HMM states
+          mean inflation, %  standard deviation, p.p.  stay probability  expected stay, months
+low                   1.649                     1.468             0.972                 35.204
+moderate              5.893                     1.198             0.931                 14.510
+high                 14.004                     3.872             0.956                 22.717
+
+== HMM transitions
+               to low  to moderate  to high
+from low        0.972        0.028    0.000
+from moderate   0.037        0.931    0.032
+from high       0.006        0.038    0.956
+
+== HMM share
+       low  moderate    high
+BY   3.846    48.718  47.436
+PL  70.513    16.026  13.462
+RU  21.154    51.282  27.564
+LT  82.692     5.128  12.179
+
+== HMM vs segmentation
+         segments of stage 3  HMM state changes 2021-2025 first month in the high state last month in the high state
+country                                                                                                             
+BY                         6                            4                       2021-02                      2023-02
+PL                         6                            6                       2021-12                      2023-08
+RU                         6                            5                       2022-01                      2025-07
+LT                         6                            4                       2021-11                      2023-05
+
+== FIM
+                                Lab 10 events Lab 5 credit data
+transactions                              232             18000
+items                                       9                24
+frequent itemsets                          34              3455
+identical results                        True              True
+Apriori: database passes                    4                 4
+Apriori: candidates counted                58              4949
+FP-growth: database passes                  2                 2
+FP-growth: nodes of the FP-tree            81              6585
+FP-growth: conditional trees               17              1206
+Apriori, seconds                     0.000885           0.96916
+FP-growth, seconds                    0.00093          0.192812
+
+== rules
+                                                         antecedent          consequent  support  confidence   lift  length
+1  food up over 3 % AND inflation above 10 % AND real rate negative    inflation rising    0.103       0.828  2.595       3
+0                         food up over 3 % AND inflation above 10 %    inflation rising    0.116       0.818  2.565       2
+5                           food up over 3 % AND real rate negative    inflation rising    0.134       0.795  2.492       2
+8                         petrol up over 3 % AND real rate negative    inflation rising    0.168       0.750  2.351       2
+4                                                  food up over 3 %    inflation rising    0.151       0.714  2.239       1
+2                                                  food up over 3 %  policy rate raised    0.142       0.673  2.111       1
+
+== events
+inflation above 10 %       28.879
+inflation rising           31.897
+inflation falling          25.431
+policy rate raised         31.897
+policy rate cut            21.552
+real rate negative         52.586
+dollar up over 10 % y/y    21.552
+food up over 3 %           21.121
+petrol up over 3 %         27.155
+
+== trees LOCO
+                                    months  "hold" (majority)  conditional inference tree   CART
+country left out                                                                                
+BY                                    57.0              0.754                       0.193  0.404
+PL                                    57.0              0.614                       0.474  0.421
+RU                                    57.0              0.333                       0.333  0.368
+LT                                    48.0              0.396                       0.458  0.271
+all four                             219.0              0.530                       0.361  0.370
+5-fold cross-validation, 5 repeats   219.0              0.530                       0.506  0.571
+
+== ctree rules
+                                                                leaf  months  P(cut)  P(hold)  P(raise)
+0                                               USD rate y/y <= -9.9      27   0.556    0.444     0.000
+1  USD rate y/y > -9.9 AND inflation <= 4.6 AND USD rate y/y <= 15.9      49   0.449    0.531     0.020
+2   USD rate y/y > -9.9 AND inflation <= 4.6 AND USD rate y/y > 15.9       7   0.000    0.714     0.286
+3                            USD rate y/y > -9.9 AND inflation > 4.6     136   0.044    0.537     0.419
+
+== bias
+                                       CART  conditional inference tree
+inflation                            13.333                      11.000
+change over 3 months                 15.000                      17.000
+real policy rate                     17.333                      13.333
+USD rate y/y                         15.000                      14.667
+food, 3 months                       18.667                      12.667
+noise, continuous                    19.333                      15.333
+noise, binary                         1.333                      16.000
+root split made, % of permutations  100.000                       3.000
+
+== covering
+   class                                                                             rule  months covered  of them in the class  accuracy  share of the class covered
+0  raise              change over 3 months > 0.6 AND inflation > 5.9 AND inflation <= 9.4              29                    25     0.862                         NaN
+1  raise           real policy rate <= -7.4 AND USD rate y/y > 10.7 AND inflation <= 17.3               7                     7     1.000                         NaN
+2  raise                        real policy rate <= -12.1 AND change over 3 months <= 2.6               8                     8     1.000                         NaN
+3  raise  real policy rate <= -0.2 AND change over 3 months <= -4.1 AND inflation <= 10.8               6                     5     0.833                         NaN
+4  raise                                                               all rules together              50                    45     0.900                       0.750
+5    cut   change over 3 months <= -0.1 AND USD rate y/y <= -3.0 AND food, 3 months > 0.1              13                    12     0.923                         NaN
+6    cut                                                               all rules together              13                    12     0.923                       0.279
+
+== BN arcs
+                                 arc  BIC  AIC
+0       food, past → inflation, past  yes  yes
+1          food, past → policy, past  yes  yes
+2  inflation, past → inflation, next  yes  yes
+3        policy, past → policy, next  yes  yes
+4   USD rate, past → inflation, next   no  yes
+5      USD rate, past → policy, past   no  yes
+6        food, past → USD rate, past   no  yes
+7     inflation, next → policy, next   no  yes
+8     policy, past → inflation, past   no  yes
+
+== BN queries
+                                                                query  network (BIC)  network (AIC)  share in the data  months
+0                                         P(inflation, next = rising)          0.310          0.315              0.309     220
+1              P(inflation, next = rising | inflation, past = rising)          0.494          0.488              0.500      74
+2                   P(inflation, next = rising | USD rate, past = up)          0.310          0.502              0.528      72
+3  P(inflation, next = rising | USD rate, past = up, food, past = up)          0.416          0.580              0.630      27
+4                                             P(policy, next = raise)          0.318          0.315              0.318     220
+5                  P(policy, next = raise | inflation, past = rising)          0.378          0.426              0.432      74
+6                   P(policy, next = cut | inflation, past = falling)          0.271          0.420              0.411      56
+
+{
+ "pamk_k": 2,
+ "bad_month": "PL 2023-02",
+ "clara_n": 612,
+ "decisions": {
+  "hold": 116,
+  "raise": 60,
+  "cut": 43
+ },
+ "ct_splits": [
+  "USD rate y/y",
+  "inflation",
+  "USD rate y/y"
+ ],
+ "ct_root_p": 4.141648361619102e-06,
+ "cart_depth": 7,
+ "cart_leaves": 18,
+ "bn_score": -1327.6653409432627,
+ "bn_empty": -1440.4067499550213,
+ "bn_months": 220,
+ "regime_months": 232
+}

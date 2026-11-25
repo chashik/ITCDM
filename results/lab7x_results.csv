@@ -1,0 +1,11 @@
+Policy,"RMSE, 6","SD, 6","Groups, 6","RMSE, 11","SD, 11","Groups, 11"
+All available groups (fixed),0.5206,--,6.0,0.6612,--,11.0
+Best fixed subset on train+valid.,0.4209,--,2.0,0.4209,--,2.0
+Re-selection at each step (inner validation),0.4315,--,2.6,0.4767,--,4.2
+Rolling lasso on all available features,0.4624,--,--,0.4431,--,--
+Random policy (10 runs),0.4829,0.0599,--,0.5014,0.0513,--
+Q-learning (10 seeds),0.4286,0.0051,2.0,0.4679,0.0351,4.8
+SARSA (10 seeds),0.4284,0.0037,2.3,0.4773,0.0312,4.7
+LinUCB (contextual bandit) (10 seeds),0.4447,0.0187,3.8,0.4524,0.0283,4.5
+Deep Q-network (10 seeds),0.4406,0.0222,3.1,0.4657,0.0290,4.1
+Hindsight oracle (bound),0.3469,--,--,0.2958,--,--

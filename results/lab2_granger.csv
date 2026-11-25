@@ -1,0 +1,5 @@
+Period,Direction,Lags (BIC),$F$,$p$
+2000--2014,log\_vix $\to$ log\_rv,6,88.4,$<0.001$
+2000--2014,log\_rv $\to$ log\_vix,6,0.8,0.585
+2019--2026,log\_vix $\to$ log\_rv,5,58.2,$<0.001$
+2019--2026,log\_rv $\to$ log\_vix,5,1.0,0.427

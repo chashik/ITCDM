@@ -1,0 +1,13 @@
+Cluster,Industries,Size
+I1,"Banks, Insur, Fin",3
+I2,Other,1
+I3,"Hlth, MedEq, Drugs, Whlsl",4
+I4,"Food, Soda, Beer, Smoke, Hshld",5
+I5,"Agric, Steel, Gold, Mines, Coal, Oil, Util",7
+I6,"Fun, Books, BusSv",3
+I7,"Aero, Ships, Guns",3
+I8,"Chems, Rubbr, Txtls, BldMt, Cnstr, FabPr, Mach, ElcEq, Autos, Paper, Boxes, Trans, RlEst",13
+I9,"Toys, Clths, Rtail, Meals",4
+I10,PerSv,1
+I11,"Hardw, Softw, Chips, LabEq",4
+I12,Telcm,1

@@ -1,0 +1,13 @@
+{
+ "cf_total": 92.80000000000001,
+ "cf_min": 74.79674796747967,
+ "cf_max": 100.0,
+ "bh_rej": 8,
+ "bh_true": 7,
+ "bonf_rej": 2,
+ "raw_rej": 23,
+ "raw_true": 10,
+ "mp_a": 294,
+ "mp_b": 1395,
+ "mp_discord": 997
+}

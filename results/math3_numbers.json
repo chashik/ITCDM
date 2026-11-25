@@ -1,0 +1,18 @@
+{
+ "seg_BY_k": 6,
+ "seg_PL_k": 6,
+ "seg_RU_k": 6,
+ "seg_LT_k": 6,
+ "seg_countries_same": 4,
+ "seg_matrix_size": 61,
+ "seg_products": 5,
+ "mamdani_rules": 15,
+ "mamdani_days": 6618,
+ "mamdani_universe": 501,
+ "mamdani_max_diff": 0.0,
+ "relu_hidden": 12,
+ "relu_points": 228,
+ "relu_gap": 1.0658141036401503e-14,
+ "relu_kinks": 5,
+ "relu_pieces": 6
+}

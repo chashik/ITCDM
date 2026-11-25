@@ -1,0 +1,4 @@
+Motif,Train windows,Test windows,Mean end level (z),"Next-5-day return, %","Next-5-day vol., %"
+M1,52,197,1.03,0.22,12.3
+M2,28,84,0.98,0.50,13.3
+M3,38,88,−1.19,0.18,24.5

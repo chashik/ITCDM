@@ -1,0 +1,11 @@
+Groups,$\lambda_u$,Best fixed subset without labels,RMSE (fixed),Groups (agent),RMSE (agent),SD
+6,2,"vol, vix, mom, rates, credit, macro",0.5206,5.9,0.5194,0.0017
+6,4,"vix, mom, rates, macro",0.4519,4.8,0.4867,0.0338
+6,8,"vix, mom, rates, macro",0.4519,3.5,0.4628,0.0228
+6,16,"vix, rates",0.4257,2.3,0.4696,0.0159
+6,32,vix,0.4405,2.0,0.4927,0.0341
+11,2,"vix, mom, rates, macro, stress, cross, crossvol, factors",0.5415,6.0,0.4979,0.0379
+11,4,"vix, rates, macro, stress, cross, crossvol, factors",0.5385,5.4,0.4949,0.0327
+11,8,"vix, rates, factors",0.4372,4.7,0.5031,0.0295
+11,16,"mom, rates",0.4944,3.6,0.4955,0.0271
+11,32,vix,0.4405,3.2,0.4946,0.0343

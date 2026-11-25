@@ -1,0 +1,15 @@
+Source,Series,Frequency,First,Last,Observations,"Missing, %"
+Yahoo Finance,^GSPC (S&P 500 OHLCV),daily,2000-01-03,2026-06-30,"6\,662",0.00
+FRED,VIXCLS,daily,2000-01-03,2026-06-30,"6\,694",3.15
+FRED,DGS10,daily,2000-01-03,2026-06-30,"6\,626",4.14
+FRED,DGS2,daily,2000-01-03,2026-06-30,"6\,626",4.14
+FRED,DTB3,daily,2000-01-03,2026-06-30,"6\,626",4.14
+FRED,DBAA,daily,2000-01-03,2026-06-30,"6\,625",4.15
+FRED,DAAA,daily,2000-01-03,2026-06-30,"6\,625",4.15
+FRED,DFF,daily,2000-01-01,2026-06-30,"9\,678",0.00
+FRED,DCOILWTICO,daily,2000-01-04,2026-06-30,"6\,264",9.36
+FRED,T10YIE,daily,2003-01-02,2026-06-30,"5\,877",4.11
+FRED,DTWEXBGS,daily,2006-01-02,2026-06-30,"5\,137",3.93
+FRED,USREC,monthly,2000-01-01,2026-06-01,318,0.00
+Yahoo Finance,"110 stocks, adj. close",daily,2016-07-01,2026-06-30,"276\,320",0.00
+UCI ML Repository,Default of credit card clients,cross-section,2005,2005,"30\,000",0.00

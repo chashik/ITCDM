@@ -1,0 +1,5 @@
+,leaf,months,P(cut),P(hold),P(raise)
+0,USD rate y/y <= -9.9,27,0.556,0.444,0.0
+1,USD rate y/y > -9.9 AND inflation <= 4.6 AND USD rate y/y <= 15.9,49,0.449,0.531,0.02
+2,USD rate y/y > -9.9 AND inflation <= 4.6 AND USD rate y/y > 15.9,7,0.0,0.714,0.286
+3,USD rate y/y > -9.9 AND inflation > 4.6,136,0.044,0.537,0.419

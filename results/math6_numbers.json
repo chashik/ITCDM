@@ -1,0 +1,17 @@
+{
+ "size_plain_rho0": 4.8,
+ "size_cyclic_rho0": 4.2,
+ "size_plain_rho09": 48.8,
+ "size_cyclic_rho09": 10.9,
+ "mi_features": 35,
+ "mi_sig_plain": 27,
+ "mi_sig_cyclic": 6,
+ "att_equiv_err": 5.329070518200751e-15,
+ "att_pe_equiv_err": 12.653234297914775,
+ "pe_rotation_err": 3.3993233385887878e-15,
+ "season_proj_err": 3.3306690738754696e-15,
+ "season_share_h1": 60.074986526520256,
+ "season_share_h2": 15.717010873182463,
+ "season_top_harmonic": 1,
+ "season_months": 60
+}

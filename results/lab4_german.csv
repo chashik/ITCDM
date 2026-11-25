@@ -1,0 +1,4 @@
+Model,AUC,SD,Cost at 1/6,SD 
+Decision tree (depth 4),0.706,0.030,0.583,0.067
+Random forest,0.797,0.032,0.537,0.045
+Gradient boosting,0.775,0.035,0.618,0.080

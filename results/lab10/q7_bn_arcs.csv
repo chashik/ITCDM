@@ -1,0 +1,10 @@
+,arc,BIC,AIC
+0,"food, past → inflation, past",yes,yes
+1,"food, past → policy, past",yes,yes
+2,"inflation, past → inflation, next",yes,yes
+3,"policy, past → policy, next",yes,yes
+4,"USD rate, past → inflation, next",no,yes
+5,"USD rate, past → policy, past",no,yes
+6,"food, past → USD rate, past",no,yes
+7,"inflation, next → policy, next",no,yes
+8,"policy, past → inflation, past",no,yes

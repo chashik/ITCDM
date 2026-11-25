@@ -1,0 +1,5 @@
+PREFIX dm: <http://example.org/gsu-dm#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?sector ?division (COUNT(?c) AS ?n) WHERE {
+  ?c a dm:Company ; dm:inSector/rdfs:label ?sector ; dm:sicDivisionOf/rdfs:label ?division .
+} GROUP BY ?sector ?division ORDER BY ?sector DESC(?n)

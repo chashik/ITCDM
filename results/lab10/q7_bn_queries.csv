@@ -1,0 +1,8 @@
+,query,network (BIC),network (AIC),share in the data,months
+0,"P(inflation, next = rising)",0.31,0.315,0.309,220
+1,"P(inflation, next = rising | inflation, past = rising)",0.494,0.488,0.5,74
+2,"P(inflation, next = rising | USD rate, past = up)",0.31,0.502,0.528,72
+3,"P(inflation, next = rising | USD rate, past = up, food, past = up)",0.416,0.58,0.63,27
+4,"P(policy, next = raise)",0.318,0.315,0.318,220
+5,"P(policy, next = raise | inflation, past = rising)",0.378,0.426,0.432,74
+6,"P(policy, next = cut | inflation, past = falling)",0.271,0.42,0.411,56

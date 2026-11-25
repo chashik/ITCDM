@@ -1,0 +1,5 @@
+Country,series,"$R^2$ in sample, min","$R^2$ in sample, max",better than last value,which (skill)
+Belarus,9,0.74,0.97,0,--
+Poland,10,0.77,0.98,1,gov. bond yield (0.23)
+Russia,7,0.64,0.94,2,"milk y/y (0.06), mortgage rate (0.07)"
+Lithuania,9,0.89,1.00,3,"inflation (0.13), policy rate (0.38), mortgage rate (0.14)"

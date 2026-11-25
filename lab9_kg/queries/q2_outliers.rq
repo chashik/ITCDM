@@ -1,0 +1,9 @@
+PREFIX dm: <http://example.org/gsu-dm#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?ticker ?sector ?industry WHERE {
+  ?c dm:ticker ?ticker ; dm:inSector ?s ; dm:inFFIndustry ?f .
+  ?s rdfs:label ?sector . ?f rdfs:label ?industry .
+  { SELECT ?s (COUNT(?o) AS ?total) WHERE { ?o dm:inSector ?s } GROUP BY ?s }
+  { SELECT ?s ?f (COUNT(?o2) AS ?k) WHERE { ?o2 dm:inSector ?s ; dm:inFFIndustry ?f } GROUP BY ?s ?f }
+  FILTER (?k = 1 && ?total >= 5)
+} ORDER BY ?sector ?ticker

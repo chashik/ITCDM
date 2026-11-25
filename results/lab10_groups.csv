@@ -1,0 +1,5 @@
+Country,Groups (correlation at least 0.6)
+Belarus,"\{USD rate y/y, bank bond coupon\}; \{inflation, mortgage rate, petrol y/y, policy rate\}"
+Poland,"\{mortgage rate, policy rate, retail bond rate\}; \{USD rate y/y, flour y/y, petrol y/y\}; \{gov. bond yield, inflation, milk y/y, sugar y/y\}"
+Russia,"\{gov. bond yield, policy rate\}; \{flour y/y, inflation, milk y/y\}"
+Lithuania,"\{flour y/y, inflation, sugar y/y\}; \{USD rate y/y, gov. bond yield, milk y/y, mortgage rate, petrol y/y, policy rate\}"

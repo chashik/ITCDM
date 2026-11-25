@@ -1,0 +1,8 @@
+,flour y/y,milk y/y,inflation,USD rate y/y,policy rate,mortgage rate,gov. bond yield
+flour y/y,1.0,0.81,0.91,-0.62,0.17,-0.62,-0.22
+milk y/y,0.81,1.0,0.74,-0.67,0.45,-0.59,0.14
+inflation,0.91,0.74,1.0,-0.45,0.15,-0.57,-0.19
+USD rate y/y,-0.62,-0.67,-0.45,1.0,0.03,0.58,0.16
+policy rate,0.17,0.45,0.15,0.03,1.0,0.15,0.84
+mortgage rate,-0.62,-0.59,-0.57,0.58,0.15,1.0,0.43
+gov. bond yield,-0.22,0.14,-0.19,0.16,0.84,0.43,1.0

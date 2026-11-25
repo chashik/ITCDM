@@ -1,0 +1,22 @@
+|--- pay_1 <= 1.50
+|   |--- max_delay <= 0.50
+|   |   |--- pay_amt3 <= 6.50
+|   |   |   |--- class: 0
+|   |   |--- pay_amt3 >  6.50
+|   |   |   |--- class: 0
+|   |--- max_delay >  0.50
+|   |   |--- n_delinquent <= 2.50
+|   |   |   |--- class: 0
+|   |   |--- n_delinquent >  2.50
+|   |   |   |--- class: 0
+|--- pay_1 >  1.50
+|   |--- pay_3 <= -0.50
+|   |   |--- bill_amt1 <= 7.75
+|   |   |   |--- class: 0
+|   |   |--- bill_amt1 >  7.75
+|   |   |   |--- class: 1
+|   |--- pay_3 >  -0.50
+|   |   |--- utilisation <= 0.64
+|   |   |   |--- class: 1
+|   |   |--- utilisation >  0.64
+|   |   |   |--- class: 1

@@ -1,0 +1,7 @@
+Evaluation (country left out),months,``hold'' (majority),conditional inference tree,CART
+Belarus,57,0.75,0.19,0.40
+Poland,57,0.61,0.47,0.42
+Russia,57,0.33,0.33,0.37
+Lithuania,48,0.40,0.46,0.27
+all four,219,0.53,0.36,0.37
+"5-fold cross-validation, 5 repeats",219,0.53,0.51,0.57

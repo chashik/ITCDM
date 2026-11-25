@@ -1,0 +1,31 @@
+bank (inflation used),rule,"c, %",months behind the rule (sum of firing strengths),supported
+BY,"IF inflation low, falling THEN rate next month is about c",9.399,9.938,yes
+BY,"IF inflation low, rising THEN rate next month is about c",10.072,6.41,yes
+BY,"IF inflation medium, falling THEN rate next month is about c",10.129,10.014,yes
+BY,"IF inflation medium, rising THEN rate next month is about c",8.495,17.036,yes
+BY,"IF inflation high, falling THEN rate next month is about c",11.831,5.066,yes
+BY,"IF inflation high, rising THEN rate next month is about c",11.654,8.537,yes
+PL,"IF inflation low, falling THEN rate next month is about c",5.468,13.741,yes
+PL,"IF inflation low, rising THEN rate next month is about c",3.261,11.119,yes
+PL,"IF inflation medium, falling THEN rate next month is about c",6.192,7.048,yes
+PL,"IF inflation medium, rising THEN rate next month is about c",1.597,9.935,yes
+PL,"IF inflation high, falling THEN rate next month is about c",6.682,5.511,yes
+PL,"IF inflation high, rising THEN rate next month is about c",6.633,9.646,yes
+RU,"IF inflation low, falling THEN rate next month is about c",6.656,4.328,yes
+RU,"IF inflation low, rising THEN rate next month is about c",2.075,4.632,yes
+RU,"IF inflation medium, falling THEN rate next month is about c",18.343,12.812,yes
+RU,"IF inflation medium, rising THEN rate next month is about c",14.917,22.587,yes
+RU,"IF inflation high, falling THEN rate next month is about c",5.134,7.215,yes
+RU,"IF inflation high, rising THEN rate next month is about c",16.392,5.427,yes
+LT,"IF inflation low, falling THEN rate next month is about c",3.911,15.096,yes
+LT,"IF inflation low, rising THEN rate next month is about c",1.467,16.584,yes
+LT,"IF inflation medium, falling THEN rate next month is about c",3.542,3.883,yes
+LT,"IF inflation medium, rising THEN rate next month is about c",-1.081,5.195,yes
+LT,"IF inflation high, falling THEN rate next month is about c",2.589,5.521,yes
+LT,"IF inflation high, rising THEN rate next month is about c",0.105,10.721,yes
+LT (euro-area inflation),"IF inflation low, falling THEN rate next month is about c",4.559,19.062,yes
+LT (euro-area inflation),"IF inflation low, rising THEN rate next month is about c",0.135,20.238,yes
+LT (euro-area inflation),"IF inflation medium, falling THEN rate next month is about c",2.657,6.385,yes
+LT (euro-area inflation),"IF inflation medium, rising THEN rate next month is about c",-0.54,9.658,yes
+LT (euro-area inflation),"IF inflation high, falling THEN rate next month is about c",0.17,0.303,no (shrunk towards 0)
+LT (euro-area inflation),"IF inflation high, rising THEN rate next month is about c",4.014,1.354,no (shrunk towards 0)

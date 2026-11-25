@@ -1,0 +1,36 @@
+n_train                             3729
+p                                      7
+raw_cond                 2.9\cdot 10^{6}
+raw_cond_gram           8.4\cdot 10^{12}
+raw_digits                      6.462788
+raw_coef_reldiff                0.000001
+raw_opt_qr                           0.0
+raw_opt_ne                           0.0
+raw_rmse_qr                     0.458328
+raw_rmse_ne                     0.458328
+std_cond                 1.9\cdot 10^{3}
+std_cond_gram            3.5\cdot 10^{6}
+std_digits                       3.27375
+std_coef_reldiff                     0.0
+std_opt_qr                           0.0
+std_opt_ne                           0.0
+std_rmse_qr                     0.458328
+std_rmse_ne                     0.458328
+n_terms_d3                           120
+ridge_lambda                       100.0
+ridge_terms                           35
+ridge_svd_vs_sklearn                 0.0
+ridge_df                       24.696265
+ridge_shrink_min                0.082801
+ridge_shrink_max                0.998474
+ridge_cond                     85.136697
+ey_err_k1                   10353.272441
+ey_tail_k1                  10353.272441
+ey_explained_k1                60.336848
+ey_err_k2                     6175.82694
+ey_tail_k2                    6175.82694
+ey_explained_k2                76.340547
+ey_err_k3                    3410.944982
+ey_tail_k3                   3410.944982
+ey_explained_k3                86.932747
+ey_max_gap                           0.0

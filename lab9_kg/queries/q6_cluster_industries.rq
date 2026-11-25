@@ -1,0 +1,5 @@
+PREFIX dm: <http://example.org/gsu-dm#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?cluster (COUNT(DISTINCT ?f) AS ?industries) (COUNT(DISTINCT ?s) AS ?sectors) (COUNT(?c) AS ?companies) WHERE {
+  ?c dm:inRiskCluster/rdfs:label ?cluster ; dm:inFFIndustry ?f ; dm:inSector ?s .
+} GROUP BY ?cluster ORDER BY ?cluster

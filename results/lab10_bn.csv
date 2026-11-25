@@ -1,0 +1,8 @@
+Probability,network (BIC),network (AIC),share in the data,months
+"$P($inflation, next = rising$)$",0.31,0.32,0.31,220
+"$P($inflation, next = rising $\mid$ inflation, past = rising$)$",0.49,0.49,0.50,74
+"$P($inflation, next = rising $\mid$ USD rate, past = up$)$",0.31,0.50,0.53,72
+"$P($inflation, next = rising $\mid$ USD rate, past = up, food, past = up$)$",0.42,0.58,0.63,27
+"$P($policy, next = raise$)$",0.32,0.32,0.32,220
+"$P($policy, next = raise $\mid$ inflation, past = rising$)$",0.38,0.43,0.43,74
+"$P($policy, next = cut $\mid$ inflation, past = falling$)$",0.27,0.42,0.41,56

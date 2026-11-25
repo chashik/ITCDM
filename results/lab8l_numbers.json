@@ -1,0 +1,23 @@
+{
+ "pop": 20,
+ "gens": 10,
+ "evals": 164,
+ "space_size": "4\\,147\\,200",
+ "default_val_mse": 0.2113516926765442,
+ "ga_val_mse": 0.1949116736650467,
+ "rs_val_mse": 0.19784554839134216,
+ "dm_ga_default": 0.21956464600756112,
+ "p_ga_default": 0.8262102278926142,
+ "ga_inputs": "ret, log\\_pk\\_d, log\\_vix, d\\_log\\_vix, volume\\_z, d\\_dgs10",
+ "rs_inputs": "log\\_pk\\_d, log\\_vix, d\\_log\\_vix, term\\_10y3m, volume\\_z, d\\_dgs10",
+ "ga_test": 0.40692614759211126,
+ "rs_test": 0.4086031781206625,
+ "def_test": 0.4060703466944771,
+ "n_gpu": 210,
+ "n_trained": 343,
+ "gpu_used": "yes",
+ "minutes": 15.797225713729858,
+ "div_start": 0.5963815789473684,
+ "div_end": 0.27401315789473685,
+ "ga_evals_to_beat_rs": 100
+}

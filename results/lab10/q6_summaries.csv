@@ -1,0 +1,117 @@
+country,period,qualifier W,summarizer S,quantifier Q,proportion r,T1 truth,T2 imprecision (high = precise S),T3 covering,score T1 x T3
+BY,2021-2025,(all months),the policy rate was much lower than inflation,almost none,0.135,0.432,0.4,0.233,0.101
+BY,2021-2025,(all months),the policy rate was much lower than inflation,few,0.135,0.568,0.4,0.233,0.132
+BY,2021-2025,(all months),the policy rate was about equal to inflation,few,0.388,0.415,0.772,0.667,0.277
+BY,2021-2025,(all months),the policy rate was about equal to inflation,about half,0.388,0.585,0.772,0.667,0.39
+BY,2021-2025,(all months),the policy rate was much higher than inflation,about half,0.477,1.0,0.657,0.567,0.567
+BY,2021-2025,high inflation (above 5-10 %),the policy rate was much lower than inflation,few,0.266,1.0,0.4,0.264,0.264
+BY,2021-2025,high inflation (above 5-10 %),the policy rate was about equal to inflation,about half,0.7,0.002,0.772,0.755,0.002
+BY,2021-2025,high inflation (above 5-10 %),the policy rate was about equal to inflation,most,0.7,0.599,0.772,0.755,0.452
+BY,2021-2025,high inflation (above 5-10 %),the policy rate was much higher than inflation,almost none,0.199,0.004,0.657,0.509,0.002
+BY,2021-2025,high inflation (above 5-10 %),the policy rate was much higher than inflation,few,0.199,0.996,0.657,0.509,0.507
+BY,2021-2025,falling inflation,the policy rate was much lower than inflation,almost none,0.064,0.909,0.4,0.1,0.091
+BY,2021-2025,falling inflation,the policy rate was much lower than inflation,few,0.064,0.091,0.4,0.1,0.009
+BY,2021-2025,falling inflation,the policy rate was about equal to inflation,few,0.333,0.782,0.772,0.45,0.352
+BY,2021-2025,falling inflation,the policy rate was about equal to inflation,about half,0.333,0.218,0.772,0.45,0.098
+BY,2021-2025,falling inflation,the policy rate was much higher than inflation,about half,0.614,0.575,0.657,0.7,0.402
+BY,2021-2025,falling inflation,the policy rate was much higher than inflation,most,0.614,0.255,0.657,0.7,0.179
+BY,2024-2025,(all months),the policy rate was much lower than inflation,almost none,0.0,1.0,0.4,0.0,0.0
+BY,2024-2025,(all months),the policy rate was about equal to inflation,few,0.219,1.0,0.772,0.792,0.792
+BY,2024-2025,(all months),the policy rate was much higher than inflation,most,0.781,0.923,0.657,1.0,0.923
+BY,2024-2025,high inflation (above 5-10 %),the policy rate was much lower than inflation,almost none,0.0,1.0,0.4,0.0,0.0
+BY,2024-2025,high inflation (above 5-10 %),the policy rate was about equal to inflation,most,0.862,1.0,0.772,0.792,0.792
+BY,2024-2025,high inflation (above 5-10 %),the policy rate was about equal to inflation,almost all,0.862,0.413,0.772,0.792,0.327
+BY,2024-2025,high inflation (above 5-10 %),the policy rate was much higher than inflation,most,1.0,1.0,0.657,1.0,1.0
+BY,2024-2025,high inflation (above 5-10 %),the policy rate was much higher than inflation,almost all,1.0,1.0,0.657,1.0,1.0
+BY,2024-2025,falling inflation,the policy rate was much lower than inflation,almost none,0.0,1.0,0.4,0.0,0.0
+BY,2024-2025,falling inflation,the policy rate was about equal to inflation,almost none,0.084,0.77,0.772,0.5,0.385
+BY,2024-2025,falling inflation,the policy rate was about equal to inflation,few,0.084,0.23,0.772,0.5,0.115
+BY,2024-2025,falling inflation,the policy rate was much higher than inflation,most,1.0,1.0,0.657,1.0,1.0
+BY,2024-2025,falling inflation,the policy rate was much higher than inflation,almost all,1.0,1.0,0.657,1.0,1.0
+BY,2021-2025,(all good-years),a good grew much slower than inflation,few,0.284,1.0,0.656,0.35,0.35
+BY,2021-2025,(all good-years),a good grew about as fast as inflation,about half,0.474,1.0,0.904,0.6,0.6
+BY,2021-2025,(all good-years),a good grew much faster than inflation,few,0.242,1.0,0.376,0.4,0.4
+PL,2021-2025,(all months),the policy rate was much lower than inflation,about half,0.513,1.0,0.4,0.55,0.55
+PL,2021-2025,(all months),the policy rate was about equal to inflation,few,0.378,0.479,0.772,0.533,0.255
+PL,2021-2025,(all months),the policy rate was about equal to inflation,about half,0.378,0.521,0.772,0.533,0.278
+PL,2021-2025,(all months),the policy rate was much higher than inflation,almost none,0.109,0.606,0.657,0.317,0.192
+PL,2021-2025,(all months),the policy rate was much higher than inflation,few,0.109,0.394,0.657,0.317,0.125
+PL,2021-2025,high inflation (above 5-10 %),the policy rate was much lower than inflation,most,0.94,1.0,0.4,0.897,0.897
+PL,2021-2025,high inflation (above 5-10 %),the policy rate was much lower than inflation,almost all,0.94,0.932,0.4,0.897,0.835
+PL,2021-2025,high inflation (above 5-10 %),the policy rate was about equal to inflation,almost none,0.075,0.83,0.772,0.172,0.143
+PL,2021-2025,high inflation (above 5-10 %),the policy rate was about equal to inflation,few,0.075,0.17,0.772,0.172,0.029
+PL,2021-2025,high inflation (above 5-10 %),the policy rate was much higher than inflation,almost none,0.0,1.0,0.657,0.0,0.0
+PL,2021-2025,falling inflation,the policy rate was much lower than inflation,few,0.359,0.61,0.4,0.346,0.211
+PL,2021-2025,falling inflation,the policy rate was much lower than inflation,about half,0.359,0.39,0.4,0.346,0.135
+PL,2021-2025,falling inflation,the policy rate was about equal to inflation,about half,0.491,1.0,0.772,0.731,0.731
+PL,2021-2025,falling inflation,the policy rate was much higher than inflation,few,0.244,1.0,0.657,0.538,0.538
+PL,2024-2025,(all months),the policy rate was much lower than inflation,almost none,0.0,1.0,0.4,0.0,0.0
+PL,2024-2025,(all months),the policy rate was about equal to inflation,most,0.727,0.709,0.772,1.0,0.709
+PL,2024-2025,(all months),the policy rate was much higher than inflation,few,0.273,1.0,0.657,0.792,0.792
+PL,2024-2025,falling inflation,the policy rate was much lower than inflation,almost none,0.0,1.0,0.4,0.0,0.0
+PL,2024-2025,falling inflation,the policy rate was about equal to inflation,most,0.832,1.0,0.772,1.0,1.0
+PL,2024-2025,falling inflation,the policy rate was about equal to inflation,almost all,0.832,0.212,0.772,1.0,0.212
+PL,2024-2025,falling inflation,the policy rate was much higher than inflation,about half,0.527,1.0,0.657,1.0,1.0
+PL,2021-2025,(all good-years),a good grew much slower than inflation,about half,0.579,0.809,0.656,0.6,0.485
+PL,2021-2025,(all good-years),a good grew much slower than inflation,most,0.579,0.115,0.656,0.6,0.069
+PL,2021-2025,(all good-years),a good grew about as fast as inflation,almost none,0.171,0.191,0.904,0.25,0.048
+PL,2021-2025,(all good-years),a good grew about as fast as inflation,few,0.171,0.809,0.904,0.25,0.202
+PL,2021-2025,(all good-years),a good grew much faster than inflation,few,0.25,1.0,0.376,0.25,0.25
+RU,2021-2025,(all months),the policy rate was much lower than inflation,almost none,0.167,0.217,0.4,0.233,0.051
+RU,2021-2025,(all months),the policy rate was much lower than inflation,few,0.167,0.783,0.4,0.233,0.183
+RU,2021-2025,(all months),the policy rate was about equal to inflation,few,0.256,1.0,0.772,0.333,0.333
+RU,2021-2025,(all months),the policy rate was much higher than inflation,about half,0.576,0.824,0.657,0.583,0.481
+RU,2021-2025,(all months),the policy rate was much higher than inflation,most,0.576,0.106,0.657,0.583,0.062
+RU,2021-2025,high inflation (above 5-10 %),the policy rate was much lower than inflation,few,0.277,1.0,0.4,0.255,0.255
+RU,2021-2025,high inflation (above 5-10 %),the policy rate was about equal to inflation,few,0.2,1.0,0.772,0.327,0.327
+RU,2021-2025,high inflation (above 5-10 %),the policy rate was much higher than inflation,about half,0.535,1.0,0.657,0.545,0.545
+RU,2021-2025,falling inflation,the policy rate was much lower than inflation,few,0.445,0.036,0.4,0.429,0.015
+RU,2021-2025,falling inflation,the policy rate was much lower than inflation,about half,0.445,0.964,0.4,0.429,0.413
+RU,2021-2025,falling inflation,the policy rate was about equal to inflation,almost none,0.01,1.0,0.772,0.095,0.095
+RU,2021-2025,falling inflation,the policy rate was much higher than inflation,about half,0.555,0.965,0.657,0.571,0.552
+RU,2021-2025,falling inflation,the policy rate was much higher than inflation,most,0.555,0.021,0.657,0.571,0.012
+RU,2024-2025,(all months),the policy rate was much lower than inflation,almost none,0.0,1.0,0.4,0.0,0.0
+RU,2024-2025,(all months),the policy rate was about equal to inflation,almost none,0.0,1.0,0.772,0.0,0.0
+RU,2024-2025,(all months),the policy rate was much higher than inflation,most,1.0,1.0,0.657,1.0,1.0
+RU,2024-2025,(all months),the policy rate was much higher than inflation,almost all,1.0,1.0,0.657,1.0,1.0
+RU,2024-2025,high inflation (above 5-10 %),the policy rate was much lower than inflation,almost none,0.0,1.0,0.4,0.0,0.0
+RU,2024-2025,high inflation (above 5-10 %),the policy rate was about equal to inflation,almost none,0.0,1.0,0.772,0.0,0.0
+RU,2024-2025,high inflation (above 5-10 %),the policy rate was much higher than inflation,most,1.0,1.0,0.657,1.0,1.0
+RU,2024-2025,high inflation (above 5-10 %),the policy rate was much higher than inflation,almost all,1.0,1.0,0.657,1.0,1.0
+RU,2024-2025,falling inflation,the policy rate was much lower than inflation,almost none,0.0,1.0,0.4,0.0,0.0
+RU,2024-2025,falling inflation,the policy rate was about equal to inflation,almost none,0.0,1.0,0.772,0.0,0.0
+RU,2024-2025,falling inflation,the policy rate was much higher than inflation,most,1.0,1.0,0.657,1.0,1.0
+RU,2024-2025,falling inflation,the policy rate was much higher than inflation,almost all,1.0,1.0,0.657,1.0,1.0
+RU,2021-2025,(all good-years),a good grew much slower than inflation,few,0.237,1.0,0.656,0.3,0.3
+RU,2021-2025,(all good-years),a good grew about as fast as inflation,about half,0.564,0.907,0.904,0.8,0.726
+RU,2021-2025,(all good-years),a good grew about as fast as inflation,most,0.564,0.056,0.904,0.8,0.045
+RU,2021-2025,(all good-years),a good grew much faster than inflation,almost none,0.199,0.006,0.376,0.3,0.002
+RU,2021-2025,(all good-years),a good grew much faster than inflation,few,0.199,0.994,0.376,0.3,0.298
+LT,2021-2025,(all months),the policy rate was much lower than inflation,about half,0.494,1.0,0.4,0.65,0.65
+LT,2021-2025,(all months),the policy rate was about equal to inflation,few,0.369,0.539,0.772,0.567,0.305
+LT,2021-2025,(all months),the policy rate was about equal to inflation,about half,0.369,0.461,0.772,0.567,0.261
+LT,2021-2025,(all months),the policy rate was much higher than inflation,almost none,0.137,0.422,0.657,0.233,0.099
+LT,2021-2025,(all months),the policy rate was much higher than inflation,few,0.137,0.578,0.657,0.233,0.135
+LT,2021-2025,high inflation (above 5-10 %),the policy rate was much lower than inflation,most,1.0,1.0,0.4,1.0,1.0
+LT,2021-2025,high inflation (above 5-10 %),the policy rate was much lower than inflation,almost all,1.0,1.0,0.4,1.0,1.0
+LT,2021-2025,high inflation (above 5-10 %),the policy rate was about equal to inflation,almost none,0.018,1.0,0.772,0.083,0.083
+LT,2021-2025,high inflation (above 5-10 %),the policy rate was much higher than inflation,almost none,0.0,1.0,0.657,0.0,0.0
+LT,2021-2025,falling inflation,the policy rate was much lower than inflation,about half,0.499,1.0,0.4,0.524,0.524
+LT,2021-2025,falling inflation,the policy rate was about equal to inflation,few,0.334,0.776,0.772,0.667,0.517
+LT,2021-2025,falling inflation,the policy rate was about equal to inflation,about half,0.334,0.224,0.772,0.667,0.149
+LT,2021-2025,falling inflation,the policy rate was much higher than inflation,few,0.231,1.0,0.657,0.381,0.381
+LT,2024-2025,(all months),the policy rate was much lower than inflation,almost none,0.05,1.0,0.4,0.375,0.375
+LT,2024-2025,(all months),the policy rate was about equal to inflation,about half,0.638,0.416,0.772,1.0,0.416
+LT,2024-2025,(all months),the policy rate was about equal to inflation,most,0.638,0.35,0.772,1.0,0.35
+LT,2024-2025,(all months),the policy rate was much higher than inflation,few,0.312,0.917,0.657,0.5,0.458
+LT,2024-2025,(all months),the policy rate was much higher than inflation,about half,0.312,0.083,0.657,0.5,0.042
+LT,2024-2025,falling inflation,the policy rate was much lower than inflation,almost none,0.064,0.904,0.4,0.4,0.362
+LT,2024-2025,falling inflation,the policy rate was much lower than inflation,few,0.064,0.096,0.4,0.4,0.038
+LT,2024-2025,falling inflation,the policy rate was about equal to inflation,about half,0.616,0.56,0.772,1.0,0.56
+LT,2024-2025,falling inflation,the policy rate was about equal to inflation,most,0.616,0.264,0.772,1.0,0.264
+LT,2024-2025,falling inflation,the policy rate was much higher than inflation,most,0.756,0.824,0.657,0.6,0.495
+LT,2021-2025,(all good-years),a good grew much slower than inflation,about half,0.521,1.0,0.656,0.6,0.6
+LT,2021-2025,(all good-years),a good grew about as fast as inflation,almost none,0.169,0.21,0.904,0.25,0.052
+LT,2021-2025,(all good-years),a good grew about as fast as inflation,few,0.169,0.79,0.904,0.25,0.198
+LT,2021-2025,(all good-years),a good grew much faster than inflation,few,0.31,0.931,0.376,0.35,0.326
+LT,2021-2025,(all good-years),a good grew much faster than inflation,about half,0.31,0.069,0.376,0.35,0.024

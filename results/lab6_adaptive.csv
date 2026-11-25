@@ -1,0 +1,13 @@
+Model,RMSE (mean of 5 seeds),SD,RMSE of seed average,DM,$p$
+"HAR + VIX, static",--,--,0.415,--,--
+"HAR + VIX, re-estimated every 21 days",--,--,0.415,--,--
+Returns-only LSTM,0.446,0.011,0.441,--,--
+Returns-only + error net (valid. resid.),0.446,0.011,0.441,--,--
+Returns-only + error net (out-of-fold resid.),0.418,0.005,0.411,−3.607,$<0.001$
+"Full LSTM, static",0.409,0.002,0.406,--,--
+Full LSTM + error net (valid. resid.),0.409,0.002,0.406,--,--
+Full LSTM + error net (out-of-fold resid.),0.408,0.002,0.405,−0.423,0.672
+"Full LSTM, fine-tuned on last 1000 windows",0.436,0.005,0.423,2.896,0.004
+"Full LSTM, fine-tuned with replay, fixed rate",0.410,0.003,0.408,0.744,0.457
+"Full LSTM, replay, error-driven rate",0.409,0.003,0.407,0.326,0.744
+"Full LSTM, replay, error-driven rate + correction",0.408,0.003,0.405,−0.558,0.577

@@ -1,0 +1,18 @@
+{
+ "rows": 11,
+ "cols": 6,
+ "stocks": 110,
+ "chisq": 184.7214285714286,
+ "dof": 50,
+ "p_asymptotic": 2.487589532878449e-17,
+ "p_exact_mc": 0.0,
+ "mc_kept": 195000,
+ "acceptance": 29.452,
+ "small_expected_share": 100.0,
+ "zero_cells": 36,
+ "null_tables": 1000,
+ "null_reject5_asym": 5.3,
+ "null_reject1_asym": 1.4000000000000001,
+ "fibre_2x2_size": 3,
+ "fibre_2x2_connected": 1
+}

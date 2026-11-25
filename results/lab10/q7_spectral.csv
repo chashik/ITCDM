@@ -1,0 +1,5 @@
+country,series,"groups, average linkage",groups by eigengap,"adjusted Rand, same number of groups",spectral groups (eigengap)
+BY,10,6,2,0.617,"petrol y/y, inflation, USD rate y/y, mortgage rate, gov. bond yield, bank bond coupon; flour y/y, milk y/y, sugar y/y, policy rate"
+PL,10,3,2,0.318,"flour y/y, milk y/y, sugar y/y, petrol y/y, inflation, USD rate y/y, gov. bond yield; policy rate, mortgage rate, retail bond rate"
+RU,7,4,2,0.488,"flour y/y, milk y/y, inflation, USD rate y/y, mortgage rate; policy rate, gov. bond yield"
+LT,9,2,2,1.0,"milk y/y, petrol y/y, USD rate y/y, policy rate, mortgage rate, gov. bond yield; flour y/y, sugar y/y, inflation"

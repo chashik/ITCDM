@@ -1,0 +1,5 @@
+Node,Property,Violated constraint
+company/AAPL,cik,MinCount
+company/JPM,inSector,MaxCount
+company/MSFT,ticker,Pattern
+series/FREDMD,frequency,In

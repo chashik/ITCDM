@@ -1,0 +1,115 @@
+F1 fuzzy match
+                      gap 2021, p.p.  gap 2022, p.p.  gap 2023, p.p.  gap 2024, p.p.  gap 2025, p.p.  about equal, mean over the years  gap per year 2021-2025, p.p.  5 years: slower  5 years: about equal  5 years: faster  crisp gap 2021-2025, p.p. crisp verdict at 3 / 5 / 8 p.p.
+country good                                                                                                                                                                                                                                                                          
+BY      wheat flour           -7.58            3.58            0.20           -3.25            0.01                              0.66                         -1.50             0.25                  0.75             0.00                      -9.93        slower / slower / slower
+        milk                   2.20          -11.69            6.03            4.44            2.39                              0.45                          0.64             0.00                  1.00             0.00                       4.40            faster / same / same
+        sugar                -10.56           37.17           -3.49           -1.70           -6.83                              0.33                          1.48             0.00                  0.76             0.24                      10.37        faster / faster / faster
+        petrol                 7.17            4.73           -9.99           -1.69           -0.13                              0.46                         -0.27             0.00                  1.00             0.00                      -1.81              same / same / same
+PL      wheat flour            1.75           23.36          -21.64           -6.73           -5.52                              0.22                         -3.20             1.00                  0.00             0.00                     -20.23        slower / slower / slower
+        milk                  -0.22           23.05          -12.14            0.09           -4.78                              0.46                          0.22             0.00                  1.00             0.00                       1.45              same / same / same
+        sugar                 14.49           75.65          -17.26          -40.75          -14.36                              0.00                         -4.14             1.00                  0.00             0.00                     -25.69        slower / slower / slower
+        petrol                22.32           -6.61           -8.13           -8.57           -6.55                              0.00                         -2.19             0.59                  0.41             0.00                     -14.06        slower / slower / slower
+RU      wheat flour            5.54           -1.67          -11.50           -2.05           -1.79                              0.62                         -2.45             0.73                  0.27             0.00                     -16.29        slower / slower / slower
+        milk                   0.32            1.84           -5.00            9.17            3.88                              0.56                          1.93             0.00                  0.53             0.47                      13.89        faster / faster / faster
+        sugar                  3.91            1.56            3.38           -5.92          -11.99                              0.44                         -2.06             0.53                  0.47             0.00                     -13.78        slower / slower / slower
+        petrol                 0.41          -11.04           -0.22            1.58            5.21                              0.64                         -0.86             0.00                  1.00             0.00                      -5.86          slower / slower / same
+LT      wheat flour           -0.39           31.56           -6.27          -14.99           -3.09                              0.35                         -0.50             0.00                  1.00             0.00                      -3.27            slower / same / same
+        milk                   7.96           30.07          -11.76            2.83            9.01                              0.16                          6.20             0.00                  0.00             1.00                      46.07        faster / faster / faster
+        sugar                 -8.33           48.66           -5.99           -9.89           -8.02                              0.00                          0.39             0.00                  1.00             0.00                       2.63              same / same / same
+        petrol                23.11          -14.27           -6.99           -6.26           -2.62                              0.17                         -2.07             0.53                  0.47             0.00                     -13.17        slower / slower / slower 
+
+ threshold, p.p.                 1   2   3   4   5   6   7   8   9   10  11  12  13  14  15
+pairs 'about the same' (of 16)   0   2   3   4   5   6   6   6   6   7   8   8   8  11  12 
+
+F2 best summaries: five per country, one quantifier per sentence (by truth x covering)
+ country    period                   qualifier W                                   summarizer S quantifier Q  proportion r  T1 truth  T2 imprecision (high = precise S)  T3 covering  score T1 x T3
+     BY 2024-2025             falling inflation the policy rate was much higher than inflation   almost all          1.00      1.00                               0.66         1.00           1.00
+     BY 2024-2025 high inflation (above 5-10 %) the policy rate was much higher than inflation   almost all          1.00      1.00                               0.66         1.00           1.00
+     BY 2024-2025                  (all months) the policy rate was much higher than inflation         most          0.78      0.92                               0.66         1.00           0.92
+     BY 2024-2025 high inflation (above 5-10 %)   the policy rate was about equal to inflation         most          0.86      1.00                               0.77         0.79           0.79
+     BY 2024-2025                  (all months)   the policy rate was about equal to inflation          few          0.22      1.00                               0.77         0.79           0.79
+     LT 2021-2025 high inflation (above 5-10 %)  the policy rate was much lower than inflation   almost all          1.00      1.00                               0.40         1.00           1.00
+     LT 2021-2025                  (all months)  the policy rate was much lower than inflation   about half          0.49      1.00                               0.40         0.65           0.65
+     LT 2021-2025              (all good-years)         a good grew much slower than inflation   about half          0.52      1.00                               0.66         0.60           0.60
+     LT 2024-2025             falling inflation   the policy rate was about equal to inflation   about half          0.62      0.56                               0.77         1.00           0.56
+     LT 2021-2025             falling inflation  the policy rate was much lower than inflation   about half          0.50      1.00                               0.40         0.52           0.52
+     PL 2024-2025             falling inflation the policy rate was much higher than inflation   about half          0.53      1.00                               0.66         1.00           1.00
+     PL 2024-2025             falling inflation   the policy rate was about equal to inflation         most          0.83      1.00                               0.77         1.00           1.00
+     PL 2021-2025 high inflation (above 5-10 %)  the policy rate was much lower than inflation         most          0.94      1.00                               0.40         0.90           0.90
+     PL 2024-2025                  (all months) the policy rate was much higher than inflation          few          0.27      1.00                               0.66         0.79           0.79
+     PL 2021-2025             falling inflation   the policy rate was about equal to inflation   about half          0.49      1.00                               0.77         0.73           0.73
+     RU 2024-2025                  (all months) the policy rate was much higher than inflation   almost all          1.00      1.00                               0.66         1.00           1.00
+     RU 2024-2025             falling inflation the policy rate was much higher than inflation   almost all          1.00      1.00                               0.66         1.00           1.00
+     RU 2024-2025 high inflation (above 5-10 %) the policy rate was much higher than inflation   almost all          1.00      1.00                               0.66         1.00           1.00
+     RU 2021-2025              (all good-years)         a good grew about as fast as inflation   about half          0.56      0.91                               0.90         0.80           0.73
+     RU 2021-2025             falling inflation the policy rate was much higher than inflation   about half          0.56      0.97                               0.66         0.57           0.55 
+
+F2 true but uninformative (T1 >= 0.99, covering < 0.15): 15 of 54 fully true sentences
+ country    period                   qualifier W                                   summarizer S quantifier Q  proportion r  T1 truth  T2 imprecision (high = precise S)  T3 covering  score T1 x T3
+     BY 2024-2025                  (all months)  the policy rate was much lower than inflation  almost none           0.0       1.0                               0.40          0.0            0.0
+     BY 2024-2025 high inflation (above 5-10 %)  the policy rate was much lower than inflation  almost none           0.0       1.0                               0.40          0.0            0.0
+     BY 2024-2025             falling inflation  the policy rate was much lower than inflation  almost none           0.0       1.0                               0.40          0.0            0.0
+     PL 2021-2025 high inflation (above 5-10 %) the policy rate was much higher than inflation  almost none           0.0       1.0                               0.66          0.0            0.0
+     PL 2024-2025                  (all months)  the policy rate was much lower than inflation  almost none           0.0       1.0                               0.40          0.0            0.0
+     PL 2024-2025             falling inflation  the policy rate was much lower than inflation  almost none           0.0       1.0                               0.40          0.0            0.0 
+
+F3 reaction functions
+                           months  R2 in sample, linear rule  R2 in sample, Takagi-Sugeno  R2 in sample, Takagi-Sugeno, first order  RMSE 2023-2025, no change  RMSE 2023-2025, linear rule  RMSE 2023-2025, Takagi-Sugeno  RMSE 2023-2025, Takagi-Sugeno, first order
+bank (inflation used)                                                                                                                                                                                                                                                
+BY                            57                      0.595                        0.791                                     0.802                      0.173                        0.899                          2.392                                       2.520
+PL                            57                      0.352                        0.570                                     0.566                      0.165                        2.507                          2.564                                       2.508
+RU                            57                      0.057                        0.452                                     0.618                      0.886                        6.746                          6.046                                       5.416
+LT                            57                      0.681                        0.750                                     0.791                      0.155                        1.396                          1.451                                       1.533
+LT (euro-area inflation)      57                      0.619                        0.776                                     0.798                      0.155                        1.470                          1.289                                       1.298 
+
+    bank (inflation used)                                                         rule  c, %  months behind the rule (sum of firing strengths)             supported
+                      BY    IF inflation low, falling THEN rate next month is about c  9.40                                              9.94                   yes
+                      BY     IF inflation low, rising THEN rate next month is about c 10.07                                              6.41                   yes
+                      BY IF inflation medium, falling THEN rate next month is about c 10.13                                             10.01                   yes
+                      BY  IF inflation medium, rising THEN rate next month is about c  8.49                                             17.04                   yes
+                      BY   IF inflation high, falling THEN rate next month is about c 11.83                                              5.07                   yes
+                      BY    IF inflation high, rising THEN rate next month is about c 11.65                                              8.54                   yes
+                      PL    IF inflation low, falling THEN rate next month is about c  5.47                                             13.74                   yes
+                      PL     IF inflation low, rising THEN rate next month is about c  3.26                                             11.12                   yes
+                      PL IF inflation medium, falling THEN rate next month is about c  6.19                                              7.05                   yes
+                      PL  IF inflation medium, rising THEN rate next month is about c  1.60                                              9.93                   yes
+                      PL   IF inflation high, falling THEN rate next month is about c  6.68                                              5.51                   yes
+                      PL    IF inflation high, rising THEN rate next month is about c  6.63                                              9.65                   yes
+                      RU    IF inflation low, falling THEN rate next month is about c  6.66                                              4.33                   yes
+                      RU     IF inflation low, rising THEN rate next month is about c  2.07                                              4.63                   yes
+                      RU IF inflation medium, falling THEN rate next month is about c 18.34                                             12.81                   yes
+                      RU  IF inflation medium, rising THEN rate next month is about c 14.92                                             22.59                   yes
+                      RU   IF inflation high, falling THEN rate next month is about c  5.13                                              7.21                   yes
+                      RU    IF inflation high, rising THEN rate next month is about c 16.39                                              5.43                   yes
+                      LT    IF inflation low, falling THEN rate next month is about c  3.91                                             15.10                   yes
+                      LT     IF inflation low, rising THEN rate next month is about c  1.47                                             16.58                   yes
+                      LT IF inflation medium, falling THEN rate next month is about c  3.54                                              3.88                   yes
+                      LT  IF inflation medium, rising THEN rate next month is about c -1.08                                              5.19                   yes
+                      LT   IF inflation high, falling THEN rate next month is about c  2.59                                              5.52                   yes
+                      LT    IF inflation high, rising THEN rate next month is about c  0.11                                             10.72                   yes
+LT (euro-area inflation)    IF inflation low, falling THEN rate next month is about c  4.56                                             19.06                   yes
+LT (euro-area inflation)     IF inflation low, rising THEN rate next month is about c  0.14                                             20.24                   yes
+LT (euro-area inflation) IF inflation medium, falling THEN rate next month is about c  2.66                                              6.39                   yes
+LT (euro-area inflation)  IF inflation medium, rising THEN rate next month is about c -0.54                                              9.66                   yes
+LT (euro-area inflation)   IF inflation high, falling THEN rate next month is about c  0.17                                              0.30 no (shrunk towards 0)
+LT (euro-area inflation)    IF inflation high, rising THEN rate next month is about c  4.01                                              1.35 no (shrunk towards 0) 
+
+F4 fuzzy c-means
+           partition coefficient  partition entropy  Xie-Beni
+clusters                                                    
+2                         0.743              0.407     0.233
+3                         0.538              0.769     1.225
+4                         0.499              0.920     0.922
+5                         0.482              1.031     0.444 
+
+           inflation  change over 3 months  real policy rate
+regime 1       4.96                 -0.98              3.06
+regime 2       7.23                  0.54             -0.01
+regime 3      16.27                  1.74            -10.72 
+
+          change points (question 3)  largest membership near a change point (+-1 month)  largest membership elsewhere
+country                                                                                                              
+BY                                5                                               0.569                         0.723
+PL                                5                                               0.581                         0.720
+RU                                5                                               0.597                         0.596
+LT                                5                                               0.601                         0.623

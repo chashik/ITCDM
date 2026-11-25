@@ -1,0 +1,111 @@
+ticker,cik,name,sic,sic_description,exchanges,state,fiscal_year_end,ff49
+AAPL,320193,Apple Inc.,3571,Electronic Computers,Nasdaq,CA,0926,Hardw
+MSFT,789019,MICROSOFT CORP,7372,Services-Prepackaged Software,Nasdaq,WA,0630,Softw
+NVDA,1045810,NVIDIA CORP,3674,Semiconductors & Related Devices,Nasdaq,DE,0131,Chips
+ORCL,1341439,ORACLE CORP,7372,Services-Prepackaged Software,NYSE;NYSE,,0531,Softw
+CSCO,858877,"CISCO SYSTEMS, INC.",3576,Computer Communications Equipment,Nasdaq,DE,0725,Hardw
+ADBE,796343,ADOBE INC.,7372,Services-Prepackaged Software,Nasdaq,DE,1127,Softw
+INTC,50863,INTEL CORP,3674,Semiconductors & Related Devices,Nasdaq,DE,1227,Chips
+TXN,97476,TEXAS INSTRUMENTS INC,3674,Semiconductors & Related Devices,Nasdaq,DE,1231,Chips
+QCOM,804328,QUALCOMM INC/DE,3663,Radio & Tv Broadcasting & Communications Equipment,Nasdaq,DE,0927,Chips
+IBM,51143,INTERNATIONAL BUSINESS MACHINES CORP,3570,Computer & office Equipment,NYSE,NY,1231,Hardw
+JNJ,200406,JOHNSON & JOHNSON,2834,Pharmaceutical Preparations,NYSE,NJ,0103,Drugs
+UNH,731766,UNITEDHEALTH GROUP INC,6324,Hospital & Medical Service Plans,NYSE,DE,1231,Insur
+PFE,78003,PFIZER INC,2834,Pharmaceutical Preparations,NYSE,DE,1231,Drugs
+MRK,310158,"Merck & Co., Inc.",2834,Pharmaceutical Preparations,NYSE,NJ,1231,Drugs
+ABT,1800,ABBOTT LABORATORIES,2834,Pharmaceutical Preparations,NYSE,IL,1231,Drugs
+TMO,97745,THERMO FISHER SCIENTIFIC INC.,3829,"Measuring & Controlling Devices, NEC",NYSE,DE,1231,LabEq
+LLY,59478,ELI LILLY & Co,2834,Pharmaceutical Preparations,NYSE,IN,1231,Drugs
+AMGN,318154,AMGEN INC,2836,"Biological Products, (No Diagnostic Substances)",Nasdaq,DE,1231,Drugs
+MDT,1613103,Medtronic plc,3845,Electromedical & Electrotherapeutic Apparatus,NYSE,,0424,MedEq
+BMY,14272,BRISTOL MYERS SQUIBB CO,2834,Pharmaceutical Preparations,NYSE;NYSE,DE,1231,Drugs
+JPM,19617,JPMORGAN CHASE & CO,6021,National Commercial Banks,NYSE;NYSE;NYSE;NYSE;NYSE;NYSE;NYSE;NYSE;NYSE,DE,1231,Banks
+BAC,70858,BANK OF AMERICA CORP /DE/,6021,National Commercial Banks,NYSE;NYSE;NYSE;NYSE;NYSE;NYSE;NYSE;NYSE;NYSE;NYSE;NYSE;NYSE;NYSE;OTC;NYSE;NYSE;NYSE,DE,1231,Banks
+WFC,72971,WELLS FARGO & COMPANY/MN,6021,National Commercial Banks,NYSE;NYSE;NYSE;NYSE;OTC;NYSE;NYSE;NYSE,DE,1231,Banks
+C,831001,CITIGROUP INC,6021,National Commercial Banks,NYSE;NYSE;NYSE,DE,1231,Banks
+GS,886982,GOLDMAN SACHS GROUP INC,6211,"Security Brokers, Dealers & Flotation Companies",NYSE;OTC;NYSE;NYSE;NYSE,DE,1231,Fin
+MS,895421,MORGAN STANLEY,6211,"Security Brokers, Dealers & Flotation Companies",NYSE;NYSE;NYSE;NYSE;NYSE;NYSE;NYSE;NYSE;NYSE;NYSE,DE,1231,Fin
+AXP,4962,AMERICAN EXPRESS CO,6199,Finance Services,NYSE,NY,1231,Banks
+BLK,2012383,"BlackRock, Inc.",6211,"Security Brokers, Dealers & Flotation Companies",NYSE,DE,1231,Fin
+USB,36104,US BANCORP \DE\,6021,National Commercial Banks,NYSE;NYSE;NYSE;NYSE;NYSE;NYSE;NYSE,DE,1231,Banks
+PNC,713676,"PNC FINANCIAL SERVICES GROUP, INC.",6021,National Commercial Banks,NYSE,PA,1231,Banks
+AMZN,1018724,AMAZON COM INC,5961,Retail-Catalog & Mail-Order Houses,Nasdaq,DE,1231,Rtail
+HD,354950,"HOME DEPOT, INC.",5211,Retail-Lumber & Other Building Materials Dealers,NYSE,DE,0131,Rtail
+MCD,63908,MCDONALDS CORP,5812,Retail-Eating  Places,NYSE,DE,1231,Meals
+NKE,320187,"NIKE, Inc.",3021,Rubber & Plastics Footwear,NYSE,OR,0531,Clths
+SBUX,829224,STARBUCKS CORP,5810,Retail-Eating & Drinking Places,Nasdaq,WA,0928,Meals
+LOW,60667,LOWES COMPANIES INC,5211,Retail-Lumber & Other Building Materials Dealers,NYSE,NC,0131,Rtail
+TJX,109198,TJX COMPANIES INC /DE/,5651,Retail-Family Clothing Stores,NYSE,DE,0201,Rtail
+BKNG,1075531,Booking Holdings Inc.,4700,Transportation Services,Nasdaq,DE,1231,Trans
+F,37996,FORD MOTOR CO,3711,Motor Vehicles & Passenger Car Bodies,NYSE;NYSE;NYSE;NYSE,DE,1231,Autos
+GM,1467858,General Motors Co,3711,Motor Vehicles & Passenger Car Bodies,NYSE,,1231,Autos
+PG,80424,PROCTER & GAMBLE Co,2840,"Soap, Detergents, Cleang Preparations, Perfumes, Cosmetics",NYSE,OH,0630,Hshld
+KO,21344,COCA COLA CO,2080,Beverages,NYSE,DE,1231,Beer
+PEP,77476,PEPSICO INC,2080,Beverages,Nasdaq,NC,1226,Beer
+WMT,104169,Walmart Inc.,5331,Retail-Variety Stores,Nasdaq,DE,0131,Rtail
+COST,909832,COSTCO WHOLESALE CORP /NEW,5331,Retail-Variety Stores,Nasdaq,WA,0830,Rtail
+CL,21665,COLGATE PALMOLIVE CO,2844,"Perfumes, Cosmetics & Other Toilet Preparations",NYSE,DE,1231,Hshld
+MDLZ,1103982,"Mondelez International, Inc.",2000,Food and Kindred Products,Nasdaq,IL,1231,Food
+MO,764180,"ALTRIA GROUP, INC.",2111,Cigarettes,NYSE,VA,1231,Smoke
+KMB,55785,KIMBERLY CLARK CORP,2670,Converted Paper & Paperboard Prods (No Contaners/Boxes),Nasdaq,DE,1231,Paper
+GIS,40704,GENERAL MILLS INC,2040,Grain Mill Products,NYSE,DE,0530,Food
+XOM,2115436,ExxonMobil Holdings Corp,2911,Petroleum Refining,NYSE,TX,1231,Oil
+CVX,93410,CHEVRON CORP,2911,Petroleum Refining,NYSE,DE,1231,Oil
+COP,1163165,CONOCOPHILLIPS,2911,Petroleum Refining,NYSE,DE,1231,Oil
+SLB,87347,SLB LIMITED/NV,1389,"Oil & Gas Field Services, NEC",NYSE,P8,1231,Oil
+EOG,821189,EOG RESOURCES INC,1311,Crude Petroleum & Natural Gas,NYSE,DE,1231,Oil
+OXY,797468,OCCIDENTAL PETROLEUM CORP /DE/,1311,Crude Petroleum & Natural Gas,NYSE;NYSE,DE,1231,Oil
+PSX,1534701,Phillips 66,2911,Petroleum Refining,NYSE,DE,1231,Oil
+VLO,1035002,VALERO ENERGY CORP/TX,2911,Petroleum Refining,NYSE,DE,1231,Oil
+MPC,1510295,Marathon Petroleum Corp,2911,Petroleum Refining,NYSE,DE,1231,Oil
+HAL,45012,HALLIBURTON CO,1389,"Oil & Gas Field Services, NEC",NYSE,DE,1231,Oil
+HON,773840,HONEYWELL INTERNATIONAL INC,3724,Aircraft Engines & Engine Parts,Nasdaq,DE,1231,Aero
+UPS,1090727,UNITED PARCEL SERVICE INC,4210,Trucking & Courier Services (No Air),NYSE,DE,1231,Trans
+CAT,18230,CATERPILLAR INC,3531,Construction Machinery & Equip,NYSE,DE,1231,Mach
+DE,315189,DEERE & CO,3523,Farm Machinery & Equipment,NYSE,DE,1101,Mach
+LMT,936468,LOCKHEED MARTIN CORP,3760,Guided Missiles & Space Vehicles & Parts,NYSE,MD,1231,Guns
+RTX,101829,RTX Corp,3724,Aircraft Engines & Engine Parts,NYSE,DE,1231,Aero
+UNP,100885,UNION PACIFIC CORP,4011,"Railroads, Line-Haul Operating",NYSE,UT,1231,Trans
+MMM,66740,3M CO,3841,Surgical & Medical Instruments & Apparatus,NYSE,DE,1231,MedEq
+FDX,1048911,FEDEX CORP,4513,Air Courier Services,NYSE,DE,0531,Trans
+GD,40533,GENERAL DYNAMICS CORP,3730,Ship & Boat Building & Repairing,NYSE,DE,1231,Ships
+NEE,753308,NEXTERA ENERGY INC,4911,Electric Services,NYSE;NYSE;NYSE;NYSE;NYSE;NYSE;NYSE,FL,1231,Util
+DUK,1326160,Duke Energy CORP,4931,Electric & Other Services Combined,NYSE;NYSE;NYSE;NYSE,DE,1231,Util
+SO,92122,SOUTHERN CO,4911,Electric Services,NYSE;NYSE;NYSE;NYSE;NYSE;NYSE,DE,1231,Util
+D,715957,"DOMINION ENERGY, INC",4911,Electric Services,NYSE,VA,1231,Util
+AEP,4904,AMERICAN ELECTRIC POWER CO INC,4911,Electric Services,Nasdaq,NY,1231,Util
+EXC,1109357,EXELON CORP,4931,Electric & Other Services Combined,Nasdaq,PA,1231,Util
+SRE,1032208,SEMPRA,4932,Gas & Other Services Combined,NYSE;NYSE,CA,1231,Util
+XEL,72903,XCEL ENERGY INC,4931,Electric & Other Services Combined,Nasdaq;Nasdaq,MN,1231,Util
+ED,1047862,CONSOLIDATED EDISON INC,4931,Electric & Other Services Combined,NYSE,NY,1231,Util
+PEG,788784,PUBLIC SERVICE ENTERPRISE GROUP INC,4931,Electric & Other Services Combined,NYSE,NJ,1231,Util
+PLD,1045609,"Prologis, Inc.",6798,Real Estate Investment Trusts,NYSE;OTC,MD,1231,Fin
+AMT,1053507,AMERICAN TOWER CORP /MA/,6798,Real Estate Investment Trusts,NYSE,DE,1231,Fin
+SPG,1063761,SIMON PROPERTY GROUP INC.,6798,Real Estate Investment Trusts,NYSE;NYSE,IN,1231,Fin
+EQIX,1101239,EQUINIX INC,6798,Real Estate Investment Trusts,Nasdaq,DE,1231,Fin
+PSA,1393311,Public Storage,6798,Real Estate Investment Trusts,NYSE;NYSE;NYSE;NYSE;NYSE;NYSE;NYSE;NYSE;NYSE;NYSE;NYSE;NYSE;NYSE;NYSE;NYSE;NYSE;NYSE,MD,1231,Fin
+O,726728,REALTY INCOME CORP,6798,Real Estate Investment Trusts,NYSE,MD,1231,Fin
+WELL,766704,WELLTOWER INC.,6798,Real Estate Investment Trusts,NYSE,DE,1231,Fin
+CCI,1051470,CROWN CASTLE INC.,6798,Real Estate Investment Trusts,NYSE,DE,1231,Fin
+DLR,1297996,"DIGITAL REALTY TRUST, INC.",6798,Real Estate Investment Trusts,NYSE;NYSE;NYSE;NYSE,MD,1231,Fin
+VTR,740260,"Ventas, Inc.",6798,Real Estate Investment Trusts,NYSE,DE,1231,Fin
+LIN,1707925,LINDE PLC,2810,Industrial Inorganic Chemicals,Nasdaq,L2,1231,Chems
+APD,2969,"Air Products & Chemicals, Inc.",2810,Industrial Inorganic Chemicals,NYSE,DE,0930,Chems
+SHW,89800,SHERWIN WILLIAMS CO,5200,"Retail-Building Materials, Hardware, Garden Supply",NYSE,OH,1231,Rtail
+ECL,31462,ECOLAB INC.,2840,"Soap, Detergents, Cleang Preparations, Perfumes, Cosmetics",NYSE,DE,1231,Hshld
+NEM,1164727,NEWMONT Corp /DE/,1040,Gold and Silver Ores,NYSE;OTC,DE,1231,Gold
+FCX,831259,FREEPORT-MCMORAN INC,1000,Metal Mining,NYSE,DE,1231,Mines
+NUE,73309,NUCOR CORP,3312,"Steel Works, Blast Furnaces & Rolling Mills (Coke Ovens)",NYSE,DE,1231,Steel
+IP,51434,INTERNATIONAL PAPER CO /NEW/,2621,Paper Mills,NYSE;OTC,NY,1231,Paper
+VMC,1396009,Vulcan Materials CO,1400,Mining & Quarrying of  Nonmetallic Minerals (No Fuels),NYSE,NJ,1231,Mines
+MLM,916076,MARTIN MARIETTA MATERIALS INC,1400,Mining & Quarrying of  Nonmetallic Minerals (No Fuels),NYSE,NC,1231,Mines
+GOOGL,1652044,Alphabet Inc.,7370,"Services-Computer Programming, Data Processing, Etc.",Nasdaq;Nasdaq;Nasdaq;Nasdaq,DE,1231,Softw
+META,1326801,"Meta Platforms, Inc.",7370,"Services-Computer Programming, Data Processing, Etc.",Nasdaq,DE,1231,Softw
+NFLX,1065280,NETFLIX INC,7841,Services-Video Tape Rental,Nasdaq,DE,1231,Fun
+DIS,1744489,Walt Disney Co,7990,Services-Miscellaneous Amusement & Recreation,NYSE,DE,1003,Fun
+CMCSA,1166691,COMCAST CORP,4841,Cable & Other Pay Television Services,Nasdaq;NYSE,PA,1231,Telcm
+VZ,732712,VERIZON COMMUNICATIONS INC,4813,Telephone Communications (No Radiotelephone),NYSE,DE,1231,Telcm
+T,732717,AT&T INC.,4813,Telephone Communications (No Radiotelephone),NYSE;NYSE;NYSE;NYSE,DE,1231,Telcm
+TMUS,1283699,"T-Mobile US, Inc.",4812,Radiotelephone Communications,Nasdaq;Nasdaq;Nasdaq;Nasdaq,DE,1231,Telcm
+CHTR,1091667,"CHARTER COMMUNICATIONS, INC. /MO/",4841,Cable & Other Pay Television Services,Nasdaq;Nasdaq,,1231,Telcm
+OMC,29989,OMNICOM GROUP INC.,7311,Services-Advertising Agencies,NYSE,NY,1231,BusSv

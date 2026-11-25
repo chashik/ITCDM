@@ -1,0 +1,6 @@
+Model (volatility in levels),"CV RMSE, p.p.","Valid. RMSE, p.p.","Test RMSE, p.p."
+Linear,6.73,5.20,9.07
+"Polynomial $d=2$, ridge + clip",6.84,5.09,9.05
+"Polynomial $d=3$, ridge + clip",6.80,5.18,9.14
+Linear (log target),--,--,9.04
+"Polynomial $d=2$, ridge + clip (log target)",--,--,9.37

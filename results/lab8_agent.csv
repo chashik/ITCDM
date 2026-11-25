@@ -1,0 +1,3 @@
+Setting,$\alpha$,$\gamma$,$\varepsilon_0$,$\varepsilon_{\min}$,$\lambda$,$\psi$,Episodes,Valid. RMSE,Test RMSE
+Lab 7 (grid search),0.05,0.90,0.5,0.05,0.05,0.10,300,0.4731,0.4314
+GA,0.05,0.50,0.2,0.05,0.10,0.00,200,0.4625,0.4460

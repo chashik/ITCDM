@@ -1,0 +1,6 @@
+Regularization,Epochs,Final train loss,Best valid. loss,Final valid. loss,Valid. AUC
+none (100 epochs),100,0.120,0.430,0.931,0.675
+early stopping,16,0.389,0.430,0.441,0.782
+weight decay $10^{-3}$,100,0.119,0.430,0.924,0.682
+dropout 0.3,100,0.299,0.429,0.478,0.746
+all three,23,0.400,0.429,0.433,0.784

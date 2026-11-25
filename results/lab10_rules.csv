@@ -1,0 +1,7 @@
+Antecedent,Consequent,support,confidence,lift
+food up over 3 % and inflation above 10 % and real rate negative,inflation rising,0.10,0.83,2.60
+food up over 3 % and inflation above 10 %,inflation rising,0.12,0.82,2.56
+food up over 3 % and real rate negative,inflation rising,0.13,0.80,2.49
+petrol up over 3 % and real rate negative,inflation rising,0.17,0.75,2.35
+food up over 3 %,inflation rising,0.15,0.71,2.24
+food up over 3 %,policy rate raised,0.14,0.67,2.11

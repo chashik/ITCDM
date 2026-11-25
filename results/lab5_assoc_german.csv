@@ -1,0 +1,9 @@
+IF (antecedent),"Support, \%",Confidence,Lift
+checking=< 0 DM $\wedge$ installment rate=4 $\wedge$ telephone=none,5.7,0.620,2.07
+checking=< 0 DM $\wedge$ installment rate=4 $\wedge$ job=skilled,5.4,0.614,2.05
+checking=< 0 DM $\wedge$ existing credits=1 $\wedge$ installment rate=4,6.0,0.612,2.04
+checking=< 0 DM $\wedge$ job=skilled $\wedge$ savings=< 100 DM,8.1,0.604,2.01
+checking=< 0 DM $\wedge$ history=existing paid duly $\wedge$ installment rate=4,5.1,0.600,2.00
+dependents=1 $\wedge$ duration=high $\wedge$ savings=< 100 DM,6.7,0.583,1.94
+checking=< 0 DM $\wedge$ installment rate=4 $\wedge$ other debtors=none,7.5,0.581,1.94
+checking=< 0 DM $\wedge$ job=skilled $\wedge$ other debtors=none,8.6,0.581,1.94

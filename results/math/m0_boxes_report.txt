@@ -1,0 +1,17 @@
+features                          29
+train                          18000
+mlp_hidden                         8
+mlp_equivalent              10321920
+mlp_symmetry_maxdiff             0.0
+mlp_weight_reldist          1.434546
+mlp_auc_seed0               0.785153
+mlp_auc_seed1               0.784503
+mlp_pred_corr               0.940506
+lr_coef_maxdiff             0.000002
+shap_features                      6
+shap_coalitions                   64
+shap_linear_vs_formula           0.0
+shap_linear_efficiency           0.0
+shap_gb_efficiency               0.0
+shap_gb_vs_treeexplainer         0.0
+shap_gb_top                   pay\_1

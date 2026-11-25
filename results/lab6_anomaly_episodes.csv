@@ -1,0 +1,3 @@
+Start,End,Days,Max error / threshold,Main channels,Max VIX,"Drawdown, %"
+2020-03-09,2020-04-21,31,3.19,"ret, d\_log\_vix",82.7,−33.9
+2025-04-09,2025-05-02,17,1.47,"d\_log\_vix, ret",40.7,−13.7

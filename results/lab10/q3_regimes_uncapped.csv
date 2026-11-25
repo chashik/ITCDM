@@ -1,0 +1,5 @@
+country,"segments, BIC up to 6","segments, BIC up to 15",lag-1 autocorrelation of inflation
+BY,6,8,0.956
+PL,6,10,0.981
+RU,6,11,0.903
+LT,6,10,0.988
